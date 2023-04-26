@@ -8,27 +8,28 @@ export default function Navbar() {
 
   /* Navbar Menu Options */
   const navigation = [
-    { title: "About", href: "/about" },
+    { title: "About", href: "/about"},
     { title: "Explore", href: "/explore" },
-    { title: "Neighbourhoods", href: "/neighbourhoods" },
+    { title: "Neighbourhoods", href: "/neighbourhoods"},
     { title: "Resources", href: "/resources" }
   ]
     
   /*  */
-  useEffect(() => { document.onclick = (e) => {
-    const target = e.target;
+  useEffect(() => { document.onclick = (e: MouseEvent) => {
+    const target = e.target as HTMLElement;
       if (!target.closest(".menu-btn"))
-          setState(false);
+        setState(false);
     };
   }, [])
     
    return (
       /*  */
-    <nav className={`pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+    <nav className={`pb-5 md:text-md ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
      {/*  */}
-     <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
+     <div className={"gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8"}>
       {/*  */}
-      <div className="flex items-center justify-between py-5 md:block">
+      <div className={"flex items-center justify-between py-5 md:block"}>
+       {/* Logo */}
        <Link href={"/"}>
          <img
           src={"../img/logo-main.png"}
@@ -36,9 +37,9 @@ export default function Navbar() {
           height={"20px"}
           alt={"Logo"} />
         </Link>
-        <div className="md:hidden">
+        <div className={"md:hidden"}>
          <button
-          className="menu-btn text-white hover:text-gray-800"
+          className={"menu-btn text-white hover:text-gray-800"}
           onClick={() => setState(!state)}>
            {state ?
             (<svg
@@ -67,7 +68,8 @@ export default function Navbar() {
         </div>
        </div>
        <div className={`flex-1 items-center mt-8 md:mt-0 md:flex ${state ? 'block' : 'hidden'} `}>
-        <ul className={"justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0"}>
+           <ul className={"justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0"}>
+          {/* */}
          {navigation.map((item, idx) => {
           return (
            <li key={idx} className={"text-white hover:text-gray-800 font-bold"}>

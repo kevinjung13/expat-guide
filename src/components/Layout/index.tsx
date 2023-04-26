@@ -10,6 +10,7 @@ export interface LayoutProps {
 /* Layout Function */
 export default function Layout(props: LayoutProps) {
 
+  /* Props */
   const { bgImg, children } = props;
 
   /* Background Image settings */
