@@ -1,14 +1,13 @@
 import Layout from "@/components/Layout";
 
-export default function Home() {
-
+export default function Neighbourhoods() {
   return (
     <>
-      <Layout bgImg={`bg-[url("/img/bkk-skyline.jpg")]`}>
+      <Layout bgImg={`bg-[url("/img/neighbourhoods-img.jpg")]`}>
         <section className={"relative flex min-h-screen flex-col items-center justify-between p-24"}>
           <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl md:text-8xl pb-3"}>BANGKOK</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>The City of Angels</h4> 
+            <h1 className={"text-6xl md:text-8xl pb-3"}>Neighbourhoods</h1>
+            <h4 className={"text-2xl md:text-4xl pt-3"}>To Live In</h4> 
           </div>
         </section>
       </Layout>
