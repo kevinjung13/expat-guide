@@ -1,15 +1,15 @@
 import Layout from "@/components/Layout";
 
 export default function Home() {
-
+  
   return (
     <>
       {/* First Section */}
       <Layout bgImg={`bg-[url("/img/bkk-skyline.jpg")]`}>
-        <section className={"relative flex min-h-screen flex-col items-center justify-between p-24"}>
-          <div className={"flex-col justify-center align-center text-white"}>
+        <section className={"relative flex flex-col min-h-screen items-center justify-between p-32"}>
+          <div className={"flex flex-col justify-center align-center text-white "}> 
             <h1 className={"text-6xl md:text-8xl pb-3"}>BANGKOK</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>Thailand</h4> 
+            <h4 className={"text-2xl md:text-4xl pt-3 pl-24 md:pl-36"}>Thailand</h4> 
           </div>
         </section>
       </Layout>

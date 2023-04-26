@@ -6,10 +6,10 @@ export default function About() {
     <>
       {/* First Section */}
       <Layout bgImg={`bg-[url("/img/about-img.jpg")]`}>
-        <section className={"relative flex min-h-screen flex-col items-center justify-between p-24"}>
+        <section className={"relative flex min-h-screen flex-col items-center justify-between p-16"}>
           <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl md:text-8xl pb-3"}>ABOUT</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>My Story</h4> 
+            <h1 className={"text-6xl md:text-8xl pb-2"}>ABOUT</h1>
+            <h4 className={"text-2xl md:text-4xl pt-2 pl-14 md:pl-24"}>My Story</h4> 
           </div>
         </section>
       </Layout>

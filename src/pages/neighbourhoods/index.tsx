@@ -6,10 +6,10 @@ export default function Neighbourhoods() {
     <>
       {/* First Section */}
       <Layout bgImg={`bg-[url("/img/neighbourhoods-img.jpg")]`}>
-        <section className={"relative flex min-h-screen flex-col items-center justify-between p-24"}>
-          <div className={"flex-col justify-center align-center text-white"}>
+        <section className={"relative flex min-h-screen flex-col items-center justify-between p-32"}>
+          <div className={"flex flex-col justify-center align-center text-white"}>
             <h1 className={"text-5xl md:text-7xl pb-3"}>NEIGHBOURHOODS</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>To Live In</h4> 
+            <h4 className={"text-2xl pt-2 pl-28 md:text-4xl md:pl-40"}>Home Away From Home</h4> 
           </div>
         </section>
       </Layout>

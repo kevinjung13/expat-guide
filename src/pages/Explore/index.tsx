@@ -5,10 +5,10 @@ export default function Explore() {
   return (
     <>
       <Layout bgImg={`bg-[url("/img/explore-img.jpg")]`}>
-        <section className={"relative flex min-h-screen flex-col items-center justify-between p-24"}>
-          <div className={"flex-col justify-center align-center text-white"}>
+        <section className={"relative flex min-h-screen flex-col items-center justify-between p-32"}>
+          <div className={"flex flex-col justify-center align-center text-white"}>
             <h1 className={"text-6xl md:text-8xl pb-3"}>EXPLORE</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>Your New Home</h4> 
+            <h4 className={"text-2xl md:text-4xl pt-2 pl-12 md:pl-20"}>Your New Home</h4> 
           </div>
         </section>
       </Layout>
