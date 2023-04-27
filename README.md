@@ -1,38 +1,28 @@
+# Farang
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## `Introduction`
 
-First, run the development server:
+Hello and Welcome! This is my Bangkok Expat Guide called Farang. I started building this guide while working on `Oasis Marketplace`. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The idea behind this project came out of a desire to build a guide for both exisiting and newly relocated expats.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+During this time, a fellow developer (with whom I am working with on `Oasis Marketplace` with) informed me about `Float UI` and how they provide numerous templates and components without any costs. He also suggested me to learn how to use `Storybook` and `Tailwind CSS`, which I found were excellent tools to design and build responsive, as well as customized components. At this point, I had learnt how to code for 6-7 months.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## `Tools`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The tools used for this project are: TypeScript, Next JS, Float UI, Storybook and Tailwind CSS.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## `Contact Details`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In case you are interested to reach out, you may reach out to me with by the following:
 
-## Learn More
+1. Email: kevinjung13@gmail.com
+2. GitHub: https://github.com/kevinjung13
+3. Twitter: https://twitter.com/kevinhjung93 (I use this the least)
+4. Linkedin: https://www.linkedin.com/in/kevin-hwisung-jung-11374a6a/
 
-To learn more about Next.js, take a look at the following resources:
+## `Closing`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for reading and I hope you this guide provides you with an idea of how life is in Bangkok!

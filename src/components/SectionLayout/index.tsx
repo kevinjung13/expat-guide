@@ -2,13 +2,13 @@ import Navbar from "../Navbar";
 import { ReactNode } from "react";
 
 /* Layout Props */
-export interface LayoutProps {
+export interface SectionLayoutProps {
   bgImg: String;
   children: ReactNode;
 }
 
 /* Layout Function */
-export default function Layout(props: LayoutProps) {
+export default function SectionLayout(props: SectionLayoutProps) {
 
   /* Props */
   const { bgImg, children } = props;

@@ -24,7 +24,7 @@ export default function Navbar() {
     
    return (
       /*  */
-    <nav className={`pb-2 md:text-md ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+    <nav className={`pb-2 md:text-md ${state ? "shadow-lg rounded-xl bg-slate-500/50 mx-2 mt-2 md:bg-transparent md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
      {/*  */}
      <div className={"gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8"}>
       {/*  */}
@@ -32,11 +32,13 @@ export default function Navbar() {
        {/* Logo */}
        <Link href={"/"}>
          <img
+          className={"hover:opacity-70"}     
           src={"../img/logo-main.png"}
-          width={"50px"}
-          height={"20px"}
+          width={"100px"}
+          height={"50px"}
           alt={"Logo"} />
         </Link>
+        {/* Hamburger Icon */}
         <div className={"md:hidden"}>
          <button
           className={"menu-btn text-white hover:text-gray-800"}
@@ -66,20 +68,21 @@ export default function Navbar() {
             </svg>)}
          </button>
         </div>
-       </div>
-       <div className={`flex-1 items-center mt-8 md:mt-0 md:flex ${state ? 'block' : 'hidden'} `}>
-           <ul className={"justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0"}>
-          {/* */}
-         {navigation.map((item, idx) => {
-          return (
-           <li key={idx} className={"text-white hover:text-gray-800 font-bold"}>
-            <Link href={item.href} className={"block"}>
-             {item.title}
-            </Link>
-           </li>)
-          })
-         }
-        </ul>
+      </div>
+      {/* Navbar Menu Options */}
+      <div className={`flex-1 items-center mt-8 md:mt-0 md:flex ${state ? 'block' : 'hidden'} `}>
+       <ul className={"justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0"}>
+        {navigation.map((item, idx) => {
+        return (
+          <li key={idx} className={"text-white hover:text-gray-800 font-bold"}>
+          <Link href={item.href} className={"block"}>
+            {item.title}
+          </Link>
+          </li>)
+        })
+        }
+       </ul>
+       {/* Contact Button */}    
        <div className={"flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0"}>
         <Link href={"mailto:kevinjung13@gmail.com"} className={"flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"}>
          Contact
