@@ -5,7 +5,7 @@ import SectionLayout from "@/components/SectionLayout";
 export default function Home() {
   return (
     <>
-      {/* First Section */}
+      {/* Image Section */}
       <SectionLayout bgImg={`bg-[url("/img/sections/home-img.jpg")]`}>
         <section
           className={
@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </section>
       </SectionLayout>
-      {/* Second Section */}
+      {/* Introduction Section */}
       <section className={"bg-white max-w-screen-lg pt-16 mx-auto md:px-32"}>
         <div className={"flex place-content-center"}>
           <h1 className={"text-5xl font-semibold"}>The City of Angels</h1>
@@ -47,47 +47,47 @@ export default function Home() {
           </p>
         </div> 
       </section>
-      {/* Third Section */}
+      {/* Explore Section */}
       <section className="bg-stone-200 pt-16 pb-8 max-w-screen-xl md:px-8">
         <div className="text-center">
-          <h1 className="text-5xl text-black font-semibold">
-           Explore
-          </h1>
-          <p className="mt-3 text-gray-500">
+          <Link href={"/explore"}>
+            <h1 className="text-5xl text-black font-semibold">
+            Explore
+            </h1>
+          </Link>
+          <p className="mt-3 text-cyan-700">
            Everything you need to know outside of work.
           </p>
         </div>
         <Cards />
       </section>
-      {/* Fourth Section */}
+      {/* Neighbourhoods Section */}
       <section className="py-14 bg-white">
-            <div className="max-w-screen-xl mx-auto md:px-8">
-                <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
-                    <div className="flex-1 sm:hidden lg:block">
-                        <img src="/img/card/neighbourhood-img.jpg" className="md:max-w-lg sm:rounded-lg" alt="" />
-            </div>
-
-                    <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-              <Link href={"/neighbourhoods"}>
-                <h3 className="text-xl text-cyan-700 font-semibold hover:text-indigo-500">
-                            Neighbourhoods
-                        </h3></Link>
-                        <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Find your home in the city of angels
-                        </p>
-                        <p className="mt-3 text-gray-600">
-                            From luxury condos by the Chao Phraya river to budget-friendly houses on the outskirts of the city.
-                        </p>
-                        <Link href="/neighbourhoods" className="inline-flex gap-x-1 items-center text-md text-cyan-700 hover:text-indigo-500 duration-150 font-medium">
-                            Discover
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                                <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-                            </svg>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        </section>
+       <div className="max-w-screen-xl mx-auto md:px-8">
+        <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
+         <div className="flex-1 sm:hidden lg:block">
+          <img src="/img/card/neighbourhood-img.jpg" className="md:max-w-lg sm:rounded-lg" alt="Image" />
+         </div>
+         <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+           <h3 className={"text-xl text-cyan-700 font-semibold"}>
+            Neighbourhoods
+           </h3>
+          <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+          Find your home in the city of angels
+          </p>
+          <p className="mt-3 text-gray-600">
+          From luxury condos by the Chao Phraya river to budget-friendly houses on the outskirts of the city.
+          </p>
+          <Link href="/neighbourhoods" className="inline-flex gap-x-1 items-center text-md text-cyan-700 hover:text-indigo-500 duration-150 font-medium">
+           Discover
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+            <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+           </svg>
+          </Link>
+         </div>
+        </div>
+       </div>
+      </section>
     </>
   );
 }

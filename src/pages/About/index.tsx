@@ -18,85 +18,45 @@ export default function About() {
           </div>
         </section>
       </SectionLayout>
-      {/* Second Section */}
-      <section className={"bg-gray-200 min-h-screen pt-16"}>
+      {/* Introduction Section */}
+      <section className={"bg-white max-w-screen-lg pt-16 mx-auto md:px-32"}>
         <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>Third-Culture Kid</h1>
+          <h1 className={"text-5xl font-semibold"}>Third-Culture Kid</h1>
         </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+        <div className={"flex-col place-content-center p-6 text-lg mb-3 mt-3"}>
+          <p className={"pb-7"}>
+           Even before I was born, I was already an expat. 
+           My parents and my sister were living in Hong Kong,
+           and I was born in Seoul, Korea during a vacation back home.
           </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+          <p className={"pb-7"}>
+           Within a month, I was already on a flight back to Hong Kong and since then, 
+            I have lived in 14 different countries and in most continents (except Africa and Antartica).
           </p>
-        </div>
+          <p className={"pb-7"}>
+            Through this incredible journey, I developed an interest in sharing what I have learnt along the way
+            and with the evolution of technology and rise of social media platforms, it has never been easier to help more people.
+          </p>
+        </div> 
       </section>
       {/* Third Section */}
       <section className={"bg-green-500 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>6 Years</h1>
+          <h1 className={"text-5xl "}>6 Years in Bangkok</h1>
         </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+        <div className={"flex-col place-content-center p-6 text-lg"}>
+        <p className={"pb-7"}>
+           Even before I was born, I was already an expat. 
+           My parents and my sister were living in Hong Kong,
+           and I was born in Seoul, Korea during a vacation back home.
           </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+          <p className={"pb-7"}>
+           Within a month, I was already on a flight back to Hong Kong and since then, 
+            I have lived in 14 different countries and in most continents (except Africa and Antartica).
+          </p>
+          <p className={"pb-7"}>
+            Through this incredible journey, I developed an interest in sharing what I have learnt along the way
+            and with the evolution of technology and rise of social media platforms, it has never been easier to help more people.
           </p>
         </div>
       </section>
@@ -105,39 +65,19 @@ export default function About() {
         <div className={"flex place-content-center"}>
           <h1 className={"text-5xl "}>Current</h1>
         </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+        <div className={"flex-col place-content-center p-6 text-lg"}>
+        <p className={"pb-7"}>
+           Even before I was born, I was already an expat. 
+           My parents and my sister were living in Hong Kong,
+           and I was born in Seoul, Korea during a vacation back home.
           </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
+          <p className={"pb-7"}>
+           Within a month, I was already on a flight back to Hong Kong and since then, 
+            I have lived in 14 different countries and in most continents (except Africa and Antartica).
+          </p>
+          <p className={"pb-7"}>
+            Through this incredible journey, I developed an interest in sharing what I have learnt along the way
+            and with the evolution of technology and rise of social media platforms, it has never been easier to help more people.
           </p>
         </div>
       </section>
