@@ -24,7 +24,7 @@ export default function Explore() {
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
           <Link href={"/explore/food"}>
-            <h1 className={"text-5xl hover:text-blue-800"}>FOOD</h1>
+            <h1 className={"text-5xl hover:text-blue-800"}>DINING</h1>
           </Link>
         </div>
         <div className={"flex-col place-content-center p-6"}>
@@ -149,6 +149,47 @@ export default function Explore() {
       <section className={"bg-yellow-500 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
           <h1 className={"text-5xl "}>NIGHTLIFE</h1>
+        </div>
+        <div className={"flex-col place-content-center p-6"}>
+          <p className={"text-lg "}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
+            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
+            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
+            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
+            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
+            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
+            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
+            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
+            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
+            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
+            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
+            commodo odio in metus posuere lobortis.
+          </p>
+          <br />
+          <p className={"text-lg "}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
+            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
+            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
+            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
+            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
+            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
+            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
+            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
+            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
+            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
+            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
+            commodo odio in metus posuere lobortis.
+          </p>
+        </div>
+      </section>
+      {/* Sixth Section */}
+      <section className={"bg-teal-500 min-h-screen pt-16"}>
+        <div className={"flex place-content-center"}>
+          <h1 className={"text-5xl "}>Nearby Destinations</h1>
         </div>
         <div className={"flex-col place-content-center p-6"}>
           <p className={"text-lg "}>

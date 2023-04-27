@@ -1,20 +1,20 @@
 import Link from "next/link";
 import SectionLayout from "@/components/SectionLayout";
 
-export default function Food() {
+export default function Attractions() {
   return (
     <>
       {/* First Section */}
-      <SectionLayout bgImg={`bg-[url("/img/about-img.jpg")]`}>
+      <SectionLayout bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
           }
         >
           <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl md:text-8xl pb-3"}>FOOD</h1>
+            <h1 className={"text-6xl md:text-8xl pb-3"}>ATTRACTIONS</h1>
             <h4 className={"text-2xl md:text-4xl pt-3"}>
-              A Street Food Capital
+              Venice of the East
             </h4>
           </div>
         </section>
