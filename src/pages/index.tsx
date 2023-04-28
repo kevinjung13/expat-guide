@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Cards from "@/components/Common/Cards";
 import SectionLayout from "@/components/SectionLayout";
@@ -5,6 +6,9 @@ import SectionLayout from "@/components/SectionLayout";
 export default function Home() {
   return (
     <>
+      <Head>
+      <title> Farang | Bangkok Expat Guide</title>
+      </Head>
       {/* Image Section */}
       <SectionLayout bgImg={`bg-[url("/img/sections/home-img.jpg")]`}>
         <section

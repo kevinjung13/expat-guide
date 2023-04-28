@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import SectionLayout from "@/components/SectionLayout";
 
@@ -25,6 +26,9 @@ export default function About() {
 
   return (
     <>
+      <Head>
+      <title> About | Farang</title >
+      </Head>
       {/* Image Section */}
       <SectionLayout bgImg={`bg-[url("/img/sections/about-img.jpg")]`}>
         <section

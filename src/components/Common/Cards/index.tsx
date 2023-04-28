@@ -34,6 +34,12 @@ export default function Cards() {
             img: "/img/card/nearby-img.jpg",
             href: "explore/nearby-destinations"
         },
+        {
+            title: "Shopping",
+            desc: "Explore destinations only hours away from the city, ranging from national parks to UNESCO World Heritage Sites. Perfect for day trips or weekends.",
+            img: "/img/card/shopping-img.jpg",
+            href: "explore/shopping"
+        },
     ]
 
     let hover = `hover:shadow-2xl hover:-translate-y-5 `;

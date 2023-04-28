@@ -1,9 +1,27 @@
+import Head from "next/head";
 import Link from "next/link";
+import { useState } from "react";
 import SectionLayout from "@/components/SectionLayout";
 
+const Images = [
+  {},
+]
+
 export default function Explore() {
+
+  /* State for changing Images */
+  const [img, setImg] = useState("")
+
+  /* Function for changing Images */
+  function handleClick() {
+    setImg("")
+   }
+
   return (
     <>
+      <Head>
+      <title> Explore | Farang</title >
+      </Head>
       <SectionLayout bgImg={`bg-[url("/img/sections/explore-img.jpg")]`}>
         <section
           className={
@@ -30,21 +48,24 @@ export default function Explore() {
                     <p className="max-w-2xl mx-auto">
                         Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
                     </p>
-                    <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-                        <Link href="javascript:void(0)" className="block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+                    <div className="flex items-center justify-center gap-x-3 space-y-0 ">
+                        <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
                             Dining
                         </Link>
-                        <Link href="javascript:void(0)" className="block py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg">
+                        <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4  text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
                             Activities
               </Link>
-              <Link href="javascript:void(0)" className="block py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg">
+              <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
                             Attractions
               </Link>
-              <Link href="javascript:void(0)" className="block py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg">
+              <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
                             Nightlife
               </Link>
-              <Link href="javascript:void(0)" className="block py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg">
+              <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
                             Nearby Destinations
+              </Link>
+              <Link href="javascript:void(0)" onClick={handleClick} className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none">
+                            Shopping
                         </Link>
                     </div>
                 </div>

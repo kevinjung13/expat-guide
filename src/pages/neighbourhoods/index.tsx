@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import SectionLayout from "@/components/SectionLayout";
 
@@ -62,6 +63,9 @@ export default function Neighbourhoods() {
 
   return (
     <>
+      <Head>
+      <title> Neighbourhoods | Farang</title >
+      </Head>
       {/* First Section */}
       <SectionLayout bgImg={`bg-[url("/img/sections/neighbourhoods-img.jpg")]`}>
         <section

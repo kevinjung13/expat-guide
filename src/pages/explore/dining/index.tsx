@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Link from "next/link";
 import SectionLayout from "@/components/SectionLayout";
 
 export default function Dining() {
   return (
     <>
+      <Head>
+        <title>Dining | Farang</title>
+      </Head>
       {/* First Section */}
       <SectionLayout bgImg={`bg-[url("/img/sections/about-img.jpg")]`}>
         <section
