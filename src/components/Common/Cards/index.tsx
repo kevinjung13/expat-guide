@@ -8,7 +8,7 @@ export default function Cards() {
             title: "Dining",
             desc: "Eat and drink at my favorite locations, from street food stalls to michelin-guided establishments.",
             img: "/img/card/food-img.jpg",
-            href: "/explore/food"
+            href: "/explore/dining"
         },
         {
             title: "Activities",
