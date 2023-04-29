@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import SectionLayout from "@/components/SectionLayout";
+import HeroLayout from "@/components/Layout/HeroLayout";
 
 export default function Dining() {
   return (
@@ -9,20 +9,19 @@ export default function Dining() {
         <title>Dining | Farang</title>
       </Head>
       {/* First Section */}
-      <SectionLayout bgImg={`bg-[url("/img/sections/about-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/explore/dining/dining-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
-          }
-        >
+          }>
           <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl md:text-8xl pb-3"}>DINING</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>
+            <h1 className={"text-6xl pb-3 md:text-8xl"}>DINING</h1>
+            <h4 className={"text-2xl pt-3 md:text-4xl"}>
               A Street Food Capital
             </h4>
           </div>
         </section>
-      </SectionLayout>
+      </HeroLayout>
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Cards() {
+export default function HomePageCards() {
 
     /* Card Information and Props */
     const posts = [

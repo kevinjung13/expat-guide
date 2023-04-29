@@ -1,15 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
-import SectionLayout from "@/components/SectionLayout";
+import HeroLayout from "@/components/Layout/HeroLayout";
 
 export default function NearbyDestinations() {
   return (
     <>
       <Head>
-      <title> Nearby Attractions | Farang</title >
+        <title> Nearby Attractions | Farang</title>
       </Head>
       {/* First Section */}
-      <SectionLayout bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
@@ -17,12 +17,10 @@ export default function NearbyDestinations() {
         >
           <div className={"flex-col justify-center align-center text-white"}>
             <h1 className={"text-6xl md:text-8xl pb-3"}>NEARBY DESTINATIONS</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3"}>
-              City Escapes
-            </h4>
+            <h4 className={"text-2xl md:text-4xl pt-3"}>City Escapes</h4>
           </div>
         </section>
-      </SectionLayout>
+      </HeroLayout>
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
