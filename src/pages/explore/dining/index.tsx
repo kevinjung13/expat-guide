@@ -2,6 +2,27 @@ import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
 
+const testimonials = [
+        {
+            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+            name: "Martin escobar",
+            title: "Founder of meta",
+            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+            name: "Angela stian",
+            title: "Product designer",
+            quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+            name: "Karim ahmed",
+            title: "DevOp engineer",
+            quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+        },
+    ]
+
 export default function Dining() {
   return (
     <>
@@ -9,7 +30,7 @@ export default function Dining() {
         <title>Dining | Farang</title>
       </Head>
       {/* First Section */}
-      <HeroLayout bgImg={`bg-[url("/img/explore/dining/dining-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/sections/dining-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
@@ -22,170 +43,191 @@ export default function Dining() {
           </div>
         </section>
       </HeroLayout>
-      {/* Second Section */}
-      <section className={"bg-gray-200 min-h-screen pt-16"}>
-        <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>LOCAL FLAVORS</h1>
-        </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-        </div>
+      {/* Local Flavors Section */}
+      <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <div className="max-w-xl sm:text-center md:mx-auto">
+                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Local Flavors
+                    </h3>
+                    <p className="mt-3 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            testimonials.map((item, idx) => (
+                                <li key={idx} className="bg-gray-50 p-4 rounded-xl">
+                                    <figure>
+                                        <div className="flex items-center gap-x-4">
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <div>
+                                                <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <p className="mt-6 text-gray-700">
+                                                {item.quote}
+                                            </p>
+                                        </blockquote>
+                                    </figure>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
       </section>
-      {/* Third Section */}
-      <section className={"bg-green-500 min-h-screen pt-16"}>
-        <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>WESTERN</h1>
-        </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-        </div>
+      {/* Asia Section */}
+      <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <div className="max-w-xl sm:text-center md:mx-auto">
+                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Asia
+                    </h3>
+                    <p className="mt-3 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            testimonials.map((item, idx) => (
+                                <li key={idx} className="bg-gray-50 p-4 rounded-xl">
+                                    <figure>
+                                        <div className="flex items-center gap-x-4">
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <div>
+                                                <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <p className="mt-6 text-gray-700">
+                                                {item.quote}
+                                            </p>
+                                        </blockquote>
+                                    </figure>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+      {/* Europe Section */}
+      <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <div className="max-w-xl sm:text-center md:mx-auto">
+                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Europe
+                    </h3>
+                    <p className="mt-3 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            testimonials.map((item, idx) => (
+                                <li key={idx} className="bg-gray-50 p-4 rounded-xl">
+                                    <figure>
+                                        <div className="flex items-center gap-x-4">
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <div>
+                                                <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <p className="mt-6 text-gray-700">
+                                                {item.quote}
+                                            </p>
+                                        </blockquote>
+                                    </figure>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
       </section>
-      {/* Fourth Section */}
-      <section className={"bg-red-500 min-h-screen pt-16"}>
-        <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>MIDDLE EAST & AFRICA</h1>
-        </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-        </div>
-      </section>
-      {/* Fifth Section */}
-      <section className={"bg-cyan-500 min-h-screen pt-16"}>
-        <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>NORTHEAST ASIA</h1>
-        </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-          <br />
-          <p className={"text-lg "}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget aliquam nunc. Sed eget nisl mattis, vestibulum neque porttitor,
-            vehicula sapien. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vivamus pharetra turpis sit
-            amet ante pharetra, nec feugiat dui commodo. Vivamus sed hendrerit
-            lacus, vitae ullamcorper sem. Suspendisse nec arcu libero. Proin mi
-            ante, varius quis commodo quis, pharetra eget metus. Sed in nibh ut
-            arcu ultricies varius eu ac ligula. Nunc bibendum, odio vel lobortis
-            porttitor, ligula mi bibendum elit, sed aliquam dui risus a odio.
-            Etiam tempus, est vitae laoreet lobortis, justo nibh tempor ligula,
-            a tristique velit velit facilisis quam. Vivamus tincidunt enim a
-            libero luctus, et dapibus tellus rhoncus. Nunc vel ullamcorper mi.
-            Praesent maximus dictum est, et mollis turpis dignissim eget. Donec
-            commodo odio in metus posuere lobortis.
-          </p>
-        </div>
-      </section>
+      {/* The Americas Section */}
+      <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <div className="max-w-xl sm:text-center md:mx-auto">
+                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        The Americas
+                    </h3>
+                    <p className="mt-3 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            testimonials.map((item, idx) => (
+                                <li key={idx} className="bg-gray-50 p-4 rounded-xl">
+                                    <figure>
+                                        <div className="flex items-center gap-x-4">
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <div>
+                                                <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <p className="mt-6 text-gray-700">
+                                                {item.quote}
+                                            </p>
+                                        </blockquote>
+                                    </figure>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+      {/* Middle East & Africa Section */}
+      <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                <div className="max-w-xl sm:text-center md:mx-auto">
+                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Middle East & Africa
+                    </h3>
+                    <p className="mt-3 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            testimonials.map((item, idx) => (
+                                <li key={idx} className="bg-gray-50 p-4 rounded-xl">
+                                    <figure>
+                                        <div className="flex items-center gap-x-4">
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <div>
+                                                <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <p className="mt-6 text-gray-700">
+                                                {item.quote}
+                                            </p>
+                                        </blockquote>
+                                    </figure>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
     </>
   );
 }

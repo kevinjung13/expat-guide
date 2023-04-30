@@ -2,22 +2,22 @@ import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
 
-export default function Attractions() {
+export default function Shopping() {
   return (
     <>
       <Head>
-        <title>Attractions | Farang</title>
+        <title>Shopping | Farang</title>
       </Head>
       {/* First Section */}
-      <HeroLayout bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/sections/shopping-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
           }
         >
           <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl pb-3 md:text-8xl"}>ATTRACTIONS</h1>
-            <h4 className={"text-2xl pt-3 pl-28 md:text-4xl md:pl-40"}>Venice of the East</h4>
+            <h1 className={"text-6xl pb-3 md:text-8xl"}>SHOPPING</h1>
+            <h4 className={"text-2xl pt-3 pl-28 md:text-4xl md:pl-40"}>Shop Till You Drop</h4>
           </div>
         </section>
       </HeroLayout>

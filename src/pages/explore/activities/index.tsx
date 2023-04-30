@@ -9,7 +9,7 @@ export default function Activities() {
         <title>Activities | Farang</title>
       </Head>
       {/* First Section */}
-      <HeroLayout bgImg={`bg-[url("/img/explore/activities/activities-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"

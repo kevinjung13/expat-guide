@@ -3,23 +3,44 @@ import Link from "next/link";
 import { useState } from "react";
 import HeroLayout from "@/components/Layout/HeroLayout";
 
-const Images = [
-  { href: "" },
-  { href: "" },
-  { href: "" },
-  { href: "" },
-  { href: "" },
-  { href: "" },
+const images = [
+  {
+    image: "/img/explore/dining/dining-img.jpg",
+    title: "Dining",
+    href: "/explore/dining"
+  },
+  {
+    image: "/img/explore/activities/.jpg",
+    title: "Activities",
+    href: "/explore/activities"
+  },
+  {
+    image: "/img/explore/attractions/.jpg",
+    title: "Attractions",
+    href: "/explore/attractions"
+  },
+  {
+    image: "/img/explore/nightlife/nightlife-img.jpg",
+    title: "Nightlife",
+    href: "/explore/nightlife"
+  },
+  {
+    image: "/img/explore/nearby-destinations/.jpg",
+    title: "Nearby Destinations",
+    href: "/explore/nearby-destinations"
+  },
+  {
+    image: "/img/explore/shopping/.jpg",
+    title: "Shopping",
+    href: "/explore/shopping",
+
+  },
 ];
+
 
 export default function Explore() {
   /* State for changing Images */
-  const [img, setImg] = useState("");
-
-  /* Function for changing Images */
-  function handleClick() {
-    setImg("");
-  }
+  const [img, setImg] = useState(0);
 
   return (
     <>
@@ -53,63 +74,58 @@ export default function Explore() {
               </span>
             </h2>
             <p className="max-w-2xl mx-auto">
-              Sed ut perspiciatis unde omnis iste natus voluptatem accusantium
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+              Find everything you need on the menu below, from 
             </p>
             <div className="flex items-center justify-center gap-x-3 space-y-0 ">
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500 hover:shadow-none active:text-cyan-700"
-              >
-                Dining
-              </Link>
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4  text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none active:text-cyan-700"
-              >
-                Activities
-              </Link>
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none active:text-cyan-700"
-              >
-                Attractions
-              </Link>
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none active:text-cyan-700"
-              >
-                Nightlife
-              </Link>
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none active:text-cyan-700"
-              >
-                Nearby Destinations
-              </Link>
-              <Link
-                href="#options"
-                onClick={handleClick}
-                className="block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500  hover:shadow-none active:text-cyan-700"
-              >
-                Shopping
-              </Link>
+            <ul className="flex gap-x-3 justify-center">
+                        {
+                            images.map((item, idx) => (
+                              <li key={idx}>
+                                <Link
+                                  href={item.href}
+                                  className={"block py-2 px-4 text-black font-medium duration-150 hover:text-gray-500 hover:shadow-none"}
+                                 onClick={() => setImg(idx)}>
+                                  {item.title}
+                                  </Link>
+                                </li>
+                            
+                            ))
+                        }
+                    </ul>
             </div>
           </div>
           <div className="mt-14">
-            <Link href={""}>
-              <img
-                src="/img/explore/dine-img.jpg"
-                className="w-full shadow-lg rounded-lg border"
-                alt="Image"
-              />
-            </Link>
+            <ul>
+                        {
+                            images.map((item, idx) => (
+                                img == idx ? (
+                                    <li key={idx}>
+                                        <figure>
+                                    <div className="mt-6">
+                                      <Link href={item.href} className="">
+                                        <img src={item.image} className={"max-w-md mx-auto"} />
+                                      </Link>
+                                            </div>
+                                        </figure>
+                                    </li>
+                                ) : ""
+                            ))
+                        }
+                    </ul>
           </div>
+          <div className="mt-6">
+                    <ul className="flex gap-x-3 justify-center">
+                        {
+                            images.map((item, idx) => (
+                                <li key={idx}>
+                                    <button className={`w-2.5 h-2.5 rounded-full duration-150 ring-offset-2 ring-indigo-600 focus:ring ${img == idx ? "bg-indigo-600" : "bg-gray-300"}`}
+                                        onClick={() => setImg(idx)}
+                                    ></button>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
         </div>
       </section>
     </>

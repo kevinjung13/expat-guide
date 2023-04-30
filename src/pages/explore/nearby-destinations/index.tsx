@@ -9,7 +9,7 @@ export default function NearbyDestinations() {
         <title> Nearby Attractions | Farang</title>
       </Head>
       {/* First Section */}
-      <HeroLayout bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}>
+      <HeroLayout bgImg={`bg-[url("/img/sections/nearby-destinations-img.jpg")]`}>
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
