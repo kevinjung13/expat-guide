@@ -1,55 +1,27 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { navigation } from '@/data/data';
 
 export default function Navbar() {
 
   /* State */
   const [state, setState] = useState(false)
-  const [dropdownState, setDropdownState] = useState({ isActive: false, idx: null })
-
-  /* Navbar Sub Options */
-  const exploreNavItems = ["Dining", "Activities", "Attractions", "Nightlife", "Nearby Destinations", "Shopping"]
-  const neighbourhoodsNavItems = ["Sukhumvit", "Sathorn/Silom", "Ari/North Bangkok", "Rama IX/Ratchada"]
-  const resourcesNavItems = ["News", "Social Media Groups", "Plant-Based", "Others"]
-
-  /* Navbar Menu Options */
-  const navigation = [
-    {
-      title: "About",
-      href: "/about",
-      dropDown: false
-    },
-    {
-      title: "Explore",
-      href: "/explore",
-      dropDown: true,
-      items: exploreNavItems
-    },
-    {
-      title: "Neighbourhoods",
-      href: "/neighbourhoods",
-      dropDown: true,
-      items: neighbourhoodsNavItems
-    },
-    {
-      title: "Resources",
-      href: "/resources",
-      dropDown: true,
-      items: resourcesNavItems
-    }
-  ]
+  const [dropdownState, setDropdownState] = useState({ idx: null, isActive: false})
 
   useEffect(() => {
     document.onclick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (!target.closest(".nav-menu"))
-      setDropdownState({ isActive: false, idx: null });
+      setDropdownState({ idx: null, isActive: false });
     };
   }, [])
 
   return (
     <>
-      <nav className={`relative pb-2 z-20 md:static md:text-md md:border-none ${state ? "shadow-lg rounded-xl md:shadow-none bg-slate-500/50 mx-2 mt-2 md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}`}>
+      {/* Navbar Main container */}
+      <nav className={
+        `relative pb-2 z-20 md:static md:text-md md:border-none 
+      ${state ? "shadow-lg rounded-xl bg-slate-500/50 mx-2 md:shadow-none md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}`}>
         <div className="items-center gap-x-14 px-4 max-w-screen-xl mx-auto md:flex md:px-8">
           {/* Container for logo and Hamburger Icon */}
           <div className="flex items-center justify-between py-5 md:block">
@@ -62,7 +34,7 @@ export default function Navbar() {
                 height={"50px"}
                 alt={"Logo"} />
             </Link>
-            {/* Hamburger Icon */}
+            {/* Hamburger and Close Icon */}
             <div className={"md:hidden"}>
               <button
                 className="text-white hover:text-gray-800"
@@ -101,32 +73,34 @@ export default function Navbar() {
                 <li key={idx}>
                 {/* Dropdown Settings */}
                   {item.dropDown ? (
-                  <button
-                    className="w-full flex items-center justify-between gap-1 text-white hover:text-gray-800 font-bold"
-                    onClick={() => setDropdownState({ idx, isActive: !dropdownState.isActive })}>
-                    {item.title}
-                    {/* Rendering of Dropdown Arrow */}
-                    {dropdownState.idx == idx && dropdownState.isActive ? (
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                        <path fillRule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clipRule="evenodd" />
-                      </svg>) : (
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                        <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-                      </svg>)
-                    }
-                  </button>) : (
-                  <Link href={item.href} className="block text-white hover:text-gray-800 font-bold">
+                    /* Other Menu Options */
+                    <button
+                      className="w-full flex items-center justify-between gap-1 text-white hover:text-gray-800 font-bold"
+                      onClick={() => setDropdownState({ idx, isActive: !dropdownState.isActive })}>
+                      {item.title}
+                      {/* Rendering of Dropdown Arrow */}
+                      {dropdownState.idx === idx && dropdownState.isActive ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                          <path fillRule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clipRule="evenodd" />
+                        </svg>) : (
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                          <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                        </svg>)
+                      }
+                    </button>) : (
+                    /* About Button */
+                    <Link href={item.href} className="block text-white hover:text-gray-800 font-bold mr-3">
                     {item.title}
                   </Link>)}    
-                  {/* rendering of drop down menu options */}
+                  {/* Rendering of Nav Options */}
                   {item.dropDown && dropdownState.idx == idx && dropdownState.isActive ? (
-                    <div className="bg-opacity-30 mt-6 inset-x-0 top-20 w-full md:absolute md:shadow-md md:mt-0">
-                      <ul className='max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 grid-cols-1'>
-                        {item.items.map((dropdownItem, idx) => (
+                    <div className="mt-6 top-20 w-fit md:absolute md:shadow-md md:mt-0 md:bg-slate-500/50">
+                      <ul className='max-w-screen-xl mx-auto grid grid-cols-1 items-center gap-6 md:p-8'>
+                        {item?.items && item.items.map((dropdownItem, idx) => (
                         <li key={idx}>
-                          <Link href={item.href}>
-                            <p className={"ml-3 text-white text-sm hover:text-gray-800"}>{dropdownItem}</p>
-                          </Link>
+                          <Link href={dropdownItem.items.href}>
+                            <p className={"ml-3 text-white text-sm hover:text-gray-800 "}>{dropdownItem.label}</p>
+                            </Link>
                         </li>))}
                       </ul>
                     </div>) : ""}
@@ -149,7 +123,7 @@ export default function Navbar() {
       </nav>
       {state ? (
         <div
-          className="z-10 fixed top-0 w-screen h-screen bg-black/20 backdrop-blur-sm md:hidden"
+          className="z-10 fixed top-0 w-screen h-screen md:hidden"
           onClick={() => setState(false)}>
         </div>) : ""
       }

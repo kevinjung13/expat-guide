@@ -1,30 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
+import { neighbourhoods } from "@/data/data";
 
 export default function Neighbourhoods() {
-  const integrations = [
-    {
-      title: "Sukhumvit",
-      desc: "Ut enim ad minim veniam",
-      img: "/img/neighbourhoods/sukhumvit-img.jpg",
-    },
-    {
-      title: "Sathorn / Silom",
-      desc: "Ut enim ad minim veniam",
-      img: "/img/neighbourhoods/sathorn-img.jpg",
-    },
-    {
-      title: "Ari / North Bangkok",
-      desc: "Ut enim ad minim veniam",
-      img: "/img/neighbourhoods/ari-img.png",
-    },
-    {
-      title: "Rama IX / Ratchadaphisek",
-      desc: "Ut enim ad minim veniam",
-      img: "/img/neighbourhoods/rama-ix-img.jpg",
-    },
-  ];
 
   return (
     <>
@@ -61,27 +40,23 @@ export default function Neighbourhoods() {
             </p>
           </div>
           <ul className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {integrations.map((item, idx) => (
+            {neighbourhoods.map((item, idx) => (
               <li className="border rounded-lg">
-                <div className="flex items-start justify-between p-4">
-                  <div className="space-y-2">
+                <div className=" flex items-start justify-between p-4">
+                  <div className="space-y-2 text-center">
                     <img src={`${item.img}`} alt={"image"}></img>
                     <h4 className="text-gray-800 font-semibold">
                       {item.title}
                     </h4>
                     <p className="text-gray-600 text-sm">{item.desc}</p>
                   </div>
-                  <button className="text-gray-700 text-sm border rounded-lg px-3 py-2 duration-150 hover:bg-gray-100">
-                    Connect
-                  </button>
                 </div>
-                <div className="py-5 px-4 text-right">
-                  <a
-                    href="javascript:void(0)"
-                    className="text-indigo-600 hover:text-indigo-500 text-sm font-medium"
-                  >
-                    View integration
-                  </a>
+                <div className="py-5 px-4 text-center">
+                  <Link href={item.href}>
+                  <button className="text-gray-700 text-sm border rounded-lg px-3 py-2 duration-150 hover:bg-gray-100">
+                    Explore
+                    </button>
+                  </Link>
                 </div>
               </li>
             ))}
