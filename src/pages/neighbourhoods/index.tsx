@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
-import { neighbourhoods } from "@/data/data";
+import { neighbourhoodsCards } from "@/data/data";
 
 export default function Neighbourhoods() {
 
@@ -40,7 +40,7 @@ export default function Neighbourhoods() {
             </p>
           </div>
           <ul className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {neighbourhoods.map((item, idx) => (
+            {neighbourhoodsCards.map((item, idx) => (
               <li className="border rounded-lg">
                 <div className=" flex items-start justify-between p-4">
                   <div className="space-y-2 text-center">

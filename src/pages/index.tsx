@@ -1,31 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import HomePageCards from "@/components/Cards/HomePageCards";
+import ResourcesCards from "@/components/Cards/ResourcesCards";
 import HeroLayout from "@/components/Layout/HeroLayout";
-
-/* Resources Cards */
-const posts = [
-  {
-    title: "News",
-    desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people what they did for their anxiety, and some",
-    href: "javascript:void(0)",
-  },
-  {
-    title: "Social Media Groups",
-    desc: "According to him, Ã¢â‚¬Å“I'm still surprised that this has happened. But we are surprised because we are so surprised.Ã¢â‚¬ÂMore revelations about Whittington will be featured in the film",
-    href: "javascript:void(0)",
-  },
-  {
-    title: "Plant-Based",
-    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
-    href: "javascript:void(0)",
-  },
-  {
-    title: "Others",
-    desc: "The powerful gravity waves resulting from the impact of the planets' moons Ã¢â‚¬â€ four in total Ã¢â‚¬â€ were finally resolved in 2015 when gravitational microlensing was used to observe the",
-    href: "javascript:void(0)",
-  },
-];
 
 export default function Home() {
   return (
@@ -142,39 +119,7 @@ export default function Home() {
             Stay up to date with news, events and much more.
           </p>
         </div>
-        <div className="mt-9 grid gap-4 divide-y md:grid-cols-2 md:divide-y-0 lg:grid-cols-3">
-          {posts.map((item, idx) => (
-            <article className="mt-5 pt-8 md:pt-0" key={idx}>
-              <Link href={item.href}>
-                <div className={""}>
-                  <h3 className="text-xl text-gray-900 font-semibold hover:underline">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-400 mt-1 leading-relaxed">
-                    {item.desc}
-                  </p>
-                </div>
-                <button className="mt-2 outline-none flex items-center text-[14px] text-blue-600 decoration-blue-600 hover:underline">
-                  READ MORE
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-3 w-3 ml-2"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </button>
-              </Link>
-            </article>
-          ))}
-        </div>
+        <ResourcesCards />
       </section>
     </>
   );
