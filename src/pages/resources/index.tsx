@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
-import { news, SocialMediaGroups, PlantBased, Others } from "@/data/data";
+import { News, SocialMediaGroups, PlantBased, Others } from "@/data/data";
 
 export default function Resources() {
   return (
@@ -13,8 +13,7 @@ export default function Resources() {
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
-          }
-        >
+          }>
           <div className={"flex-col justify-center align-center text-white"}>
             <h1 className={"text-6xl md:text-8xl pb-3"}>RESOURCES</h1>
             <h4 className={"text-2xl md:text-4xl pt-2 pl-24 md:pl-40"}>
@@ -31,20 +30,18 @@ export default function Resources() {
               News
             </h1>
             <p className="text-gray-600 mt-2">
-              We're currently looking talent software engineers, and designers
-              to help us in our missions and to grow up.
+              Stay up to date on what is happening in Thailand and around the region.
             </p>
           </div>
           <ul className="mt-12 divide-y space-y-3">
-            {news.map((item, idx) => (
+            {News.map((item, idx) => (
               <li
                 key={idx}
-                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50"
-              >
-                <a href={item.path} className="space-y-3">
+                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50">
+                <Link href={item.path} className="space-y-3" target={"_blank"}>
                   <div className="flex items-center gap-x-3">
                     <div className="bg-white w-14 h-14 border rounded-full flex items-center justify-center">
-                      {item.company_icon}
+                      {item.icon}
                     </div>
                     <div>
                       <span className="block text-sm text-indigo-600 font-medium">
@@ -59,7 +56,7 @@ export default function Resources() {
                     {item.job_description}
                   </p>
                   <div className="text-sm text-gray-600 flex items-center gap-6"></div>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -70,7 +67,7 @@ export default function Resources() {
         <div className="max-w-screen-lg mx-auto px-4 md:px-8">
           <div className="max-w-md">
             <h1 className="text-gray-800 text-2xl font-extrabold sm:text-3xl">
-              Social Media Groups
+              Facebook Groups
             </h1>
             <p className="text-gray-600 mt-2">
               We're currently looking talent software engineers, and designers
@@ -83,10 +80,10 @@ export default function Resources() {
                 key={idx}
                 className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50"
               >
-                <a href={item.path} className="space-y-3">
+                <Link href={item.path} className="space-y-3" target={"_blank"} >
                   <div className="flex items-center gap-x-3">
                     <div className="bg-white w-14 h-14 border rounded-full flex items-center justify-center">
-                      {item.company_icon}
+                      {item.icon}
                     </div>
                     <div>
                       <span className="block text-sm text-indigo-600 font-medium">
@@ -101,7 +98,7 @@ export default function Resources() {
                     {item.job_description}
                   </p>
                   <div className="text-sm text-gray-600 flex items-center gap-6"></div>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -123,12 +120,11 @@ export default function Resources() {
             {PlantBased.map((item, idx) => (
               <li
                 key={idx}
-                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50"
-              >
-                <a href={item.path} className="space-y-3">
+                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50">
+                <Link href={item.path} className="space-y-3" target={"_blank"} >
                   <div className="flex items-center gap-x-3">
                     <div className="bg-white w-14 h-14 border rounded-full flex items-center justify-center">
-                      {item.company_icon}
+                      {item.icon}
                     </div>
                     <div>
                       <span className="block text-sm text-indigo-600 font-medium">
@@ -143,7 +139,7 @@ export default function Resources() {
                     {item.job_description}
                   </p>
                   <div className="text-sm text-gray-600 flex items-center gap-6"></div>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -165,12 +161,11 @@ export default function Resources() {
             {Others.map((item, idx) => (
               <li
                 key={idx}
-                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50"
-              >
-                <a href={item.path} className="space-y-3">
+                className="px-4 py-5 duration-150 hover:border-white hover:rounded-xl hover:bg-gray-50">
+                <Link href={item.path} className="space-y-3" target={"_blank"} >
                   <div className="flex items-center gap-x-3">
                     <div className="bg-white w-14 h-14 border rounded-full flex items-center justify-center">
-                      {item.company_icon}
+                      {item.icon}
                     </div>
                     <div>
                       <span className="block text-sm text-indigo-600 font-medium">
@@ -185,7 +180,7 @@ export default function Resources() {
                     {item.job_description}
                   </p>
                   <div className="text-sm text-gray-600 flex items-center gap-6"></div>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

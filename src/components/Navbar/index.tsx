@@ -71,14 +71,12 @@ export default function Navbar() {
             {navigation.map((item, idx) => {
               return (
                 <li key={idx}>
-                {/* Dropdown Settings */}
+                {/* Rendering of Navbar Options */}
                   {item.dropDown ? (
-                    /* Other Menu Options */
                     <button
                       className="w-full flex items-center justify-between gap-1 text-white hover:text-gray-800 font-bold"
                       onClick={() => setDropdownState({ idx, isActive: !dropdownState.isActive })}>
                       {item.title}
-                      {/* Rendering of Dropdown Arrow */}
                       {dropdownState.idx === idx && dropdownState.isActive ? (
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                           <path fillRule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clipRule="evenodd" />
@@ -88,18 +86,19 @@ export default function Navbar() {
                         </svg>)
                       }
                     </button>) : (
-                    /* About Button */
                     <Link href={item.href} className="block text-white hover:text-gray-800 font-bold mr-3">
                     {item.title}
                   </Link>)}    
-                  {/* Rendering of Nav Options */}
+                  {/* Rendering of Nav Dropdown Options */}
                   {item.dropDown && dropdownState.idx == idx && dropdownState.isActive ? (
                     <div className="mt-6 top-20 w-fit md:absolute md:shadow-md md:mt-0 md:bg-slate-500/50">
                       <ul className='max-w-screen-xl mx-auto grid grid-cols-1 items-center gap-6 md:p-8'>
                         {item?.items && item.items.map((dropdownItem, idx) => (
-                        <li key={idx}>
-                          <Link href={dropdownItem.items.href}>
-                            <p className={"ml-3 text-white text-sm hover:text-gray-800 "}>{dropdownItem.label}</p>
+                          <li key={idx}>
+                            <Link href={dropdownItem.href}>
+                              <p className={`ml-3 text-white text-sm hover:text-gray-800`}>
+                                {dropdownItem.title}
+                              </p>
                             </Link>
                         </li>))}
                       </ul>
