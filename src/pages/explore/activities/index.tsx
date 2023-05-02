@@ -13,6 +13,7 @@ export default function Activities() {
         <section
           className={
             "relative flex min-h-screen flex-col items-center justify-between p-24"
+            
           }
         >
           <div className={"flex-col justify-center align-center text-white"}>

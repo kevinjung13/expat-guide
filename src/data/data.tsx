@@ -187,46 +187,109 @@ export const resourcesCards = [
 
 export const localFlavors = [
   {
-    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+    avatar: "/img/explore/dining/local/icons/chinatown.jpg", 
     name: "Chinatown",
-    title: "Street Food",
-    quote: "Yaowarat Road is the main road and has plenty of street food stalls and restaurants"
+    title: "MRT Station: Hua Lamphong / Wat Mangkon",
+    quote: "Yaowarat Road is the main road and has plenty of street food stalls and restaurants",
+    href: "",
   },
   {
-      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+      avatar: "/img/explore/dining/local/icons/polo.jpg",
       name: "Polo Fried Chicken",
-      title: "Founder of meta",
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+      title: "MRT Station: Lumphini",
+    quote: "-",
+    href: "",
   },
   {
-      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-      name: "Ter Sab Woey",
-      title: "Product designer",
-      quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+    avatar: "/img/explore/dining/local/icons/panich.jpg",
+    name: "Wattana Panich",
+    title: "BTS Station: Ekkamai",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+    href: "",
   },
   {
-    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-    name: "Laab Ubon",
-    title: "Local food",
-    quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+    avatar: "/img/explore/dining/local/icons/sabaijai.jpg",
+    name: "Sabaijai",
+    title: "BTS Station: Ekkamai",
+    quote: "Beef Broth Noodles",
+    href: "",
   },
   {
-    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-    name: "Moohun Song Phi Nong",
-    title: "Local food",
-    quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
-  },
+    avatar: "/img/explore/dining/local/icons/saengchai.jpg",
+    name: "Saengchai Phochana",
+    title: "BTS Station: Thong Lor / Phrom Pong",
+    quote: "Beef Broth Noodles",
+    href: "",
+},
   {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Lon Lon Diner",
-      title: "DevOp engineer",
-      quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
-  },
-  {
-    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    avatar: "/img/explore/dining/local/icons/jayfai.jpg",
     name: "Jay Fai",
-    title: "Michelin Star Street Food",
-    quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+    title: "MRT Station: Sam Yot",
+    quote: "-",
+    href: "",
+},
+  {
+      avatar: "/img/explore/dining/local/icons/tersabwoey.jpg",
+      name: "Ter Sab Woey",
+      title: "BTS Station: Chong Nonsi",
+      quote: "-",
+      href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/laabubon.jpg",
+    name: "Laab Ubon",
+    title: "BTS Station: Surasak",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/moo.jpg",
+    name: "Moohun Song Phi Nong",
+    title: "BTS Station: Chong Nonsi",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/baannual.jpg", 
+    name: "Baan Nual",
+    title: "MRT Station: Sam Yot",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/haawm.jpg", 
+    name: "HAAWM",
+    title: "BTS Station: On Nut",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/.jpg", 
+    name: "Charm Eatery and Bar",
+    title: "BTS Station: Chong Nonsi / Saint Louis",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/.jpg",
+    name: "Lon Lon Diner",
+    title: "BTS Station: Chong Nonsi",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/.jpg",
+    name: "Supanniga Eating Room",
+    title: "BTS Station: Chong Nonsi",
+    quote: "",
+    href: "",
+  },
+  {
+    avatar: "/img/explore/dining/local/icons/.jpg",
+    name: "Rongros",
+    title: "BTS Station: Chong Nonsi",
+    quote: "-",
+    href: "",
 },
 ]
 
@@ -235,25 +298,250 @@ export const localFlavors = [
 export const asia = [
   {
       avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-      name: "Martin escobar",
-      title: "Founder of meta",
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+      name: "Liaoning Chinese Cuisine ",
+      title: "BTS Station: Chong Nonsi",
+      quote: "",
+      href: "",
   },
   {
       avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-      name: "Angela stian",
-      title: "Product designer",
-      quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+      name: "Mensho Tokyo",
+      title: "BTS Station: Phrom Pong",
+    quote: "-",
+    href: "",
   },
   {
       avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Karim ahmed",
-      title: "DevOp engineer",
-      quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+      name: "Masu Maki Sushi & Bar",
+      title: "BTS Station: Phrom Pong",
+    quote: "-",
+      href: "",
   },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Bangkok Banjom",
+    title: "BTS Station: Ekkamai",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Korean Plaza",
+    title: "BTS Station: Nana",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Haoma",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "-",
+    href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Teppen",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "",
+    href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Daimasu",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "-",
+    href: "",
+},
 ]
 
+  // C. Europe
 
+  export const europe = [
+    {
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Bardo Social Bar & Bistro",
+        title: "BTS Station: Saint Louis / Chong Nonsi",
+      quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+        name: "Peppina",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+        href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+        name: "El Mercado",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+        href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Le Buchon",
+      title: "BTS Station: Nana",
+      quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "El Tapeo",
+      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+      quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Mediterra",
+      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+      quote: "",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Belga Rooftop Bar and Brasserie",
+      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+      quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Cantina Wine Bar and Italian Kitchen",
+      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+      quote: "-",
+      href: "",
+    },
+ ]
+
+    // D. The Americas
+
+  export const theAmericas = [
+    {
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Ojo",
+        title: "BTS Station: Saint Louis / Chong Nonsi",
+        quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "The Missing Burro",
+      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+      quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+        name: "La Monita Taqueria",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Sabor Brasil",
+      title: "BTS Station: Ekkamai",
+      quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "El Gaucho",
+      title: "BTS Station: Nana",
+      quote: "-",
+      href: "",
+    },
+  ]
+    
+    // E. Middle East & Africa
+
+  export const middleEastAndAfrica = [
+    {
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Taye",
+        title: "BTS Station: Saint Louis / Chong Nonsi",
+        quote: "-",
+      href: "",
+    },
+     {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Mama Dolores",
+      title: "BTS Station: Ekkamai",
+      quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+        name: "Beirut Restaurant",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+        name: "Nadimos",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Al Saray",
+      title: "BTS Station: Ekkamai",
+      quote: "-",
+      href: "",
+    },
+  ]
+
+  // F. Brunch 
+
+export const brunch = [
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Tobys",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "-",
+      href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Luka",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "-",
+      href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Rocket CoffeeBar",
+    title: "BTS Station: Asoke / MRT Station: Sukhumvit",
+    quote: "-",
+      href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Bartels",
+    title: "BTS Station: Ekkamai",
+    quote: "-",
+      href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Bartels",
+    title: "BTS Station: Ekkamai",
+    quote: "-",
+      href: "",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Yellow Lane Cafe",
+    title: "BTS Station: Ekkamai",
+    quote: "-",
+      href: "",
+  },
+]
+    
 
 /* === 4. NEIGHBOURHOODS === */
 

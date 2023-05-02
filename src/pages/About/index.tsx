@@ -27,11 +27,7 @@ export default function About() {
       </Head>
       {/* Image Section */}
       <HeroLayout bgImg={`bg-[url("/img/sections/about-img.jpg")]`}>
-        <section
-          className={
-            "relative flex min-h-screen flex-col items-center justify-between p-16"
-          }
-        >
+        <section className={"p-16"}>
           <div className={"flex-col justify-center align-center text-white"}>
             <h1 className={"text-6xl pb-2 md:text-8xl md:pb-1"}>ABOUT</h1>
             <h4 className={"text-2xl md:text-4xl pt-2 pl-14 md:pl-24 md:pt-1"}>

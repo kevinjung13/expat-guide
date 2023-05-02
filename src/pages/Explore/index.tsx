@@ -47,23 +47,12 @@ export default function Explore() {
       <Head>
         <title> Explore | Farang</title>
       </Head>
-      <HeroLayout bgImg={`bg-[url("/img/sections/explore-img.jpg")]`}>
-        <section
-          className={
-            "relative flex min-h-screen flex-col items-center justify-between p-32"
-          }
-        >
-          <div
-            className={"flex flex-col justify-center align-center text-white"}
-          >
-            <h1 className={"text-6xl md:text-8xl pb-3"}>EXPLORE</h1>
-            <h4 className={"text-2xl md:text-4xl pt-2 pl-12 md:pl-20"}>
-              Your New Home
-            </h4>
-          </div>
-        </section>
+      <HeroLayout
+        bgImg={`bg-[url("/img/sections/explore-img.jpg")]`}
+        title={"EXPLORE"}
+        subtitle={"Your New Home"}>
       </HeroLayout>
-      {/* Second Section */}
+      {/* Options */}
       <section id={"options"}>
         <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8">
           <div className="space-y-5 max-w-4xl mx-auto text-center">

@@ -1,21 +1,26 @@
+import Head from "next/head";
 import { ReactNode, useState } from "react";
 
 /* Layout Props */
 export interface LayoutProps {
-  children: ReactNode;
+  headTitle: Text;
+  children?: ReactNode;
 }
 
 /* Layout Function */
 export default function Layout(props: LayoutProps) {
 
-  const { children } = props;
+  const { children, headTitle } = props;
   const [open, setOpen] = useState("")
 
   return (
     <>
-      <section>
+      <Head>
+        <title> Farang | Bangkok Expat Guide</title>
+      </Head>
+      <body>
         {children}
-      </section>
+      </body>
     </>
   )
 }
