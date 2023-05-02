@@ -2,7 +2,8 @@
 
 // 1.1 Explore
 
-export const ExploreOptions = [{
+export const ExploreOptions = [
+  {
   title: "Dining",
   href: "/explore/dining"
 }, {
@@ -20,39 +21,56 @@ export const ExploreOptions = [{
 }, {
   title: "Shopping",
   href: "/explore/shopping"
-  }]
+  }
+]
 
   // 1.2 Neighbourhood
 
-export const NeighbourhoodOptions = [{
+export const NeighbourhoodOptions = [
+  {
       title: "Sukhumvit",
-      href: "/neighbourhoods",
+      href: "/neighbourhoods/sukhumvit",
     }, {
       title: "Sathorn/Silom",
-      href: "/neighbourhoods"
+      href: "/neighbourhoods/sathorn"
     }, {
       title: "Ari/North Bangkok",
-      href: "/neighbourhoods"
+      href: "/neighbourhoods/ari"
     }, {
       title: "Rama IX/Ratchada",
-      href: "/neighbourhoods"
-  }]
+      href: "/neighbourhoods/rama9"
+  }
+]
 
   // 1.3 Resources
 
-  export const ResourcesOptions = [{
+export const ResourcesOptions = [
+  {
     title: "News",
-    href: "/resources",
-  }, {
-    title: "Social Media Groups",
-    href: "/resources"
-  }, {
+    href: "/resources/#news",
+  },
+  {
+    title: "Facebook Groups",
+    href: "/resources/#facebook-groups"
+  },
+  {
+    title: "Food Delivery",
+    href: "/resources/#food-delivery"
+  },
+  {
     title: "Plant-Based",
-    href: "/resources"
-  }, {
+    href: "/resources/#plant-based"
+  },
+
+  {
+    title: "Transportation",
+    href: "/resources/#transportation"
+  },
+  {
     title: "Others",
-    href: "/resources"
-  }]
+    href: "/resources/#others"
+    }
+  ]
 
   // 1.4 Main Options 
 export const navigation = [
@@ -140,7 +158,17 @@ export const resourcesCards = [
     href: "/resources/#facebook-groups",
   },
   {
+    title: "Food Delivery",
+    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
+    href: "/resources/#plant-based",
+  },
+  {
     title: "Plant-Based",
+    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
+    href: "/resources/#plant-based",
+  },
+  {
+    title: "Transportation",
     desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
     href: "/resources/#plant-based",
   },
@@ -151,9 +179,85 @@ export const resourcesCards = [
   },
 ];
 
-/* 3. === NEIGHBOURHOODS === */
+/* === 3. EXPLORE === */
 
-// 3.1 Neighbourhood Cards
+/* 3.1 Dining */
+
+  // A. Local Flavors
+
+export const localFlavors = [
+  {
+    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+    name: "Chinatown",
+    title: "Street Food",
+    quote: "Yaowarat Road is the main road and has plenty of street food stalls and restaurants"
+  },
+  {
+      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+      name: "Polo Fried Chicken",
+      title: "Founder of meta",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+  },
+  {
+      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+      name: "Ter Sab Woey",
+      title: "Product designer",
+      quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+    name: "Laab Ubon",
+    title: "Local food",
+    quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+    name: "Moohun Song Phi Nong",
+    title: "Local food",
+    quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+  },
+  {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Lon Lon Diner",
+      title: "DevOp engineer",
+      quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Jay Fai",
+    title: "Michelin Star Street Food",
+    quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+},
+]
+
+  // B. Asia
+
+export const asia = [
+  {
+      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+      name: "Martin escobar",
+      title: "Founder of meta",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+  },
+  {
+      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+      name: "Angela stian",
+      title: "Product designer",
+      quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+  },
+  {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Karim ahmed",
+      title: "DevOp engineer",
+      quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+  },
+]
+
+
+
+/* === 4. NEIGHBOURHOODS === */
+
+// 4.1 Neighbourhood Cards
 
 export const neighbourhoodsCards = [
   {
@@ -183,9 +287,9 @@ export const neighbourhoodsCards = [
 ];
 
 
-/* 4. === RESOURCES === */
+/* 5. === RESOURCES === */
 
-// 4.1 News Section
+// 5.1 News Section
 
 export const News = [
   {
@@ -244,9 +348,23 @@ export const News = [
         className={"w-8 h-8"} />
     ),
   },
+
+  {
+    company_name: "THAIest",
+    job_title: "Travel News and Guide",
+    job_description:
+      "Known as ",
+    path: "https://thaiest.com/",
+    icon: (
+      <img
+        src={"/img/resources/icons/thaiest.png"}
+        alt={"Thaiger logo"}
+        className={"w-8 h-8"} />
+    ),
+  },
 ];
 
-// 4.2 Facebook Groups Section
+// 5.2 Facebook Groups Section
 
 export const FacebookGroups = [
   {
@@ -291,7 +409,7 @@ export const FacebookGroups = [
   },
 ];
 
-// 4.3 Food Delivery Section
+// 5.3 Food Delivery Section
 
 export const FoodDelivery = [
 
@@ -336,7 +454,7 @@ export const FoodDelivery = [
   },
 ];
 
-// 4.4 Plant-Based Section
+// 5.4 Plant-Based Section
 
 export const PlantBased = [
   {
@@ -382,7 +500,7 @@ export const PlantBased = [
   },
 ];
 
-// 4.5 Transportation Section
+// 5.5 Transportation Section
 
 export const Transportation = [
   {
@@ -427,7 +545,7 @@ export const Transportation = [
   },
   {
     company_name: "MRT",
-  job_title: "For flights within the region",
+  job_title: "Metropolitan Rapid Transit (Metro)",
   job_description:
     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   path: "https://metro.bemplc.co.th/MRT-System-Map?lang=en",
@@ -451,10 +569,24 @@ export const Transportation = [
       className={"w-8 h-8"} />
     ),
   },
+
+  {
+    company_name: `"Win" Motorcycle Taxi`,
+    job_title: "Motorcycle Taxi",
+    job_description:
+      `Known as "The Orange Jackets", `,
+    path: "https://touristbangkok.com/city-transport/motorcycle-taxi/",
+    icon: (
+      <img
+      src={"/img/resources/icons/motorcycle-taxi.jpg"}
+      alt={"Group Logo"}
+      className={"w-8 h-8"} />
+    ),
+  },
 ];
 
 
-// 4.6 Others Section
+// 5.6 Others Section
 
 export const Others = [
   {
@@ -462,12 +594,12 @@ export const Others = [
     job_title: "Packages",
     job_description:
       "AIS is Best company for mobile packages and ",
-    path: "https://www.bangkokpost.com/",
+    path: "https://www.tourismthailand.org/Articles/plan-your-trip-mobile-phone-and-internet",
     icon: (
       <img
-      src={"/img/resources/icons/farang-girls-bkk.jpg"}
+      src={"/img/resources/icons/phone.jpg"}
       alt={"Group Logo"}
-      className={"w-8 h-8"} />
+      className={"w-4 h-6"} />
     ),
   },
   {
@@ -475,12 +607,12 @@ export const Others = [
   job_title: "Home Internet",
   job_description:
     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-    path: "https://thethaiger.com/",
+    path: "https://www.tourismthailand.org/Articles/plan-your-trip-mobile-phone-and-internet",
     icon: (
       <img
-      src={"/img/resources/icons/farang-girls-bkk.jpg"}
+      src={"/img/resources/icons/internet.png"}
       alt={"Group Logo"}
-      className={"w-8 h-8"} />
+      className={"w-9 h-8"} />
     ),
     
   },
@@ -489,36 +621,10 @@ export const Others = [
   job_title: "For flights within the region",
   job_description:
     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-  path: "https://www.richardbarrow.com/",
+  path: "https://www.skyscanner.net/",
     icon: (
       <img
-      src={"/img/resources/icons/farang-girls-bkk.jpg"}
-      alt={"Group Logo"}
-      className={"w-8 h-8"} />
-    ),
-  },
-  {
-    company_name: "Public Transportation",
-    job_title: "Telecommunications Companies",
-    job_description:
-      "AIS is Best company for mobile packages and ",
-    path: "https://www.bangkokpost.com/",
-    icon: (
-      <img
-      src={"/img/resources/icons/farang-girls-bkk.jpg"}
-      alt={"Group Logo"}
-      className={"w-8 h-8"} />
-    ),
-  },
-  {
-    company_name: "Food Delivery",
-    job_title: "Telecommunications Companies",
-    job_description:
-      "AIS is Best company for mobile packages and ",
-    path: "https://www.bangkokpost.com/",
-    icon: (
-      <img
-      src={"/img/resources/icons/farang-girls-bkk.jpg"}
+      src={"/img/resources/icons/plane.jpg"}
       alt={"Group Logo"}
       className={"w-8 h-8"} />
     ),
@@ -526,9 +632,9 @@ export const Others = [
 ];
 
 
-/* 5. === FOOTER === */
+/* 6. === FOOTER === */
 
-// 5.1 Menu Options
+// 6.1 Menu Options
 
 export const footerNavs = [
   {

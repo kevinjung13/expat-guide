@@ -17,7 +17,7 @@ export default function ResourcesCards() {
                     {item.desc}
                   </p>
                 </div>
-                <button className="mt-2 outline-none flex items-center text-[14px] text-blue-600 decoration-blue-600 hover:underline">
+                <button className="bg-green-500 mt-2 mb-4 outline-none flex items-center text-[14px] text-blue-600 decoration-blue-600 hover:underline">
                   READ MORE
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

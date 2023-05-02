@@ -59,7 +59,7 @@ export default function Home() {
       <section className="bg-stone-200 pt-16 pb-8 max-w-screen-xl md:px-8">
         <div className="text-center">
           <Link href={"/explore"}>
-            <h1 className="text-5xl text-black font-semibold">Explore</h1>
+            <h1 className="text-5xl font-semibold hover:text-yellow-700">Explore</h1>
           </Link>
           <p className="mt-3 text-cyan-700">
             Everything you need to know outside of work.
@@ -90,8 +90,8 @@ export default function Home() {
                 houses on the outskirts of the city.
               </p>
               <Link
-                href="/neighbourhoods"
-                className="inline-flex gap-x-1 items-center text-md text-cyan-700 hover:text-indigo-500 duration-150 font-medium"
+                href={"/neighbourhoods"}
+                className="inline-flex gap-x-1 items-center text-md text-cyan-700 hover:text-yellow-700 duration-150 font-medium"
               >
                 Discover
                 <svg
@@ -112,10 +112,12 @@ export default function Home() {
         </div>
       </section>
       {/* Resources Section */}
-      <section className=" bg-gray-200 pt-12 mx-auto px-4 max-w-screen-xl md:px-8">
-        <div className="max-w-lg">
-          <h1 className="text-5xl text-gray-800 font-semibold">Resources</h1>
-          <p className="mt-3 text-gray-500">
+      <section className="bg-gray-200 pt-12 mx-auto px-4 max-w-screen-xl md:px-8">
+        <div className="max-w-screen text-center">
+          <Link href={"/resources"}>
+            <h1 className="text-5xl font-semibold hover:text-yellow-700">Resources</h1>
+          </Link>
+          <p className="mt-3 text-cyan-700">
             Stay up to date with news, events and much more.
           </p>
         </div>

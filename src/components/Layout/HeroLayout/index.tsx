@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 /* Layout Props */
 export interface HeroLayoutProps {
-  bgImg: String;
+  bgImg: string;
   children: ReactNode;
 }
 
