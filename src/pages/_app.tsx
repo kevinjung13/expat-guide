@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app';
 import Footer from '@/components/Footer';
@@ -9,11 +8,6 @@ const castoro = Castoro({ weight: "400", subsets: ['latin'] })
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <link rel="shortcut icon" href="/img/logo-head.png" />
-        <meta charSet="utf-8" />
-        <title></title>
-      </Head>
       <main className={`${castoro.className} max-w-screen`}>
         <Component  {...pageProps} />
         <Footer />

@@ -1,8 +1,10 @@
+import Head from "next/head";
 import Navbar from "../../Navbar";
 import { ReactNode } from "react";
 
 /* Layout Props */
 export interface HeroLayoutProps {
+  headTitle: string;
   bgImg: string;
   children?: ReactNode;
   title: string;
@@ -12,13 +14,18 @@ export interface HeroLayoutProps {
 /* Layout Function */
 export default function HeroLayout(props: HeroLayoutProps) {
   /* Props */
-  const { bgImg, children, title, subtitle } = props;
+  const { bgImg, children, headTitle, title, subtitle } = props;
 
   /* Background Image settings */
   const bgImgSettings = `bg-center bg-no-repeat bg-cover max-w-screen`;
 
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/img/logo-head.png" />
+        <meta charSet="utf-8" />
+        <title>{headTitle}</title>
+      </Head>
       <div className={`${bgImg} ${bgImgSettings}`}>
         <Navbar />
         <section className={"relative flex flex-col min-h-screen items-center justify-between p-32"}>

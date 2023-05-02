@@ -1,27 +1,15 @@
-import Head from "next/head";
 import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
 
 export default function Activities() {
   return (
     <>
-      <Head>
-        <title>Activities | Farang</title>
-      </Head>
       {/* First Section */}
-      <HeroLayout bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}>
-        <section
-          className={
-            "relative flex min-h-screen flex-col items-center justify-between p-24"
-            
-          }
-        >
-          <div className={"flex-col justify-center align-center text-white"}>
-            <h1 className={"text-6xl md:text-8xl pb-3"}>ACTIVITIES</h1>
-            <h4 className={"text-2xl md:text-4xl pt-3 pl-16 md:pl-32"}>For Body and Soul</h4>
-          </div>
-        </section>
-      </HeroLayout>
+      <HeroLayout
+        bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}
+        headTitle={"Activities | Farang"}
+        title={"ACTIVITIES"}
+        subtitle={"For Body and Soul"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
