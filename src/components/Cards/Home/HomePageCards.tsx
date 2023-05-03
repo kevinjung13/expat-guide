@@ -1,5 +1,43 @@
 import Link from "next/link";
-import { ExploreCards } from "@/data/data";
+
+const ExploreCards = [
+  {
+      title: "Dining",
+      desc: "Eat and drink at my favorite locations, from street food stalls to michelin-guided establishments.",
+      img: "/img/card/food-img.jpg",
+      href: "/explore/dining"
+  },
+  {
+      title: "Activities",
+      desc: "Get back into your routine, meet fellow expats, stay physically active, and find new hobbies.",
+      img: "/img/card/activity-img.jpg",
+      href: "/explore/activities"
+  },
+  {
+      title: "Attractions",
+      desc: "Immerse yourself in the local culture, learn about the history of Bangkok and its surroundings, increase awareness on social ettiquettes.",
+      img: "/img/card/attraction-img.jpg",
+      href: "explore/attractions"
+  },
+  {
+      title: "Nightlife",
+      desc: "Enjoy the panoramic Bangkok skyline, discover hidden bars, and dance the night away.",
+      img: "/img/card/nightlife-img.jpg",
+      href: "explore/nightlife"
+  },
+  {
+      title: "Nearby Destinations",
+      desc: "Explore destinations only hours away from the city, ranging from national parks to UNESCO World Heritage Sites. Perfect for day trips or weekends.",
+      img: "/img/card/nearby-img.jpg",
+      href: "explore/nearby-destinations"
+  },
+  {
+      title: "Shopping",
+      desc: "Explore destinations only hours away from the city, ranging from national parks to UNESCO World Heritage Sites. Perfect for day trips or weekends.",
+      img: "/img/card/shopping-img.jpg",
+      href: "explore/shopping"
+  },
+]
 
 export default function HomePageCards() {
 

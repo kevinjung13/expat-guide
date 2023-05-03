@@ -10,6 +10,21 @@ export default function Rama9() {
         headTitle={"Rama 9 | Neighbourhoods"}
         title={"RAMA IX"}
         subtitle={"TBA"} />
+      {/* Second Section */}
+      <section className={"bg-gray-200 min-h-screen pt-16"}>
+        <div className={"flex place-content-center"}>
+          <h1 className={"text-5xl "}>LOCAL FLAVORS</h1>
+        </div>
+        <div className={"flex-col place-content-center p-6"}>
+          <p className={"text-lg "}>
+            TBA
+          </p>
+          <br />
+          <p className={"text-lg "}>
+            TBA
+          </p>
+        </div>
+      </section>
     </>
   )
 }

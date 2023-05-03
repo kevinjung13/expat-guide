@@ -1,5 +1,37 @@
 import Link from "next/link";
-import { resourcesCards } from "@/data/data";
+
+const resourcesCards = [
+  {
+    title: "News",
+    desc: "Stay up to date on what is happening in Thailand and around the region.",
+    href: "/resources/#news",
+  },
+  {
+    title: "Facebook Groups",
+    desc: "According to him, Ã¢â‚¬Å“I'm still surprised that this has happened. But we are surprised because we are so surprised.Ã¢â‚¬ÂMore revelations about Whittington will be featured in the film",
+    href: "/resources/#facebook-groups",
+  },
+  {
+    title: "Food Delivery",
+    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
+    href: "/resources/#plant-based",
+  },
+  {
+    title: "Plant-Based",
+    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
+    href: "/resources/#plant-based",
+  },
+  {
+    title: "Transportation",
+    desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
+    href: "/resources/#plant-based",
+  },
+  {
+    title: "Others",
+    desc: "The powerful gravity waves resulting from the impact of the planets' moons Ã¢â‚¬â€ four in total Ã¢â‚¬â€ were finally resolved in 2015 when gravitational microlensing was used to observe the",
+    href: "/resources/#others",
+  },
+];
 
 export default function ResourcesCards() {
 
