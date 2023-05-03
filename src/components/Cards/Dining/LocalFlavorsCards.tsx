@@ -141,23 +141,25 @@ export default function LocalFlavorsCards() {
         picture={"/img/explore/dining/local/icons/supanniga.jpg"}
         name={"Supanniga Eating Room"}
         station={"BTS Station: Chong Nonsi"}
-        description={`With 3 branches in the city (Thong Lor, Sathorn and Tha Tien), Supanniga Eating Room is a highly regarded restaurant that specializes in serving traditional Thai dishes with a modern twist. 
-        The restaurant's menu features a variety of classic Thai dishes from different regions of the country, such as the Isaan-style spicy salad and the Southern-style yellow curry with crab.
-        The restaurant's interior is elegant and sophisticated, with a contemporary design that creates a refined dining experience.
-        The staff is attentive and knowledgeable, providing helpful recommendations to diners who may be unfamiliar with the menu.
-        Supanniga Eating Room is a great choice for those looking for a refined and memorable Thai dining experience in Bangkok.`}
+        description={`Located across three different areas of Bangkok (Thong Lor, Sathorn, and Tha Tien), 
+        Supanniga Eating Room is an esteemed restaurant renowned for its unique take on traditional Thai cuisine.
+        Their menu boasts a range of classic Thai dishes from different regions, expertly prepared with a modern twist, including the popular Isaan-style spicy salad and the Southern-style yellow curry with crab.
+        Established with a mission to revive and promote authentic Thai cuisine, Supanniga Eating Room has garnered a reputation for providing an exquisite and refined dining experience. 
+        The restaurant's interior design exudes elegance and sophistication, with a contemporary design that creates a refined dining experience.
+        A great treat for all.`}
         href={"https://goo.gl/maps/K7Zj2oMmb5wGenEP7"} />
         {/* Rongros */}
        <DiningCard
         picture={"/img/explore/dining/local/icons/rongros.jpg"}
         name={"Rongros"}
         station={"BTS Station: Chong Nonsi"}
-        description={`Rongros is a modern restaurant in Bangkok that specializes in serving Thai fusion cuisine. 
-        The restaurant's menu features a variety of dishes that blend Thai flavors and cooking techniques with international influences, resulting in unique and delicious flavor combinations.
+        description={`Situated along the Chao Phraya river and just across Wat Arun (The Temple of Dawn), 
+        Rongros is a trendy and modern restaurant that specializes in Thai fusion cuisine. 
+        The restaurant's menu features a variety of dishes that blend Thai flavors and cooking techniques with international influences, 
+        resulting in unique and delicious flavor combinations.
         Some popular dishes include the crispy pork belly with tamarind sauce, the green curry with seared duck breast, and the tom yum seafood risotto.
         The restaurant's interior is sleek and stylish, with contemporary decor that creates a chic and trendy atmosphere.
-        The staff is friendly and knowledgeable, providing excellent service to diners.
-        Rongros is a great option for those looking for a modern and innovative take on Thai cuisine in Bangkok.`}
+        Perfect for dinner dates or before a night out.`}
         href={"https://goo.gl/maps/7YAzXsR7j9t2jgKNA"} />
       </ul>
     </>

@@ -102,50 +102,9 @@ export const navigation = [
   }
 ]
 
+/* 2. === FOOTER === */
 
-    // D. The Americas
-
-  export const theAmericas = [
-    {
-        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        name: "Ojo",
-        title: "BTS Station: Saint Louis / Chong Nonsi",
-        quote: "-",
-      href: "",
-    },
-    {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "The Missing Burro",
-      title: "BTS Station: Asoke / MRT Station: Sukhumvit",
-      quote: "-",
-      href: "",
-    },
-    {
-        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-        name: "La Monita Taqueria",
-        title: "BTS Station: Phrom Pong",
-        quote: "-",
-      href: "",
-    },
-    {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Sabor Brasil",
-      title: "BTS Station: Ekkamai",
-      quote: "-",
-      href: "",
-    },
-    {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "El Gaucho",
-      title: "BTS Station: Nana",
-      quote: "-",
-      href: "",
-    },
-  ]
-    
-/* 6. === FOOTER === */
-
-// 6.1 Menu Options
+// Menu Options
 
 export const footerNavs = [
   {
@@ -164,7 +123,6 @@ export const footerNavs = [
       href: '/resources',
       name: 'Resources'
   },
-
   {
       href: 'mailto:kevinjung13@gmail.com',
       name: 'Contact'

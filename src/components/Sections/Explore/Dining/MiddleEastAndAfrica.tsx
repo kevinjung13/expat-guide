@@ -5,6 +5,7 @@ export default function MiddleEastAndAfrica() {
   return (
     <>
       <DiningLayout
+        bgColor={"white"}
         cards={<MiddleEastAndAfricaCards />}
         title={"Middle East & Africa"}
         description={"Middle Eastern and African Cuisine"} />

@@ -4,7 +4,8 @@ import DiningLayout from "@/components/Layout/DiningLayout";
 export default function Europe() {
   return (
     <>
-     <DiningLayout
+      <DiningLayout
+        bgColor={"white"}
       cards={<EuropeCards />}
       title={"Europe"}
       description={"European cuisine"} />

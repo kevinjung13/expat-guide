@@ -5,6 +5,7 @@ export default function LocalFlavors() {
   return (
     <>
       <DiningLayout
+        bgColor={"white"}
         cards={<LocalFlavorsCards />}
         title={"Local Flavors"}
         description={

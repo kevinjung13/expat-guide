@@ -5,6 +5,7 @@ export default function Asia() {
   return (
     <>
       <DiningLayout
+        bgColor={"stone-200"}
         cards={<AsiaCards />}
         title={"Asia"}
         description={"Non-Thai Asian Restaurants"}>

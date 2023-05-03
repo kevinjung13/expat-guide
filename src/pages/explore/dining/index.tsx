@@ -2,7 +2,7 @@ import HeroLayout from "@/components/Layout/HeroLayout";
 import LocalFlavors from "@/components/Sections/Explore/Dining/LocalFlavors";
 import Asia from "@/components/Sections/Explore/Dining/Asia";
 import Europe from "@/components/Sections/Explore/Dining/Europe";
-import TheAmericas from "@/components/Sections/Explore/Dining/TheAmericas";
+import TheAmericas from "@/components/Sections/Explore/Dining/LatinAmerica";
 import MiddleEastAndAfrica from "@/components/Sections/Explore/Dining/MiddleEastAndAfrica";
 import Brunch from "@/components/Sections/Explore/Dining/Brunch";
 
