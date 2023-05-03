@@ -1,21 +1,10 @@
-import Link from "next/link";
+
 import { theAmericas } from "@/data/data";
 
-export default function TheAmericas() {
+export default function TheAmericasCards() {
   return (
     <>
-       <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <div className="max-w-xl sm:text-center md:mx-auto">
-                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        The Americas
-                    </h3>
-                    <p className="mt-3 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
-                    </p>
-                </div>
-                <div className="mt-12">
-                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+       <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             theAmericas.map((item, idx) => (
                                 <li key={idx} className="bg-gray-50 p-4 rounded-xl">
@@ -37,9 +26,6 @@ export default function TheAmericas() {
                             ))
                         }
                     </ul>
-                </div>
-            </div>
-        </section>
   </>
   )
 }

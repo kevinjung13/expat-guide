@@ -3,7 +3,7 @@ import Navbar from "../../Navbar";
 import { ReactNode } from "react";
 
 /* Layout Props */
-export interface HeroLayoutProps {
+  interface HeroLayoutProps {
   headTitle: string;
   bgImg: string;
   children?: ReactNode;

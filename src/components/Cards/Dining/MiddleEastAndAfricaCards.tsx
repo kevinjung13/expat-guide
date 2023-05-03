@@ -1,21 +1,46 @@
-import Link from "next/link";
-import { middleEastAndAfrica } from "@/data/data";
+const middleEastAndAfrica = [
+    {
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Taye",
+        title: "BTS Station: Saint Louis / Chong Nonsi",
+        quote: "-",
+      href: "",
+    },
+     {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Mama Dolores",
+      title: "BTS Station: Ekkamai",
+      quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+        name: "Beirut Restaurant",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+      href: "",
+    },
+    {
+        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+        name: "Nadimos",
+        title: "BTS Station: Phrom Pong",
+        quote: "-",
+      href: "",
+    },
+    {
+      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+      name: "Al Saray",
+      title: "BTS Station: Ekkamai",
+      quote: "-",
+      href: "",
+    },
+  ]
 
-export default function MiddleEastAndAfrica() {
+
+export default function MiddleEastAndAfricaCards() {
   return (
     <>
-       <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <div className="max-w-xl sm:text-center md:mx-auto">
-                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Middle East & Africa
-                    </h3>
-                    <p className="mt-3 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
-                    </p>
-                </div>
-                <div className="mt-12">
-                    <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+       <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             middleEastAndAfrica.map((item, idx) => (
                                 <li key={idx} className="bg-gray-50 p-4 rounded-xl">
@@ -37,9 +62,6 @@ export default function MiddleEastAndAfrica() {
                             ))
                         }
                     </ul>
-                </div>
-            </div>
-          </section>
   </>
   )
 }

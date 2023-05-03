@@ -1,10 +1,10 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
-import LocalFlavors from "@/components/Cards/Dining/LocalFlavors";
-import Asia from "@/components/Cards/Dining/Asia";
-import Europe from "@/components/Cards/Dining/Europe";
-import TheAmericas from "@/components/Cards/Dining/TheAmericas";
-import MiddleEastAndAfrica from "@/components/Cards/Dining/MiddleEastAndAfrica";
-import Brunch from "@/components/Cards/Dining/Brunch";
+import LocalFlavors from "@/components/Sections/Explore/Dining/LocalFlavors";
+import Asia from "@/components/Sections/Explore/Dining/Asia";
+import Europe from "@/components/Sections/Explore/Dining/Europe";
+import TheAmericas from "@/components/Sections/Explore/Dining/TheAmericas";
+import MiddleEastAndAfrica from "@/components/Sections/Explore/Dining/MiddleEastAndAfrica";
+import Brunch from "@/components/Sections/Explore/Dining/Brunch";
 
 export default function Dining() {
   return (
