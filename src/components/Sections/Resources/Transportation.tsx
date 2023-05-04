@@ -3,7 +3,7 @@ import TransportationCards from "@/components/Cards/Resources/TransportationCard
 export default function Transportation() {
   return (
     <>
-      <section className="py-28" id={"plant-based"}>
+      <section className="py-28" id={"transportation"}>
         <div className="max-w-screen-lg mx-auto px-4 md:px-8">
           <div className="max-w-md">
             <h1 className="text-gray-800 text-2xl font-extrabold sm:text-3xl">

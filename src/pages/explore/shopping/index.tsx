@@ -7,13 +7,13 @@ export default function Shopping() {
       {/* First Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/shopping-img.jpg")]`}
-        headTitle={""}
+        headTitle={"Shopping | Farang"}
         title={"SHOPPING"}
         subtitle={"Shop Till You Drop"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>LOCAL FLAVORS</h1>
+          <h1 className={"text-5xl "}>Malls</h1>
         </div>
         <div className={"flex-col place-content-center p-6"}>
           <p className={"text-lg "}>

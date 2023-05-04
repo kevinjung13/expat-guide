@@ -1,11 +1,11 @@
-import ExploreCards from "@/components/Cards/Explore/ExploreCards";
+import SectionCards from "@/components/Cards/Explore/SectionCards";
 
 export default function Options() {
   
   return (
     <>
       <section id={"options"}>
-        <ExploreCards />
+        <SectionCards />
       </section>
     </>
   )

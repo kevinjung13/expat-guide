@@ -101,30 +101,3 @@ export const navigation = [
     items: ResourcesOptions
   }
 ]
-
-/* 2. === FOOTER === */
-
-// Menu Options
-
-export const footerNavs = [
-  {
-      href: '/about',
-      name: 'About'
-  },
-  {
-      href: '/explore',
-      name: 'Explore'
-  },
-  {
-      href: '/neighbourhoods',
-      name: 'Neighbourhoods'
-  },
-  {
-      href: '/resources',
-      name: 'Resources'
-  },
-  {
-      href: 'mailto:kevinjung13@gmail.com',
-      name: 'Contact'
-  }
-]

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+/* Props */
 interface CardProps {
     title: string;
     description: string;
@@ -7,6 +8,7 @@ interface CardProps {
     href: string;
 }
 
+/* Function for Cards */
 function Cards(props: CardProps) {
 
     let { title, description, img, href } = props;
@@ -15,6 +17,7 @@ function Cards(props: CardProps) {
     return (
       <>
         <article className={`bg-zinc-100 max-w-sm mx-auto mt-4 shadow-lg border rounded-md duration-300 ${hover}`}>
+          {/* Title */ }
          <Link
           href={href}
           target={"_blank"}>
@@ -26,7 +29,8 @@ function Cards(props: CardProps) {
            <h3 className={"text-xl text-black"}>  
             {title}
            </h3>
-           <p className="text-gray-500 text-sm mt-1">{description}</p>
+           {/* Description */ }
+           <p className={"text-gray-500 text-sm mt-1"}>{description}</p>
           </div>
          </Link>
         </article>
@@ -34,10 +38,10 @@ function Cards(props: CardProps) {
     )
 }
 
-export default function HomePageCards() {
+export default function ExploreCards() {
     
     return (
-      <div className="mt-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className={"mt-12 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}>
         {/* Dining */}
         <Cards
          title={"Dining"}
@@ -72,7 +76,7 @@ export default function HomePageCards() {
          {/* Shopping */}
          <Cards
          title={"Shopping"}
-         description={`Shopping`}
+         description={`Discover and buy everything you need at a wide range of places, from high-end malls to local markets.`}
          img={"/img/card/shopping-img.jpg"}
          href={"/explore/shopping"} />
       </div>
