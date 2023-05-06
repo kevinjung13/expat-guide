@@ -12,9 +12,9 @@ export default function Home() {
         bgImg={`bg-[url("/img/sections/home-img.jpg")]`}
         headTitle={"Farang | Bangkok Expat Guide"}
         title={"BANGKOK"}
-        titleCSS={"text-6xl md:text-8xl pb-3"}
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
         subtitle={"Thailand"}
-        subtitleCSS={"text-2xl md:text-4xl pt-3 pl-24 md:pl-36"}/>
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Introduction Section */}
       <Introduction />
       {/* Explore Section */}

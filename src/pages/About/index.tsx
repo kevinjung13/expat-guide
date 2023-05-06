@@ -11,9 +11,9 @@ export default function About() {
         bgImg={`bg-[url("/img/sections/about-img.jpg")]`}
         headTitle={"About | Farang"}
         title={"ABOUT"}
-        titleCSS={"text-6xl pb-3 md:text-8xl"}
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"My Story"}
-        subtitleCSS={"text-2xl pt-3 pl-14 md:text-4xl md:pl-24"}/>
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"}/>
       {/* Third Culture Kid Section */}
       <PersonalIntro />
       {/* 5 Years Section */}

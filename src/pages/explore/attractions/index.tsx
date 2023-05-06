@@ -9,7 +9,9 @@ export default function Attractions() {
         bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}
         headTitle={"Attractions | Farang"}
         title={"ATTRACTIONS"}
-        subtitle={"Venice of the East"} />
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        subtitle={"Venice of the East"}
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"}/>
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

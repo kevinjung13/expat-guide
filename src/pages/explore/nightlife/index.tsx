@@ -1,4 +1,3 @@
-import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
 
 export default function Nightlife() {
@@ -9,7 +8,9 @@ export default function Nightlife() {
         bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}
         headTitle={"Nightlife | Farang"}
         title={"NIGHTLIFE"}
-        subtitle={"Sin City"} />
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        subtitle={"Sin City"}
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

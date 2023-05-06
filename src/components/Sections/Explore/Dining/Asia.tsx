@@ -8,7 +8,7 @@ export default function Asia() {
         bgColor={"stone-200"}
         cards={<AsiaCards />}
         title={"Asia"}
-        description={"Non-Thai Asian Restaurants"}>
+        description={"Craving authentic dishes from other parts of the continent? Here are some of my favorite non-Thai Asian restaurants in the city."}>
       </DiningLayout>
   </>
   )

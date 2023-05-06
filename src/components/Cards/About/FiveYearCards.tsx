@@ -21,13 +21,16 @@ function Card(props: FiveYearCardProps) {
 export default function FiveYearCards() {
   return (
     <>
-      <div className={"mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3"}>
+      <div className={"mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-2"}>
         <Card
           name={"Bangkok Skyline"}
           href={"img/about/skyline.jpg"} />
         <Card
           name={"Ojo"}
           href={"img/about/ojo.jpg"} />
+        <Card
+          name={"Lumphini Park View"}
+          href={"img/about/lumphini.jpg"} />
         <Card
           name={"Lumphini Park View"}
           href={"img/about/lumphini.jpg"} />

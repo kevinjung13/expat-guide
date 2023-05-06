@@ -9,7 +9,9 @@ export default function Shopping() {
         bgImg={`bg-[url("/img/sections/shopping-img.jpg")]`}
         headTitle={"Shopping | Farang"}
         title={"SHOPPING"}
-        subtitle={"Shop Till You Drop"} />
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        subtitle={"Shop Till You Drop"}
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

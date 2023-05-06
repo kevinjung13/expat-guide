@@ -14,9 +14,9 @@ export default function Dining() {
         bgImg={`bg-[url("/img/sections/dining-img.jpg")]`}
         headTitle={"Dining | Farang"}
         title={"DINING"}
-        titleCSS={"text-6xl md:text-8xl pb-3"}
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"A Street Food Capital"}
-        subtitleCSS={"text-1xl md:text-3xl pt-3 pl-12 md:pl-10"}/>
+        subtitleCSS={"text-1xl text-center md:text-3xl pt-3"}/>
       {/* Local Flavors Section */}
       <LocalFlavors />
       {/* Asia Section */}

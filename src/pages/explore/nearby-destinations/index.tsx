@@ -9,7 +9,9 @@ export default function NearbyDestinations() {
         bgImg={`bg-[url("/img/sections/nearby-destinations-img.jpg")]`}
         headTitle={"Nearby Attractions | Farang"}
         title={"NEARBY DESTINATIONS"}
-        subtitle={"City Escapes"} />
+        titleCSS={"text-center text-5xl md:text-6xl pb-3"}
+        subtitle={"City Escapes"}
+        subtitleCSS={"text-4xl text-center pt-3 md:text-5xl"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

@@ -9,7 +9,9 @@ export default function Activities() {
         bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}
         headTitle={"Activities | Farang"}
         title={"ACTIVITIES"}
-        subtitle={"For Body and Soul"} />
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        subtitle={"For Body and Soul"}
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
