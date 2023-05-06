@@ -74,14 +74,23 @@ export default function AsiaCards() {
         picture={"/img/explore/dining/asia/icon/teppen.jpg"}
         name={"Teppen"}
         station={"BTS Station: Chong Nonsi"}
-        description={``}
+        description={`Teppen offers an authentic dining experience with a focus on teppanyaki cuisine. 
+        Established in 1978, Teppen is renowned for its top-quality ingredients, including fresh seafood and high-grade meats, which are prepared in front of diners on a teppan grill by skilled chefs who have years of experience in Japanese cuisine. 
+        The result is a unique and theatrical culinary experience that has delighted diners for decades.
+        Teppen's signature dishes include Wagyu beef, lobster, and sushi, all prepared with a meticulous attention to detail and served in a cozy and intimate atmosphere.`}
         href={"https://goo.gl/maps/kVgGTGuuwwHsPZM18"} />
         {/* Daimasu */}
        <DiningCard
         picture={"/img/explore/dining/asia/icon/daimasu.jpg"}
         name={"Daimasu"}
         station={"BTS Station: Asoke / MRT Station: Sukhumvit"}
-        description={``}
+        description={`Daimasu is a popular Japanese  Izakaya-style restaurant.
+        It was founded in 1986 and has become a well-known destination for authentic Japanese cuisine in the city.
+        The menu at Daimasu features a range of traditional Japanese dishes, with a focus on fresh seafood and high-quality ingredients. 
+        Some of the restaurant's specialties include sushi, sashimi, and tempura, all prepared with the utmost care and attention to detail.
+        What makes Daimasu special is its commitment to quality and authenticity. 
+        The restaurant imports many of its ingredients directly from Japan to ensure that its dishes are as authentic as possible. 
+        The chefs at Daimasu are also highly trained in traditional Japanese cooking techniques.`}
         href={"https://goo.gl/maps/ocZsLJv2FVCK2Pg29"} />
       </ul>
     </>
