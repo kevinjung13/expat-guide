@@ -19,7 +19,7 @@ export default function HeroLayout(props: HeroLayoutProps) {
   const { bgImg, children, headTitle, title, titleCSS, subtitle, subtitleCSS } = props;
 
   /* Background Image settings */
-  const bgImgSettings = `bg-center bg-no-repeat bg-cover max-w-screen`;
+  const bgImgSettings = `bg-center bg-no-repeat bg-cover min-w-screen`;
 
   return (
     <>

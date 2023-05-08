@@ -5,7 +5,7 @@ export default function Nightlife() {
     <>
       {/* First Section */}
       <HeroLayout
-        bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}
+        bgImg={`bg-[url("/img/sections/nightlife-img.jpg")]`}
         headTitle={"Nightlife | Farang"}
         title={"NIGHTLIFE"}
         titleCSS={"text-6xl text-center pb-3 md:text-8xl"}

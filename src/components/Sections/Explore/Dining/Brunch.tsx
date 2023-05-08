@@ -1,4 +1,4 @@
-import BrunchCards from "@/components/Cards/Dining/BrunchCards";
+import BrunchCards from "@/components/Cards/Explore/Dining/BrunchCards";
 import DiningLayout from "@/components/Layout/DiningLayout";
 
 export default function Brunch() {
@@ -8,8 +8,8 @@ export default function Brunch() {
         bgColor={"stone-200"}
         cards={<BrunchCards />}
         title={"Brunch"}
-        description={"Brunch Cafes"}>
-      </DiningLayout>
-  </>
-  )
+        description={"Brunch Cafes"}
+      ></DiningLayout>
+    </>
+  );
 }

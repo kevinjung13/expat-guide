@@ -6,10 +6,12 @@ export default function Ari() {
     <>
       {/* First Section */}
       <HeroLayout
-        bgImg={`bg-[url("/img/sections/neighbourhoods-img.jpg")]`}
+        bgImg={`bg-[url("/img/sections/ari-img.jpg")]`}
         headTitle={"Ari | Neighbourhoods"}
-        title={"ARI"}
-        subtitle={"TBA"} />
+        title={"ARI-CHATUCHAK"}
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        subtitle={"TBA"}
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"} />
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>

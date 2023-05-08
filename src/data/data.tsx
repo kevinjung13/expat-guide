@@ -31,13 +31,13 @@ export const NeighbourhoodOptions = [
       title: "Sukhumvit",
       href: "/neighbourhoods/sukhumvit",
     }, {
-      title: "Sathorn/Silom",
+      title: "Sathorn-Silom",
       href: "/neighbourhoods/sathorn"
     }, {
-      title: "Ari/North Bangkok",
+      title: "Ari-Chatuchak",
       href: "/neighbourhoods/ari"
     }, {
-      title: "Rama IX/Ratchada",
+      title: "Rama IX-Ratchada",
       href: "/neighbourhoods/rama9"
   }
 ]

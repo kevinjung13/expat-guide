@@ -1,4 +1,4 @@
-import EuropeCards from "@/components/Cards/Dining/EuropeCards";
+import EuropeCards from "@/components/Cards/Explore/Dining/EuropeCards";
 import DiningLayout from "@/components/Layout/DiningLayout";
 
 export default function Europe() {
@@ -6,9 +6,10 @@ export default function Europe() {
     <>
       <DiningLayout
         bgColor={"white"}
-      cards={<EuropeCards />}
-      title={"Europe"}
-      description={"European cuisine"} />
+        cards={<EuropeCards />}
+        title={"Europe"}
+        description={"European cuisine"}
+      />
     </>
-  )
+  );
 }

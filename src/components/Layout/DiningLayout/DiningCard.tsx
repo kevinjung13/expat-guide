@@ -19,7 +19,7 @@ export default function DiningCard(props: DiningCardsProps) {
         <Link href={href} target={"_blank"}>
           <figure>
           <div className="flex items-center gap-x-4">
-            <img src={picture} className="w-16 h-16 rounded-full" />
+            <img src={picture} className="w-16 h-16 rounded-full" loading={"lazy"} />
             <div>
               <span className="block text-gray-800 font-semibold">{name}</span>
               <span className="block text-gray-600 text-sm mt-0.5">{station}</span>

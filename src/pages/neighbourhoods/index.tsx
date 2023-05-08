@@ -10,7 +10,10 @@ export default function Neighbourhoods() {
         bgImg={`bg-[url("/img/sections/neighbourhoods-img.jpg")]`}
         headTitle={"Neighbourhoods | Farang"}
         title={"NEIGHBOURHOODS"}
-        subtitle={"Home Away From Home"} />
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        subtitle={"Home Away From Home"}
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}
+      />
       {/* Neighbourhoods */}
       <section className="py-16">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">

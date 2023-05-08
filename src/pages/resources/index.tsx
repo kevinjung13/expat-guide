@@ -14,7 +14,9 @@ export default function Resources() {
         bgImg={`bg-[url("/img/sections/resources-img.jpg")]`}
         headTitle={"Resources | Farang"}
         title={"RESOURCES"}
-        subtitle={"Stay Informed"} />
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        subtitle={"Stay Informed"}
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* News Section */}
       <News />
       {/* Facebook Groups Section */}

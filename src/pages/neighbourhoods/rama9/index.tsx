@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import HeroLayout from "@/components/Layout/HeroLayout";
 
 export default function Rama9() {
@@ -6,10 +6,12 @@ export default function Rama9() {
     <>
       {/* First Section */}
       <HeroLayout
-        bgImg={`bg-[url("/img/sections/neighbourhoods-img.jpg")]`}
+        bgImg={`bg-[url("/img/sections/rama9-img.jpg")]`}
         headTitle={"Rama 9 | Neighbourhoods"}
-        title={"RAMA IX"}
-        subtitle={"TBA"} />
+        title={"RAMA IX-RATCHADA"}
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        subtitle={"A hybrid of Business and Residence"}
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Second Section */}
       <section className={"bg-gray-200 min-h-screen pt-16"}>
         <div className={"flex place-content-center"}>
