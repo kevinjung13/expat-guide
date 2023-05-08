@@ -6,17 +6,17 @@ export default function PhysicalCards() {
       <ul className={"grid gap-8 lg:grid-cols-2"}>
         { /* Gym */}
         <ExploreCard
-          picture={""}
+          picture={"/img/explore/activities/physical/icons/gym.jpg"}
           name={"Gym"}
           title={"Indoor & Outdoor"}
           buttonText={"Fitness First"}
-          description={`While most condominiums have gyms, many have limited equipment.
-          Bangkok has a wide range of fitness centers all around the city, where Fitness First and Virgin Active are largest.
-          For an outdoor gym, we recommend Benjasiri`}
+          description={`Other than Condo gyms, Bangkok has a wide range of fitness centers all around the city.
+          Fitness First and Virgin Active are the largest and most popular.
+          For an outdoor gym, we recommend checking out Benjasiri Park.`}
           href={"https://www.fitnessfirst.co.th/"} />
         { /* Indoor Climbing */}
         <ExploreCard
-          picture={""}
+          picture={"/img/explore/activities/physical/icons/.jpg"}
           name={"Climbing"}
           title={"Indoor"}
           buttonText={"Rock Domain Climbing Gym"}
@@ -25,7 +25,7 @@ export default function PhysicalCards() {
           href={"https://www.rockdomaingym.com/"} />
         { /* Running */}
         <ExploreCard
-          picture={""}
+          picture={"/img/explore/activities/physical/icons/running.jpg"}
           name={"Running"}
           title={"Outdoor"}
           buttonText={"Benjakitti Park"}
@@ -34,26 +34,25 @@ export default function PhysicalCards() {
           href={"https://goo.gl/maps/Zm4PyWYhZNLgS4f6A"} />
         { /* Cycling */}
         <ExploreCard
-          picture={""}
+          picture={"/img/explore/activities/physical/icons/cycling.jpg"}
           name={"Cycling"}
           title={"Outdoor"}
           buttonText={"Happy & Healty Bike Lane"}
-          description={`One of the best places to cycle in Bangkok. 
-          The track is xxx km and is perfect for a long cycle. 
+          description={`Happy & Healty Bike Lane is one of the best places to cycle. 
+          The track is 23.5km and is perfect for long cycle sessions. 
           Best time to go would be early morning before it gets too hot.`}
           href={"https://www.hhblbikelane.com/"} />
         { /* Swimming */}
         <ExploreCard
-          picture={""}
+          picture={"/img/explore/activities/physical/icons/.jpg"}
           name={"Swimming"}
           title={"Indoor & Outdoor"}
           buttonText={"SO/ Bangkok"}
-          description={`Generaklly, most condominiums will have a swimming pool as part of their facility.
-          However, if you are seeking for a relaxed day in a panoramic pool, SO/ Bangkok probably has one of the best views. `}
+          description={`If you are seeking for a pool session with a view, SO/ Bangkok probably has one of the best ones in town. `}
           href={"https://www.so-bangkok.com/"} />
         { /* Wakeboarding */}
           <ExploreCard
-            picture={""}
+            picture={"/img/explore/activities/physical/icons/wakeboarding.jpg"}
             name={"Wakeboarding & Skateboarding"}
             title={"Outdoor"}
             buttonText={"Thai Wake Park"}
@@ -61,7 +60,7 @@ export default function PhysicalCards() {
             href={"https://www.thaiwakepark.com/"} />
         { /* Badminton */}
           <ExploreCard
-            picture={""}
+            picture={"/img/explore/activities/physical/icons/badminton.jpg"}
             name={"Badminton"}
             title={"Indoor"}
             buttonText={"71 Sports Club"}
@@ -70,7 +69,7 @@ export default function PhysicalCards() {
             href={"https://www.facebook.com/71SportClub.Sukhumvit71/"}/>
           { /* General Sports */}
           <ExploreCard
-            picture={""}
+            picture={"/img/explore/activities/physical/icons/.jpg"}
             name={"Community Recreation Center"}
             title={"Indoor"}
             buttonText={"The Racquet Club"}

@@ -17,7 +17,7 @@ export default function ExploreCard(props: ExploreCardsProps) {
   return (
     <>
       <li className={"gap-8 sm:flex"}>
-        <div className={"w-full h-60"}>
+        <div className={"w-full h-full"}>
           <img
             src={picture}
             className={"w-full h-full object-cover object-center shadow-md rounded-xl"}

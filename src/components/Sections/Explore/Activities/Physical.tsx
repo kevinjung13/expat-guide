@@ -8,7 +8,7 @@ export default function Physical() {
       <ExploreLayout
         bgColor={"bg-white"}
         cards={<PhysicalCards />}
-        title={"Physical Activities"}
+        title={"Physical"}
         description={`Improve your physical capabilities by moving your body and challenging yourself with these activities.`} />
     </>
   )
