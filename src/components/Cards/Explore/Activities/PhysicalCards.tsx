@@ -16,7 +16,7 @@ export default function PhysicalCards() {
           href={"https://www.fitnessfirst.co.th/"} />
         { /* Indoor Climbing */}
         <ExploreCard
-          picture={"/img/explore/activities/physical/icons/.jpg"}
+          picture={"/img/explore/activities/physical/icons/climbing.jpg"}
           name={"Climbing"}
           title={"Indoor"}
           buttonText={"Rock Domain Climbing Gym"}
@@ -44,7 +44,7 @@ export default function PhysicalCards() {
           href={"https://www.hhblbikelane.com/"} />
         { /* Swimming */}
         <ExploreCard
-          picture={"/img/explore/activities/physical/icons/.jpg"}
+          picture={"/img/explore/activities/physical/icons/swimming.jpg"}
           name={"Swimming"}
           title={"Indoor & Outdoor"}
           buttonText={"SO/ Bangkok"}
@@ -69,7 +69,7 @@ export default function PhysicalCards() {
             href={"https://www.facebook.com/71SportClub.Sukhumvit71/"}/>
           { /* General Sports */}
           <ExploreCard
-            picture={"/img/explore/activities/physical/icons/.jpg"}
+            picture={"/img/explore/activities/physical/icons/racquetclub.jpg"}
             name={"Community Recreation Center"}
             title={"Indoor"}
             buttonText={"The Racquet Club"}
