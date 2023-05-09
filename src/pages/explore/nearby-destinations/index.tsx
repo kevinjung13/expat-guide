@@ -1,5 +1,7 @@
-import Link from "next/link";
 import HeroLayout from "@/components/Layout/HeroLayout";
+import Beach from "@/components/Sections/Explore/Nearby-Destinations/Beach";
+import Mountain from "@/components/Sections/Explore/Nearby-Destinations/Mountain";
+import History from "@/components/Sections/Explore/Nearby-Destinations/History";
 
 export default function NearbyDestinations() {
   return (
@@ -12,21 +14,12 @@ export default function NearbyDestinations() {
         titleCSS={"text-center text-5xl md:text-6xl pb-3"}
         subtitle={"City Escapes"}
         subtitleCSS={"text-4xl text-center pt-3 md:text-5xl"} />
-      {/* Second Section */}
-      <section className={"bg-gray-200 min-h-screen pt-16"}>
-        <div className={"flex place-content-center"}>
-          <h1 className={"text-5xl "}>LOCAL FLAVORS</h1>
-        </div>
-        <div className={"flex-col place-content-center p-6"}>
-          <p className={"text-lg "}>
-            TBA
-          </p>
-          <br />
-          <p className={"text-lg "}>
-            TBA
-          </p>
-        </div>
-      </section>
+      {/* Beach Section */}
+      <Beach />
+      {/* Mountain Section */}
+      <Mountain />
+      {/* History Section */}
+      <History />
     </>
   );
 }

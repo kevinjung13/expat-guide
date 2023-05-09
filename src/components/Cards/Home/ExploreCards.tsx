@@ -21,7 +21,8 @@ function Cards(props: CardProps) {
          <Link
           href={href}
           target={"_blank"}>
-          <img src={img}
+          <img
+           src={img}
            loading={"lazy"}
            alt={title}
            className={"w-full h-64 rounded-t-md"} />
