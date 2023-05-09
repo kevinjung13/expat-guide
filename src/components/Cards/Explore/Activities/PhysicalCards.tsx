@@ -8,20 +8,17 @@ export default function PhysicalCards() {
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/gym.jpg"}
           name={"Gym"}
-          title={"Indoor & Outdoor"}
+          title={"Indoor"}
           buttonText={"Fitness First"}
-          description={`Other than Condo gyms, Bangkok has a wide range of fitness centers all around the city.
-          Fitness First and Virgin Active are the largest and most popular.
-          For an outdoor gym, we recommend checking out Benjasiri Park.`}
+          description={`Fitness First, Virgin Active, Jetts`}
           href={"https://www.fitnessfirst.co.th/"} />
-        { /* Indoor Climbing */}
+        { /* Climbing */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/climbing.jpg"}
           name={"Climbing"}
           title={"Indoor"}
           buttonText={"Rock Domain Climbing Gym"}
-          description={`Climbing has become one of the most popular sports these days and Bangkok is not short of them.
-          Rock Domain is the largest but other places that you may want to check out include Stone Goat and The Racquet Club.`}
+          description={`Rock Domain, Stone Goat and The Racquet Club.`}
           href={"https://www.rockdomaingym.com/"} />
         { /* Running */}
         <ExploreCard
@@ -29,8 +26,7 @@ export default function PhysicalCards() {
           name={"Running"}
           title={"Outdoor"}
           buttonText={"Benjakitti Park"}
-          description={`Probably one of the best places to run outdoors in Bangkok.
-          While Lumphini Park is a nice one, it can get crowded. Perfect for those who wish to run in a place with less people.`}
+          description={`Lumphini Park, Benjakitti Park, Rama IX Park, Khlong (Canal) running `}
           href={"https://goo.gl/maps/Zm4PyWYhZNLgS4f6A"} />
         { /* Cycling */}
         <ExploreCard
@@ -38,17 +34,15 @@ export default function PhysicalCards() {
           name={"Cycling"}
           title={"Outdoor"}
           buttonText={"Happy & Healty Bike Lane"}
-          description={`Happy & Healty Bike Lane is one of the best places to cycle. 
-          The track is 23.5km and is perfect for long cycle sessions. 
-          Best time to go would be early morning before it gets too hot.`}
+          description={`Happy & Healty Bike Lane, Benjakitti Park, Wachirabenchatat Park`}
           href={"https://www.hhblbikelane.com/"} />
         { /* Swimming */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/swimming.jpg"}
           name={"Swimming"}
-          title={"Indoor & Outdoor"}
+          title={"Outdoor"}
           buttonText={"SO/ Bangkok"}
-          description={`If you are seeking for a pool session with a view, SO/ Bangkok probably has one of the best ones in town. `}
+          description={`SO/ Bangkok, Bangkok Marriott Hotel The Surawongse,  AVANI+ Riverside Bangkok Hotel, Novotel Bangkok Sukhumvit 4, 137 Pillars Bangkok `}
           href={"https://www.so-bangkok.com/"} />
         { /* Wakeboarding */}
           <ExploreCard
@@ -56,7 +50,7 @@ export default function PhysicalCards() {
             name={"Wakeboarding & Skateboarding"}
             title={"Outdoor"}
             buttonText={"Thai Wake Park"}
-            description={`With 3 different branches, Thai Wake Park is a great location to try wakeboarding and spend the day relaxing from the heat.`}
+            description={`Thai Wake Park, Taco Lake`}
             href={"https://www.thaiwakepark.com/"} />
         { /* Badminton */}
           <ExploreCard
@@ -64,17 +58,31 @@ export default function PhysicalCards() {
             name={"Badminton"}
             title={"Indoor"}
             buttonText={"71 Sports Club"}
-          description={`Badminton is a great way to stay active and bond with friends. 
-            71 Sports Club has been one of my favorite places to go with friends.`}
-            href={"https://www.facebook.com/71SportClub.Sukhumvit71/"}/>
+          description={`71 Sports Club, The Racquet Club`}
+          href={"https://www.facebook.com/71SportClub.Sukhumvit71/"} />
+        { /* Yoga */}
+        <ExploreCard
+          picture={"/img/explore/activities/physical/icons/yoga.jpg"}
+          name={"Yoga"}
+          title={"Indoor"}
+          buttonText={"Yogatique"}
+          description={`Yogatique`}
+          href={""} />
+        { /* Martial Arts */}
+        <ExploreCard
+          picture={"/img/explore/activities/physical/icons/martialarts.jpg"}
+          name={"Martial Arts"}
+          title={"Indoor & Outdoor"}
+          buttonText={"Migaku Fitness Club"}
+          description={`Migaku Fitness Club, Bangkok Fight Lab`}
+          href={""} />
           { /* General Sports */}
           <ExploreCard
             picture={"/img/explore/activities/physical/icons/racquetclub.jpg"}
             name={"Community Recreation Center"}
             title={"Indoor"}
             buttonText={"The Racquet Club"}
-          description={`If you want to go to a place that has everything you need, The Racquet Club is one of the best places.
-            `}
+          description={`Badminton, Swimming, Climbing, Gym`}
             href={"https://www.rqclub.com/"} />
       </ul>
     </>

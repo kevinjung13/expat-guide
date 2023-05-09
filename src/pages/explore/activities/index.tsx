@@ -1,6 +1,8 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Physical from "@/components/Sections/Explore/Activities/Physical";
-import Cultural from "@/components/Sections/Explore/Activities/Cultural";
+import Entertainment from "@/components/Sections/Explore/Activities/Entertainment";
+import Arts from "@/components/Sections/Explore/Activities/Arts";
+import Others from "@/components/Sections/Explore/Activities/Others";
 
 export default function Activities() {
   return (
@@ -15,8 +17,12 @@ export default function Activities() {
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Physical Section */}
       <Physical />
-      {/* Cultural Section */}
-      <Cultural />
+      {/* Entertainment Section */}
+      <Entertainment />
+      {/* Arts & Craft Section */}
+      <Arts />
+      {/* Others Section */}
+      <Others />
     </>
   );
 }
