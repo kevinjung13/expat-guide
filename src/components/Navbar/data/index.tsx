@@ -37,7 +37,7 @@ export const NeighbourhoodOptions = [
       title: "Ratchathewi-Phaya Thai",
       href: "/neighbourhoods/ratchathewi-phayathai"
   }, {
-      title: "Rama IX-Ratchada",
+      title: "Rama 9-Ratchada",
       href: "/neighbourhoods/rama9-ratchada"
   }
 ]

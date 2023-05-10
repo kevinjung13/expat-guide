@@ -9,9 +9,9 @@ export default function Explore() {
         bgImg={`bg-[url("/img/sections/explore-img.jpg")]`}
         headTitle={"Explore | Farang"}
         title={"EXPLORE"}
-        titleCSS={"text-6xl md:text-8xl pb-3"}
+        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
         subtitle={"Your New Home"}
-        subtitleCSS={"text-2xl md:text-4xl pt-3 pl-16 md:pl-24"}/>
+        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Options */}
       <Options />
     </>
