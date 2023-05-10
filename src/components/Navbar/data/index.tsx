@@ -30,15 +30,15 @@ export const NeighbourhoodOptions = [
   {
       title: "Sukhumvit",
       href: "/neighbourhoods/sukhumvit",
-    }, {
+  }, {
       title: "Sathorn-Silom",
-      href: "/neighbourhoods/sathorn"
-    }, {
-      title: "Ari-Chatuchak",
-      href: "/neighbourhoods/ari"
-    }, {
+      href: "/neighbourhoods/sathorn-silom"
+  }, {
+      title: "Ratchathewi-Phaya Thai",
+      href: "/neighbourhoods/ratchathewi-phayathai"
+  }, {
       title: "Rama IX-Ratchada",
-      href: "/neighbourhoods/rama9"
+      href: "/neighbourhoods/rama9-ratchada"
   }
 ]
 

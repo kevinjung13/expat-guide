@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { navigation } from '@/data/data';
+import { navigation } from '@/components/Navbar/data';
 
 export default function Navbar() {
 

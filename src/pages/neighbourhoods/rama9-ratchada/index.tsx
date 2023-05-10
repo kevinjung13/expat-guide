@@ -1,13 +1,13 @@
 
 import HeroLayout from "@/components/Layout/HeroLayout";
 
-export default function Rama9() {
+export default function Rama9Ratchada() {
   return (
     <>
       {/* First Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/rama9-img.jpg")]`}
-        headTitle={"Rama 9 | Neighbourhoods"}
+        headTitle={"Rama 9-Ratchada | Neighbourhoods"}
         title={"RAMA IX-RATCHADA"}
         titleCSS={"text-6xl text-center md:text-8xl pb-3"}
         subtitle={"A hybrid of Business and Residence"}

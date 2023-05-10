@@ -12,7 +12,7 @@ During this time, a fellow developer (with whom I am working with on `Oasis Mark
 
 ## `Tools`
 
-The tools used for this project are: TypeScript, Next JS, Float UI, Storybook and Tailwind CSS.
+The tools used for this project are: TypeScript, Next JS, Float UI and Tailwind CSS. Storybook was NOT used for this project, as I felt I need to learn more about it.
 
 ## `Contact Details`
 
