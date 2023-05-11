@@ -8,7 +8,7 @@ export default function MiddleEastAndAfrica() {
         bgColor={"white"}
         cards={<MiddleEastAndAfricaCards />}
         title={"Middle East & Africa"}
-        description={"Middle Eastern and African Cuisine"}
+        description={"Here is a list of my favorite restaurants from the Middle East and Africa."}
       />
     </>
   );

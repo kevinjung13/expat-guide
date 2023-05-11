@@ -9,7 +9,7 @@ export default function Asia() {
         cards={<AsiaCards />}
         title={"Asia"}
         description={
-          "Craving authentic dishes from other parts of the continent? Here are some of my favorite non-Thai Asian restaurants in the city."}>
+          "Craving dishes from other parts of the continent? Here are some of my favorite non-Thai Asian restaurants in the city."}>
       </DiningLayout>
     </>
   );

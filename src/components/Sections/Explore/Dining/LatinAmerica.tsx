@@ -8,7 +8,7 @@ export default function LatinAmerica() {
         bgColor={"stone-200"}
         cards={<LatinAmericanCards />}
         title={"Latin America"}
-        description={"South American food"}
+        description={"Here are some of my favorite Latin American restaurants in the city."}
       />
     </>
   );

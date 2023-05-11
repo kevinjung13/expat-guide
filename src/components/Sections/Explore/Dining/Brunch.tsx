@@ -8,8 +8,8 @@ export default function Brunch() {
         bgColor={"stone-200"}
         cards={<BrunchCards />}
         title={"Brunch"}
-        description={"Brunch Cafes"}
-      ></DiningLayout>
+        description={"Woke up late? Here are some best brunch places to catch up with friends and enjoy a meal."}>
+      </DiningLayout>
     </>
   );
 }

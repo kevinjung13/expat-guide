@@ -8,7 +8,7 @@ export default function Europe() {
         bgColor={"white"}
         cards={<EuropeCards />}
         title={"Europe"}
-        description={"European cuisine"}
+        description={"Here are my some of my favorite European restaurants that will satisfy your Western food craving and bring a taste of home (for some of you)."}
       />
     </>
   );
