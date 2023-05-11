@@ -3,7 +3,7 @@ import DiningCard from "@/components/Layout/DiningLayout/DiningCard";
 export default function BrunchCards() {
   return (
     <>
-      <ul className={"grid gap-6 sm:grid-cols-2"}>
+      <ul className={"grid gap-6 sm:grid-cols-2 lg:grid-cols-3"}>
        {/* Tobys */}
        <DiningCard
         picture={"/img/explore/dining/brunch/icons/tobys.jpg"}

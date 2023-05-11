@@ -3,7 +3,7 @@ import DiningCard from "@/components/Layout/DiningLayout/DiningCard";
 export default function EuropeCards() {
   return (
     <>
-      <ul className={"grid gap-6 sm:grid-cols-2"}>
+      <ul className={"grid gap-6 sm:grid-cols-2 lg:grid-cols-3"}>
        {/* Bardo Social Bar & Bistro */}
        <DiningCard
         picture={"/img/explore/dining/europe/icon/bardo.jpg"}

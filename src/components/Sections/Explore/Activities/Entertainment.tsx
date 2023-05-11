@@ -4,12 +4,12 @@ import EntertainmentCards from "@/components/Cards/Explore/Activities/Entertainm
 export default function Entertainment() {
   return (
     <>
-      {/* Entertainment*/}
+      {/* Entertainment */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<EntertainmentCards />}
         title={"Entertainment"}
-        description={`Cinemas, Concerts, Comedy, Theatre`} />
+        description={`Catch up on your favorite movies, see your favorite artists perform and explore the local entertainment scene.`} />
     </>
   )
 }

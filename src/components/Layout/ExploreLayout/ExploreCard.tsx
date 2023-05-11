@@ -16,26 +16,27 @@ export default function ExploreCard(props: ExploreCardsProps) {
 
   return (
     <>
-      <li className={"gap-8"}>
-        <div className={"max-w-screen md:w-fit bg-red-500"}>
+      <li className={"grid gap-6 h-full sm:grid-cols-2"}>
+        <div className={"w-full sm:h-auto"}>
           <img
             src={picture}
-            className={" object-cover object-center shadow-md rounded-xl"}
+            loading={"lazy"}
+            className={"w-full h-full object-cover object-center shadow-md rounded-xl"}
             alt={"picture"} />
-          </div>
-          <div className={"mt-4 max-w-screen sm:max-w-fit md:w-fit bg-yellow-700 "}>
-            <h4 className={"text-lg text-black font-semibold"}>{name}</h4>
-            <p className={"text-cyan-700"}>{title}</p>
-            <p className={"text-gray-500 mt-2"}>{description}</p>
+        </div>
+        <div className={""}>
+          <h4 className={"text-lg text-black font-semibold"}>{name}</h4>
+          <p className={"text-cyan-700"}>{title}</p>
+          <p className={"text-gray-500 mt-2"}>{description}</p>
           <div className={"mt-3 flex gap-4 text-white"}>
             <Link href={href} target={"_blank"}>
-              <button className={"bg-gray-800 rounded-lg hover:bg-gray-500"}>
+              <button className={"p-2 bg-gray-800 rounded-full hover:bg-gray-500"}>
                 {buttonText}
               </button>
             </Link>
           </div>
         </div>
-      </li>     
+      </li>
     </>
   )
 }

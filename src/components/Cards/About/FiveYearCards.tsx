@@ -12,8 +12,8 @@ function Card(props: FiveYearCardProps) {
   return (
     <>
       <div className={"bg-white relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2"}>
-        <img src={href} alt={name} className={"h-full w-auto"}/>
-        </div>
+        <img src={href} alt={name} className={"w-fit h-auto"}/>
+      </div>
     </>
   )
 }
@@ -21,19 +21,25 @@ function Card(props: FiveYearCardProps) {
 export default function FiveYearCards() {
   return (
     <>
-      <div className={"mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0"}>
+      <div className={"mt-16 space-y-6 justify-center gap-6 sm:grid md:grid-cols-2 lg:grid-cols-3 sm:space-y-0"}>
         <Card
-          name={"Bangkok Skyline"}
-          href={"img/about/skyline.jpg"} />
+          name={"friends"}
+          href={"img/about/friends.jpg"} />
         <Card
-          name={"Ojo"}
-          href={"img/about/ojo.jpg"} />
+          name={"Street Art"}
+          href={"img/about/runningart.jpg"} />
+        <Card
+          name={"Diving"}
+          href={"img/about/diving.jpg"} />
         <Card
           name={"Lumphini Park View"}
           href={"img/about/lumphini.jpg"} />
         <Card
-          name={"Lumphini Park View"}
-          href={"img/about/lumphini.jpg"} />
+          name={"Love"}
+          href={"img/about/love.jpg"} />
+        <Card
+          name={"Hiking"}
+          href={"img/about/hiking.jpg"} />
       </div>
     </>
   )

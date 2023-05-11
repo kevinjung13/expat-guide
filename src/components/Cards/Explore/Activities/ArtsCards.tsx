@@ -10,16 +10,17 @@ export default function ArtsCards() {
           name={"Museums"}
           title={"Indoor & Outdoor"}
           buttonText={"MOCA"}
-          description={`MOCA, Jim Thompson`}
-          href={""} />
+          description={`Bangkok is home to a wide variety of museums that showcase the rich history, culture, and the art of Thailand.
+          Popular museums include: Museum of Contemporary Art (MOCA), Jim Thompson House and Art in Paradise.`}
+          href={"https://mocabangkok.com/"} />
           { /* Art Galleries */}
         <ExploreCard
           picture={"/img/explore/activities/arts/icons/art.jpg"}
           name={"Art Galleries"}
           title={"Indoor"}
           buttonText={"River City"}
-          description={`River City, SAC Gallery,`}
-          href={""} />
+          description={`River City, SAC Gallery, HOP`}
+          href={"https://rivercitybangkok.com/"} />
         { /* Painting */}
         <ExploreCard
           picture={"/img/explore/activities/arts/icons/painting.jpg"}
