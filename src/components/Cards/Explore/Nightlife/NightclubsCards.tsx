@@ -12,6 +12,14 @@ export default function NightclubsCards() {
           buttonText={""}
           description={``}
           href={""} />
+        { /* Sathorn */}
+        <ExploreCard
+          picture={"/img/explore/nightlife/nightclubs/icons/.jpg"}
+          name={"Sathorn"}
+          title={""}
+          buttonText={""}
+          description={``}
+          href={""} />
       </ul>
     </>
   )

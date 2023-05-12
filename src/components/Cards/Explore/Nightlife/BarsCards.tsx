@@ -9,8 +9,32 @@ export default function BarsCards() {
           picture={"/img/explore/nightlife/bars/icons/.jpg"}
           name={"Rooftops"}
           title={""}
-          buttonText={""}
-          description={``}
+          buttonText={"Bar Yard"}
+          description={`Bar Yard, Brewski, Tichuca, The Speakeasy`}
+          href={""} />
+        { /* Speakeasy */}
+        <ExploreCard
+          picture={"/img/explore/nightlife/bars/icons/.jpg"}
+          name={"Speakeasy"}
+          title={""}
+          buttonText={"Havana Social"}
+          description={`Havana Social, Rabbit Hole, Find The Locker Room`}
+          href={""} />
+        { /* Cocktail Bar */}
+        <ExploreCard
+          picture={"/img/explore/nightlife/bars/icons/.jpg"}
+          name={"Cocktail Bar"}
+          title={""}
+          buttonText={"Thaipioka"}
+          description={`Revolucion Cocktail, Tropic City, Thaipioka,  `}
+          href={""} />
+          { /* Others */}
+        <ExploreCard
+          picture={"/img/explore/nightlife/bars/icons/.jpg"}
+          name={"Others"}
+          title={""}
+          buttonText={" Escape, W District, Blue Parrot"}
+          description={`Escape, `}
           href={""} />
       </ul>
     </>

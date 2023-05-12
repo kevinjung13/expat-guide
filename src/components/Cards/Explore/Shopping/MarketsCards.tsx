@@ -4,10 +4,18 @@ export default function MarketsCards() {
   return (
     <>
       <ul className={"grid gap-8 lg:grid-cols-2"}>
-        { /* Markets */}
+        { /* Chatuchak Market */}
         <ExploreCard
           picture={"/img/explore/shopping/markets/icons/.jpg"}
-          name={"Markets"}
+          name={"Chatuchak Market"}
+          title={""}
+          buttonText={""}
+          description={``}
+          href={""} />
+          { /* Srinagarindra Train Night Market */}
+        <ExploreCard
+          picture={"/img/explore/shopping/markets/icons/.jpg"}
+          name={"Srinagarindra Train Night Market"}
           title={""}
           buttonText={""}
           description={``}

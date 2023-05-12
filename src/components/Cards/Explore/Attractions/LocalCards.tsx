@@ -15,14 +15,6 @@ export default function LocalCards() {
           One of the best floating markets in Bangkok: Khlong Bang Luang, located in the Thonburi district. What sets it apart from other floating markets is its relaxed and authentic atmosphere. Unlike some of the more touristy floating markets, Khlong Bang Luang attracts mainly local visitors and is known for its charming, rustic setting.         
           The market is held on weekends and is located on a picturesque canal lined with old wooden houses, art galleries, and cafés.   `}
           href={"https://www.thailandee.com/en/visit-thailand/khlong-bang-luang-floating-market-bangkok-491"} />
-        { /* Local Market */}
-        <ExploreCard
-          picture={"/img/explore/attractions/local/icons/local.jpg"}
-          name={"Local Markets"}
-          title={"Markets"}
-          buttonText={"Local Market"}
-          description={` `}
-          href={""} />
         { /* Bang Krachao */}
         <ExploreCard
           picture={"/img/explore/attractions/local/icons/bangkrachao.jpg"}

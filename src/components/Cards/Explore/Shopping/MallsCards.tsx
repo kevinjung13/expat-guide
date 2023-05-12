@@ -4,10 +4,34 @@ export default function MallsCards() {
   return (
     <>
       <ul className={"grid gap-8 lg:grid-cols-2"}>
-        { /* Malls */}
+        { /* EmQuartier */}
         <ExploreCard
           picture={"/img/explore/shopping/malls/icons/.jpg"}
-          name={"Malls"}
+          name={"EmQuartier"}
+          title={""}
+          buttonText={""}
+          description={``}
+          href={""} />
+        { /* Central World & Siam Paragon */}
+        <ExploreCard
+          picture={"/img/explore/shopping/malls/icons/.jpg"}
+          name={"Central World & Siam Paragon"}
+          title={""}
+          buttonText={""}
+          description={``}
+          href={""} />
+          { /* Icon Siam */}
+        <ExploreCard
+          picture={"/img/explore/shopping/malls/icons/.jpg"}
+          name={"Icon Siam"}
+          title={""}
+          buttonText={""}
+          description={``}
+          href={""} />
+        { /* Central Embassy */}
+        <ExploreCard
+          picture={"/img/explore/shopping/malls/icons/.jpg"}
+          name={"Central Embassy"}
           title={""}
           buttonText={""}
           description={``}

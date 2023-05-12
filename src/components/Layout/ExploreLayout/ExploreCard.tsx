@@ -16,15 +16,15 @@ export default function ExploreCard(props: ExploreCardsProps) {
 
   return (
     <>
-      <li className={"grid gap-6 h-full sm:grid-cols-2"}>
-        <div className={"w-full sm:h-auto"}>
+      <li className={"grid gap-6 w-full h-full"}>
+        <div className={"w-full bg-green-500"}>
           <img
             src={picture}
             loading={"lazy"}
-            className={"w-full h-full object-cover object-center shadow-md rounded-xl"}
+            className={"w-full object-cover object-top shadow-md rounded-xl"}
             alt={"picture"} />
         </div>
-        <div className={""}>
+        <div className={"bg-yellow-700"}>
           <h4 className={"text-lg text-black font-semibold"}>{name}</h4>
           <p className={"text-cyan-700"}>{title}</p>
           <p className={"text-gray-500 mt-2"}>{description}</p>

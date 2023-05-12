@@ -1,6 +1,6 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Beach from "@/components/Sections/Explore/Nearby-Destinations/Beach";
-import Mountain from "@/components/Sections/Explore/Nearby-Destinations/Mountain";
+import Mountain from "@/components/Sections/Explore/Nearby-Destinations/Hiking";
 import History from "@/components/Sections/Explore/Nearby-Destinations/History";
 
 export default function NearbyDestinations() {
