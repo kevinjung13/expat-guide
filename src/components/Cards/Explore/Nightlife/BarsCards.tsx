@@ -4,37 +4,45 @@ export default function BarsCards() {
   return (
     <>
       <ul className={"grid gap-8 lg:grid-cols-2"}>
-        { /* Rooftops */}
+        { /* Bar Yard */}
         <ExploreCard
-          picture={"/img/explore/nightlife/bars/icons/.jpg"}
-          name={"Rooftops"}
+          picture={"/img/explore/nightlife/bars/icons/baryard.jpg"}
+          name={"Bar Yard"}
           title={""}
           buttonText={"Bar Yard"}
-          description={`Bar Yard, Brewski, Tichuca, The Speakeasy`}
+          description={`Brewski, Tichuca, The Speakeasy`}
           href={""} />
-        { /* Speakeasy */}
+        { /* Brewski */}
         <ExploreCard
-          picture={"/img/explore/nightlife/bars/icons/.jpg"}
-          name={"Speakeasy"}
+          picture={"/img/explore/nightlife/bars/icons/baryard.jpg"}
+          name={"Brewski"}
           title={""}
-          buttonText={"Havana Social"}
-          description={`Havana Social, Rabbit Hole, Find The Locker Room`}
+          buttonText={"Brewski"}
+          description={``}
           href={""} />
-        { /* Cocktail Bar */}
+        { /* Rabbit Hole */}
         <ExploreCard
-          picture={"/img/explore/nightlife/bars/icons/.jpg"}
-          name={"Cocktail Bar"}
+          picture={"/img/explore/nightlife/bars/icons/rabbithole.jpg"}
+          name={"Rabbit Hole"}
           title={""}
-          buttonText={"Thaipioka"}
-          description={`Revolucion Cocktail, Tropic City, Thaipioka,  `}
+          buttonText={"Rabbit Hole"}
+          description={`Find The Locker Room`}
           href={""} />
-          { /* Others */}
+        { /* Smalls */}
         <ExploreCard
-          picture={"/img/explore/nightlife/bars/icons/.jpg"}
-          name={"Others"}
+          picture={"/img/explore/nightlife/bars/icons/smalls.jpg"}
+          name={"Smalls"}
           title={""}
-          buttonText={" Escape, W District, Blue Parrot"}
-          description={`Escape, `}
+          buttonText={"Smalls"}
+          description={`Cactus, Teens of Thailand, Asia Today, Thaipioka, `}
+          href={""} />
+          { /* Blue Parrot */}
+        <ExploreCard
+          picture={"/img/explore/nightlife/bars/icons/blueparrot.jpg"}
+          name={"Blue Parrot"}
+          title={""}
+          buttonText={"Blue Parrot"}
+          description={`Escape, W District, `}
           href={""} />
       </ul>
     </>

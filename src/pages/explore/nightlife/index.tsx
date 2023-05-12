@@ -1,6 +1,6 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Bars from "@/components/Sections/Explore/Nightlife/Bars";
-import Nightclubs from "@/components/Sections/Explore/Nightlife/Nightclubs";
+import Nightclubs from "@/components/Sections/Explore/Nightlife/Dance";
 
 export default function Nightlife() {
   return (
