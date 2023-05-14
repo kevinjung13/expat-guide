@@ -9,7 +9,7 @@ export default function Nightclubs() {
         bgColor={"stone-200"}
         cards={<DanceCards />}
         title={"Dance"}
-        description={`Dance your ass off at these nightclubs and bars.`} />
+        description={`From party boats to themed clubs, dance your ass off at these nightclubs and bars.`} />
     </>
   )
 }

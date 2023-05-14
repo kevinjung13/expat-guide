@@ -8,8 +8,8 @@ export default function Bars() {
       <ExploreLayout
         bgColor={"white"}
         cards={<BarsCards />}
-        title={"Bars"}
-        description={`From Rooftops and cocktail bars to speakeasy, discover the best places for drinks.`} />
+        title={"Drinks"}
+        description={`From rooftops and  ocktail bars to speakeasy and casual venues, here are my favorite places for drinks.`} />
     </>
   )
 }

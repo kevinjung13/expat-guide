@@ -3,7 +3,7 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function HistoricalCards() {
   return (
     <>
-      <ul className={"grid gap-8 lg:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         { /* Chinatown */}
         <ExploreCard
           picture={"/img/explore/attractions/historical/icons/chinatown.jpg"}
@@ -55,6 +55,14 @@ export default function HistoricalCards() {
           The museum provides a unique and immersive way to learn about Thai history and culture, and is a popular destination for both tourists and locals alike.
           It offers a glimpse into the rich heritage and diversity of Thailand's people and architecture, and is a must-visit destination for anyone interested in history, culture, or architecture.`}
           href={"https://www.muangboranmuseum.com/en/"} />
+        { /* Thonburi */}
+        <ExploreCard
+          picture={"/img/explore/attractions/local/icons/thonburi.jpg"}
+          name={"Thonburi"}
+          title={"Thonburi"}
+          buttonText={"Thonburi"}
+          description={``}
+          href={""} />
       </ul>
     </>
   )

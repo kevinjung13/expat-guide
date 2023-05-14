@@ -3,60 +3,68 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function MiddleEastAndAfricaCards() {
   return (
     <>
-      <ul className={"grid gap-8 md:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         {/* Taye */}
         <ExploreCard
           picture={"/img/explore/dining/middle/icons/taye.jpg"}
           name={"Taye"}
           title={"BTS Station: Nana"}
           buttonText={"Taye"}
-          description={`Taye is a unique restaurant, bringing the authentic flavors of Ethiopia to the city. 
-          The restaurant's specialties include traditional Ethiopian dishes such as Doro Wat, Injera, and Kitfo, all prepared with a perfect blend of spices and fresh ingredients.
-          Being one of the only Ethiopian establishments in Bangkok, Taye is extremely underrated and overlooked by many expats.
-          With its warm atmosphere and attentive staff, Taye creates a pleasant environment to enjoy lunch or dinner with friends or family.
-          Taye is a must-visit venue for food enthusiasts.`}
+          description={`A restaurant bringing the authentic flavors of Ethiopia to the city. 
+          Specialties include traditional Ethiopian dishes such as Doro Wat, Injera, and Kitfo, all prepared with a perfect blend of spices and fresh ingredients.
+          Extremely underrated and overlooked by many expats in my opinion.
+          A pleasant environment to enjoy lunch or dinner with friends or family.
+          A must-visit venue for food enthusiasts.`}
           href={"https://goo.gl/maps/vgL8e4qucHvfv3Cm6"} />
-        {/* Mama Dolores */}
-        <ExploreCard
-          picture={"/img/explore/dining/middle/icons/mamadolores.jpg"}
-          name={"Mama Dolores"}
-          title={"MRT Station: Khlong Toei"}
-          buttonText={"Mama Dolores"}
-          description={`Mama Dolores is a cozy Mediterranean restaurant located in the Yen Akat. 
-          The restaurant is named after the owner's mother, who inspired her love of Mediterranean cuisine. 
-          Mama Dolores has been serving up authentic Mediterranean dishes since 2011 and specialties include a variety of delicious mezze platters, homemade dips, grilled meats, and seafood dishes. 
-          The menu features classic Mediterranean recipes, made with fresh ingredients sourced locally and imported from the region.
-          It is a hidden gem of a restaurant that serves up some of the best Mediterranean food in Bangkok and is perfect for group dinners with friends and family.`}
-          href={"https://goo.gl/maps/fLK15RLEX9NhmMgb6"} />
         {/* Beirut Restaurant */}
         <ExploreCard
           picture={"/img/explore/dining/middle/icons/beirut.jpg"}
           name={"Beirut Restaurant"}
           title={"BTS Station: Sala Daeng / MRT Station: Silom"}
           buttonText={"Beirut Restaurant"}
-          description={`Beirut is a highly-rated Lebanese restaurant founded in 2014 by a passionate Lebanese family determined to bring the authentic flavors of their home country to Thailand.
-          Specialties at Beirut include a variety of delicious mezze platters, grilled meats, and fresh seafood dishes.       
-          The restaurant's intimate and inviting ambiance, featuring traditional Lebanese decor and music, creates a warm and welcoming atmosphere.        
-          Overall, Beirut is a must-visit restaurant for anyone who loves Lebanese food.`}
+          description={`One of my favorite Lebanese restaurants in Bangkok.
+          Its menu offers a variety of delicious mezze platters, grilled meats, and fresh seafood dishes.             
+          A must-visit restaurant for anyone who loves Lebanese food.`}
           href={"https://goo.gl/maps/fU8eBD2NZXHjj39v5"} />
+        {/* Mama Dolores */}
+        <ExploreCard
+          picture={"/img/explore/dining/middle/icons/mamadolores.jpg"}
+          name={"Mama Dolores"}
+          title={"MRT Station: Khlong Toei"}
+          buttonText={"Mama Dolores"}
+          description={`A cozy Mediterranean restaurant located in Yen Akat. 
+          Named after the owner's mother, who inspired her love of Mediterranean cuisine. 
+          A hidden gem that serves up some of the best Mediterranean food in Bangkok and is perfect for group dinners with friends and family. 
+          Highly recommended.`}
+          href={"https://goo.gl/maps/fLK15RLEX9NhmMgb6"} />    
         {/* Nadimos */}
         <ExploreCard
           picture={"/img/explore/dining/middle/icons/nadimos.jpg"}
           name={"Nadimos"}
           title={"BTS Station: Phrom Pong"}
           buttonText={"Nadimos"}
-          description={`Nadimos is also another highly-regarded Lebanese and Greek restaurant. 
-          The restaurant was also founded by a Lebanese family in 1999, which now has 2 locations.
-          Specialties at Nadimos include a wide variety of delicious mezze dishes, as well as grilled meats and fresh seafood.`}
+          description={`A chain of Lebanese and Greek restaurants, with 2 locations in the city. 
+          Founded by a Lebanese family in 1999, a great choice for those living in the Sukhumvit area.`}
           href={"https://goo.gl/maps/FkdzZVYSuAoUuhCr9"} />
+        {/* Hummus Heads */}
+        <ExploreCard
+          picture={"/img/explore/dining/middle/icons/beirut.jpg"}
+          name={"Hummus Heads"}
+          title={"BTS Station: Thong Lor"}
+          buttonText={"Hummus Heads"}
+          description={`Specializes in Middle Eastern cuisine with a focus on hummus. 
+          Known for its delicious and flavorful hummus dishes, including classic hummus with pita bread, hummus bowls, and hummus wraps.
+          Uses fresh and high-quality ingredients, including organic chickpeas and locally-sourced vegetables. 
+          Vegan and vegetarian friendly.`}
+          href={"https://goo.gl/maps/yqJhsgpzzVoSPTva8"} />
         {/* Al Saray */}
         <ExploreCard
           picture={"/img/explore/dining/middle/icons/alsaray.jpg"}
           name={"Al Saray"}
           title={"MRT Station: Lumphini"}
           buttonText={"Al Saray"}
-          description={`Al Saray is a popular Lebanese restaurant established in 2015.
-          Specialties at Al Saray include a wide range of mezze dishes, grilled meats, and fresh seafood.`}
+          description={`A popular Lebanese restaurant established in 2015.
+          Another greta choice for those craving Lebanese food.`}
           href={"https://goo.gl/maps/otVuMcWDiYKkPXxn8"} />
       </ul>
     </>

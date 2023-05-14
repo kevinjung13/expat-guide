@@ -3,7 +3,7 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function DanceCards() {
   return (
     <>
-      <ul className={"grid gap-8 lg:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         { /* Sing Sing Theatre */}
         <ExploreCard
           picture={"/img/explore/nightlife/dance/icons/singsing.jpg"}

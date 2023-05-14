@@ -16,19 +16,19 @@ export default function ExploreCard(props: ExploreCardsProps) {
 
   return (
     <>
-      <li className={"grid gap-6 w-full h-full"}>
-        <div className={"w-full bg-green-500"}>
+      <li className={""}>
+        <div className={"w-full h-60 sm:h-52 md:h-60"}>
           <img
             src={picture}
             loading={"lazy"}
-            className={"w-full object-cover object-top shadow-md rounded-xl"}
+            className={"w-full h-full object-cover object-top shadow-md rounded-xl"}
             alt={"picture"} />
         </div>
-        <div className={"bg-yellow-700"}>
+        <div className={"mt-4 "}>
           <h4 className={"text-lg text-black font-semibold"}>{name}</h4>
           <p className={"text-cyan-700"}>{title}</p>
-          <p className={"text-gray-500 mt-2"}>{description}</p>
-          <div className={"mt-3 flex gap-4 text-white"}>
+          <p className={"text-gray-500 mt-2 "}>{description}</p>
+          <div className={"mt-3 text-white"}>
             <Link href={href} target={"_blank"}>
               <button className={"p-2 bg-gray-800 rounded-full hover:bg-gray-500"}>
                 {buttonText}

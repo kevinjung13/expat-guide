@@ -3,7 +3,7 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function PhysicalCards() {
   return (
     <>
-      <ul className={"grid gap-8 lg:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         { /* Gym */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/gym.jpg"}
@@ -55,9 +55,19 @@ export default function PhysicalCards() {
         { /* Wakeboarding */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/wakeboarding.jpg"}
-          name={"Wakeboarding & Skateboarding"}
+          name={"Wakeboarding"}
           title={"Outdoor"}
           buttonText={"Thai Wake Park"}
+          description={`I tried wakeboarding for the first time in Thailand and absolutely fell in love with it.
+          Bangkok has 2 main places to wakeboard: Thai Wake Park and Taco Lake.
+          Thai Wake Park also has a small skatepark next to the water, which makes it perfect to spend a day doing both with your friends.`}
+          href={"https://www.thaiwakepark.com/"} />
+        { /* Skateboarding */}
+        <ExploreCard
+          picture={"/img/explore/activities/physical/icons/wakeboarding.jpg"}
+          name={"Skateboarding"}
+          title={"Outdoor"}
+          buttonText={"Sky Park BKK"}
           description={`I tried wakeboarding for the first time in Thailand and absolutely fell in love with it.
           Bangkok has 2 main places to wakeboard: Thai Wake Park and Taco Lake.
           Thai Wake Park also has a small skatepark next to the water, which makes it perfect to spend a day doing both with your friends.`}
@@ -101,6 +111,14 @@ export default function PhysicalCards() {
           description={`In case you find it a hassle to go to different places for different activities, why not just go to The Racquet Club?
           The Racquet Club has most facilities you need: A badminton court, swimming pool, climbing area and a fitness center, all within the same building.`}
           href={"https://www.rqclub.com/"} />
+        { /* Surfing */}
+        <ExploreCard
+          picture={"/img/explore/activities/physical/icons/surfing.jpg"}
+          name={"Surfing"}
+          title={"Indoor"}
+          buttonText={"Flow House"}
+          description={`Flow House`}
+          href={"http://flowhousethailand.com/"} />
       </ul>
     </>
   )

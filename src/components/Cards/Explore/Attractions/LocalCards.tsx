@@ -3,7 +3,7 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function LocalCards() {
   return (
     <>
-      <ul className={"grid gap-8 lg:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         { /* Floating Market */}
         <ExploreCard
           picture={"/img/explore/attractions/local/icons/floating.jpg"}
@@ -29,14 +29,6 @@ export default function LocalCards() {
           name={"Koh Kret"}
           title={"Koh Kret"}
           buttonText={"Koh Kret"}
-          description={``}
-          href={""} />
-        { /* Khlong Toei */}
-        <ExploreCard
-          picture={"/img/explore/attractions/local/icons/khlongtoei.jpg"}
-          name={"Khlong Toei"}
-          title={"Khlong Toei"}
-          buttonText={"Khlong Toei"}
           description={``}
           href={""} />
       </ul>

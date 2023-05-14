@@ -3,7 +3,7 @@ import ExploreCard from "@/components/Layout/ExploreLayout/ExploreCard";
 export default function EntertainmentCards() {
   return (
     <>
-      <ul className={"grid gap-8 lg:grid-cols-2"}>
+      <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
         { /* Cinemas */}
         <ExploreCard
           picture={"/img/explore/activities/entertainment/icons/cinema.jpg"}
@@ -52,6 +52,14 @@ export default function EntertainmentCards() {
           description={`Live music is everywhere in Bangkok. 
           From the steps of BTS Stations and numerous restaurants, to malls and many different bars in the city.
           My personal favorite locations for live music over the past years have been: Maggie Choo's, Bangkok Island, The Jam Factory, Foojohn Jazz Club and Speakerbox.`}
+          href={""} />
+        { /* Jamming */}
+        <ExploreCard
+          picture={"/img/explore/activities/entertainment/icons/jamming.jpg"}
+          name={"Jamming"}
+          title={"Indoor"}
+          buttonText={"E.Q Studio"}
+          description={`If you play an instrument and want to play with others, `}
           href={""} />
       </ul>
     </>

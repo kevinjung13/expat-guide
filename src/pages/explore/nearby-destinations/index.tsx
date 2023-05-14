@@ -1,12 +1,13 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Beach from "@/components/Sections/Explore/Nearby-Destinations/Beach";
-import Mountain from "@/components/Sections/Explore/Nearby-Destinations/Hiking";
+import NationalPark from "@/components/Sections/Explore/Nearby-Destinations/NationalPark";
 import History from "@/components/Sections/Explore/Nearby-Destinations/History";
+import Caves from "@/components/Sections/Explore/Nearby-Destinations/Caves";
 
 export default function NearbyDestinations() {
   return (
     <>
-      {/* First Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/nearby-destinations-img.jpg")]`}
         headTitle={"Nearby Attractions | Farang"}
@@ -16,10 +17,12 @@ export default function NearbyDestinations() {
         subtitleCSS={"text-4xl text-center pt-3 md:text-5xl"} />
       {/* Beach Section */}
       <Beach />
-      {/* Mountain Section */}
-      <Mountain />
+      {/* National Park Section */}
+      <NationalPark />
       {/* History Section */}
       <History />
+      {/* Caves Section */}
+      <Caves />
     </>
   );
 }
