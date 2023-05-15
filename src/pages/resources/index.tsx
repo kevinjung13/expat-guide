@@ -6,7 +6,6 @@ import PlantBased from "@/components/Sections/Resources/PlantBased";
 import Transportation from "@/components/Sections/Resources/Transportation";
 import Others from "@/components/Sections/Resources/Others";
 
-
 export default function Resources() {
   return (
     <>
