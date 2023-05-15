@@ -29,9 +29,9 @@ export default function EntertainmentCards() {
           name={"Concerts"}
           title={"Indoor"}
           buttonText={"IMPACT Arena"}
-          description={`Bangkok and Thailand as a whole is home to numerous concerts that are held annually.
+          description={`Thailand is home to numerous concerts that are held annually.
           From A-list Hollywood stars to K-Pop artists, artists from all over the world have performed in Bangkok. 
-          IMPACT Arena is usually the largest venue that hosts concerts but depending on the artist, the venue may vary.`}
+          IMPACT Arena is usually the largest venue that hosts concerts but venues may vary.`}
           href={"http://www.impact.co.th/"} />
         { /* Comedy */}
         <ExploreCard
@@ -52,15 +52,16 @@ export default function EntertainmentCards() {
           description={`Live music is everywhere in Bangkok. 
           From the steps of BTS Stations and numerous restaurants, to malls and many different bars in the city.
           My personal favorite locations for live music over the past years have been: Maggie Choo's, Bangkok Island, The Jam Factory, Foojohn Jazz Club and Speakerbox.`}
-          href={""} />
+          href={"https://goo.gl/maps/jZKunanhwJTiRVA18"} />
         { /* Jamming */}
         <ExploreCard
           picture={"/img/explore/activities/entertainment/icons/jamming.jpg"}
           name={"Jamming"}
           title={"Indoor"}
           buttonText={"E.Q Studio"}
-          description={`If you play an instrument and want to play with others, `}
-          href={""} />
+          description={`If you play an instrument and want to play with your friends, E.Q Studio is the place to go. As a drummer, it has been my favorite place to play with friends and let out some steam.
+          All music equipment can be rented easily and bookings must be made in advance by calling. Prices go per hour.`}
+          href={"https://goo.gl/maps/xamdNQxoWfmEWuxL9"} />
       </ul>
     </>
   )

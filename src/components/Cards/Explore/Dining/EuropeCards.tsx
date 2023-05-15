@@ -10,11 +10,11 @@ export default function EuropeCards() {
           name={"Bardo Social Bar & Bistro"}
           title={"BTS Station: Saint Louis"}
           buttonText={"Location"}
-          description={`A chic, social and lively restaurant and bar with great food, live music, creative cocktails, and several events.
-          Menu offers a wide range of contemporary European dishes, from small sharing plates, to main courses and outstanding desserts.
-          Specialties include the "Chicken Milanese," "Foie Gras Terrine" and "Portobello Mushroom".
+          description={`A social and lively restaurant & bar with great food, live music, creative cocktails, and events.
+          Menu offers contemporary European dishes, from small sharing plates, to outstanding main courses and desserts.
+          Specialties include "Chicken Milanese," "Foie Gras Terrine" and "Portobello Mushroom".
           Also known for its inventive cocktail and wine menu.
-          Very popular location among expats.`}
+          Very popular location among European expats.`}
           href={"https://goo.gl/maps/Jb5yGFi3hjRKvx7a7"} />
         {/* Peppina */}
         <ExploreCard
@@ -33,7 +33,7 @@ export default function EuropeCards() {
           name={"El Mercado"}
           title={"BTS Station: Asoke"}
           buttonText={"Location"}
-          description={`A grocery shop and restaurant, offering a taste of Spain and France. 
+          description={`A grocery shop and restaurant (with multiple branches), offering a taste of Spain and France. 
           Mostly known for its extensive selection of Spanish and French food products, including cheeses, cured meats, and wine. 
           Perfect place to dine for those craving cold cuts, cheese, wines and Western food in general.
           Extremely popular among expats, and perfect for all occasions.`}
@@ -56,9 +56,9 @@ export default function EuropeCards() {
           name={"Mediterra"}
           title={"BTS Station: Asoke"}
           buttonText={"Location"}
-          description={`A Mediterranean restaurant serving authentic Mediterranean and fusion cuisine with a contemporary twist.
-          Showcases a diverse range of dishes from Spain, Italy, Greece, and the Middle East. 
-          Specialities include Spanish Paella, Italian Ratatouille, Greek Moussaka, and Middle Eastern Baklava. 
+          description={`Restaurant serving authentic Mediterranean and fusion cuisine with a contemporary twist.
+          Showcases a wide range of dishes from Spain, Italy, Greece, and the Middle East. 
+          Specialities include Paella, Italian Ratatouille, Greek Moussaka, and Baklava. 
           Warm lighting, rustic décor, cozy and intimate. Perfect dinner venue with friends, family or a partner. 
           Also features live music performances.`}
           href={"https://goo.gl/maps/YEYrtEn7eoLoEp8y7"} />
@@ -68,10 +68,9 @@ export default function EuropeCards() {
           name={"Cantina Wine Bar and Italian Kitchen"}
           title={"BTS Station: Ari"}
           buttonText={"Location"}
-          description={`Inspired by wine cellars in Italy, Cantina offers an excellent range of homemade pasta, pizza, and other classic Italian dishes.
-          Some specialties include the "cheese-loaded mascarpone e tartufo pizza", and the "homemade pasta with mushroom-truffle sauce". 
-          Also offers a selection of bruschetta and Neapolitan-style pizza. 
-          Wine selection mainly consists of Italian wine, with the co-owner (a certified sommelier) usually suggesting wine pairs for your meal.
+          description={`Inspired by wine cellars in Italy, Cantina offers an excellent range of homemade pasta, pizza, and many more.
+          Specialties include "cheese-loaded mascarpone e tartufo pizza" & "homemade pasta with mushroom-truffle sauce". 
+          Wine selection mainly consists of Italian wine and pairing usually done by a certified sommelier (and co-owner) for your dish.
           Perfect for romantic dinners or a night out with friends.`}
           href={"https://goo.gl/maps/ebxUT4Q8e4baTL9N6"} />
       </ul>

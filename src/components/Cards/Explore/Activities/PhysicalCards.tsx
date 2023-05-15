@@ -10,7 +10,7 @@ export default function PhysicalCards() {
           name={"Gym"}
           title={"Indoor"}
           buttonText={"Fitness First"}
-          description={`While most condominiums have dedicated fitness rooms, sometimes they do not provide all the equipment that you require.
+          description={`While most condominiums have dedicated fitness rooms, many do not provide all the equipment that you require.
           If you wish to access a gym with all your required equipments, Bangkok has a large number of fitness centers around the city.
           The most popular ones are: Fitness First, Virgin Active, Jetts`}
           href={"https://www.fitnessfirst.co.th/"} />
@@ -21,7 +21,7 @@ export default function PhysicalCards() {
           title={"Indoor"}
           buttonText={"Rock Domain Climbing Gym"}
           description={`Indoor climbing has become one of the most popular recreational activities worldwide, and Bangkok is not short of them.
-          Rock Domain Climbing Gym is the largest in the city but other popular ones include Stone Goat Climbing Gym and The Climbing Gym at Racquet Club.`}
+          Rock Domain Climbing Gym is the largest in the city but other popular ones include: Stone Goat Climbing Gym & The Climbing Gym at Racquet Club.`}
           href={"https://www.rockdomaingym.com/"} />
         { /* Running */}
         <ExploreCard
@@ -40,7 +40,7 @@ export default function PhysicalCards() {
           buttonText={"Happy & Healty Bike Lane"}
           description={`Cycling is one of my favorite ways to stay fit and do something with friends.
           For a slow and fun cycle, Wachirabenchatat Park has been one of my favorite places to go with friends.
-          In case you wish to challenge yourself or get a workout from it, Benjakitti Park and Happy & Healty Bike Lane is highly recommended.`}
+          In case you wish to challenge yourself or get a workout from it, Happy & Healty Bike Lane or Benjakitti Park is highly recommended.`}
           href={"https://www.hhblbikelane.com/"} />
         { /* Swimming */}
         <ExploreCard
@@ -60,18 +60,17 @@ export default function PhysicalCards() {
           buttonText={"Thai Wake Park"}
           description={`I tried wakeboarding for the first time in Thailand and absolutely fell in love with it.
           Bangkok has 2 main places to wakeboard: Thai Wake Park and Taco Lake.
-          Thai Wake Park also has a small skatepark next to the water, which makes it perfect to spend a day doing both with your friends.`}
+          Thai Wake Park also has a small skatepark next to the water, which makes it perfect to spend a day doing both with your friends. Both are away from the city center.`}
           href={"https://www.thaiwakepark.com/"} />
         { /* Skateboarding */}
         <ExploreCard
-          picture={"/img/explore/activities/physical/icons/wakeboarding.jpg"}
+          picture={"/img/explore/activities/physical/icons/skateboarding.jpg"}
           name={"Skateboarding"}
           title={"Outdoor"}
           buttonText={"Sky Park BKK"}
-          description={`I tried wakeboarding for the first time in Thailand and absolutely fell in love with it.
-          Bangkok has 2 main places to wakeboard: Thai Wake Park and Taco Lake.
-          Thai Wake Park also has a small skatepark next to the water, which makes it perfect to spend a day doing both with your friends.`}
-          href={"https://www.thaiwakepark.com/"} />
+          description={`I haven't skateboarded since I was 16 so gave it a try and absolutely enjoyed it.
+          Sky Park BKK is my favorite but ESC Space Pumper at Thai Wake Park is also a great place to practice or enjoy the day with your friends or even add in a Wakeboarding session.`}
+          href={"https://goo.gl/maps/75aWPHuPA5odQ4eB9"} />
         { /* Badminton */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/badminton.jpg"}
@@ -80,7 +79,7 @@ export default function PhysicalCards() {
           buttonText={"71 Sports Club"}
           description={`Playing Badminton with fellow expats has been a great way to get to know them better and build deeper friendships.
           71 Sports Club has always been my "Go-To" venue, but The Racquet Club also has a great badminton court.`}
-          href={"https://www.facebook.com/71SportClub.Sukhumvit71/"} />
+          href={"https://goo.gl/maps/kVwugy8yprrWKaPv6"} />
         { /* Yoga */}
         <ExploreCard
           picture={"/img/explore/activities/physical/icons/yoga.jpg"}
@@ -98,7 +97,7 @@ export default function PhysicalCards() {
           title={"Indoor & Outdoor"}
           buttonText={"Migaku Fitness Club"}
           description={`You cannot experience Thailand without experiencing Muay Thai.
-          While most go to Phuket or Koh Samui for it, you may wish to incorporate Muay Thai or any other form of Martial Arts into your routine.
+          While most go to Phuket or Koh Samui for it, Bangkok has good gyms for you to add into your routine.
           Migaku Fitness Club is personally one of my preferred ones for Muay Thai.
           For other forms of Martial Arts, Bangkok Fight Lab is one of the most popular.`}
           href={"https://dl-migaku.com/en/"} />
@@ -108,16 +107,18 @@ export default function PhysicalCards() {
           name={"Community Recreation Center"}
           title={"Indoor"}
           buttonText={"The Racquet Club"}
-          description={`In case you find it a hassle to go to different places for different activities, why not just go to The Racquet Club?
-          The Racquet Club has most facilities you need: A badminton court, swimming pool, climbing area and a fitness center, all within the same building.`}
+          description={`In case you wish to be in an "all in one" venue, why not just go to The Racquet Club?
+          The Racquet Club has most facilities you need: A badminton court, swimming pool, climbing area and a fitness center, all within the same building.
+          Membership prices may vary depending on the duration and great venue for those living in Sukhumvit.`}
           href={"https://www.rqclub.com/"} />
-        { /* Surfing */}
+        { /* Water Sports */}
         <ExploreCard
-          picture={"/img/explore/activities/physical/icons/surfing.jpg"}
-          name={"Surfing"}
-          title={"Indoor"}
+          picture={"/img/explore/activities/physical/icons/watersports.jpg"}
+          name={"Water Sports"}
+          title={"Indoor & Outdoor"}
           buttonText={"Flow House"}
-          description={`Flow House`}
+          description={`While Bangkok does not have a beach or a swimmable lake, you can still enjoy or try surfing at Flow House.
+          Prices may vary and great to go on a hot day to cool off and do something fun with friends or family. Alternative venue: Nong Bon Water Sports Center is great for windsurfing on a windy day, and just next to Rama IX park.`}
           href={"http://flowhousethailand.com/"} />
       </ul>
     </>

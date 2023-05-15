@@ -64,7 +64,8 @@ export default function AsiaCards() {
           description={`Authentic teppanyaki dining experience. 
           Predominantly serves fresh seafood and high-grade meats, all cooked in front of diners on a teppan grill.
           Signature dishes include Wagyu beef, lobster, and sushi.
-          A cozy and intimate atmosphere. Perfect place to enjoy food and drinks on a night out. Another venue I recommend is Daimasu.`}
+          A cozy and intimate atmosphere. Perfect place to enjoy food and drinks on a night out.
+          Alternative venue if closed: Daimasu.`}
           href={"https://goo.gl/maps/kVgGTGuuwwHsPZM18"} />
       </ul>
     </>
