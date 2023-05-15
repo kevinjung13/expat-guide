@@ -4,7 +4,9 @@ export default function Options() {
   
   return (
     <>
-      <section id={"options"}>
+      <section
+        className={"w-full"}
+        id={"options"}>
         <SectionCards />
       </section>
     </>

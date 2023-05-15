@@ -4,7 +4,7 @@ import ResourcesCards from "@/components/Cards/Home/ResourcesCards";
 export default function Resources() {
   return (
     <>
-      <section className={"bg-gray-200 pt-12 mx-auto px-4 max-w-screen-xl md:px-8"}>
+      <section className={"bg-gray-200 pt-12 mx-auto px-4 w-full md:px-8"}>
         <div className={"max-w-screen text-center"}>
           {/* Title */}
           <h1 className={"text-5xl font-semibold"}>

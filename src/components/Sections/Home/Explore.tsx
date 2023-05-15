@@ -4,7 +4,7 @@ import ExploreCards from "@/components/Cards/Home/ExploreCards";
 export default function Explore() {
   return (
     <>
-      <section className={"bg-stone-200 pt-16 pb-8 max-w-screen-xl md:px-8"}>
+      <section className={"bg-stone-200 pt-16 pb-8 w-full md:px-8"}>
         <div className={"text-center"}>
           {/* Title */}
           <Link

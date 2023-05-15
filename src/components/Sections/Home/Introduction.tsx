@@ -1,10 +1,10 @@
 export default function Introduction() {
   return (
     <>
-      <section className={"bg-white max-w-screen-lg pt-16 mx-auto md:px-32"}>
+      <section className={"bg-white w-full pt-16 mx-auto md:px-32"}>
         {/* Title */}
         <div className={"flex place-content-center"}>
-          <h1 className={"text-black text-5xl font-semibold"}>The City of Angels</h1>
+          <h1 className={"text-black text-4xl sm:text-5xl font-semibold"}>The City of Angels</h1>
         </div>
         {/* Paragraphs */}
         <div className={"flex-col place-content-center p-6 text-lg mb-3 mt-3"}>

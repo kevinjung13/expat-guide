@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Neighbourhoods() {
   return (
     <>
-      <section className={"py-14 bg-white"}>
+      <section className={"py-14 bg-white w-full"}>
         <div className={"max-w-screen-xl mx-auto md:px-8"}>
           <div className={"items-center gap-x-12 sm:px-4 md:px-0 lg:flex"}>
             {/* Image */}

@@ -1,7 +1,7 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Options from "@/components/Sections/Explore/Options";
 
-export default function Explore() {
+export default function explore() {
 
   return (
     <>

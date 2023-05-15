@@ -59,7 +59,7 @@ export default function EntertainmentCards() {
           name={"Jamming"}
           title={"Indoor"}
           buttonText={"E.Q Studio"}
-          description={`If you play an instrument and want to play with your friends, E.Q Studio is the place to go. As a drummer, it has been my favorite place to play with friends and let out some steam.
+          description={`If you play an instrument and want to play with your friends, E.Q Studio is the place to go. As a drummer, it  has been my favorite place to play with friends and let out some steam.
           All music equipment can be rented easily and bookings must be made in advance by calling. Prices go per hour.`}
           href={"https://goo.gl/maps/xamdNQxoWfmEWuxL9"} />
       </ul>
