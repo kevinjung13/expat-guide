@@ -3,7 +3,7 @@ import PersonalIntro from "@/components/Sections/About/PersonalIntro";
 import FiveYears from "@/components/Sections/About/FiveYears";
 import Current from "@/components/Sections/About/Current";
 
-export default function about() {
+export default function About() {
   return (
     <>
       {/* Hero Section */}
