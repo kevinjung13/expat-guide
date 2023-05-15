@@ -2,12 +2,18 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { navigation } from '@/components/Navbar/data';
 
+/* Props for Dropdown */
+interface DropDownProps {
+  idx?: number | null;
+  isActive?: boolean | null;
+}
+
 export default function Navbar() {
 
   /* State for Menu */
   const [isOpen, setIsOpen] = useState(false)
   /* State for Dropdown Options */
-  const [isDropdown, setIsDropdown] = useState({ idx: null, isActive: false })
+  const [isDropdown, setIsDropdown] = useState<DropDownProps>({ idx: null, isActive: false })
 
   useEffect(() => {
     document.onclick = (e: MouseEvent) => {
