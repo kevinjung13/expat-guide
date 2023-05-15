@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ExploreCards from "@/components/Cards/Home/ExploreCards";
 
-export default function Explore() {
+export default function ExploreSection() {
   return (
     <>
       <section className={"bg-stone-200 pt-16 pb-8 w-full md:px-8"}>

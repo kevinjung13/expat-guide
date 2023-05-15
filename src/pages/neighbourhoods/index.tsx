@@ -14,8 +14,8 @@ export default function Neighbourhoods() {
         subtitle={"Home Away From Home"}
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"} />
       {/* Neighbourhoods */}
-      <section className={"py-16"}>
-        <div className={"max-w-screen-xl mx-auto px-4 md:px-8"}>
+      <section className={"py-16 w-full"}>
+        <div className={"mx-auto px-4 md:px-8"}>
           <div className={"text-center"}>
             <h1 className={"text-gray-800 text-4xl font-extrabold md:text-5xl"}>
               Areas

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ResourcesCards from "@/components/Cards/Home/ResourcesCards";
 
-export default function Resources() {
+export default function ResourcesSection() {
   return (
     <>
       <section className={"bg-gray-200 pt-12 mx-auto px-4 w-full md:px-8"}>

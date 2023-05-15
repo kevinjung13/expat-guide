@@ -1,8 +1,8 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
 import Introduction from "@/components/Sections/Home/Introduction";
-import Explore from "@/components/Sections/Home/Explore";
-import Neighbourhoods from "@/components/Sections/Home/Neighbourhoods";
-import Resources from "@/components/Sections/Home/Resources";
+import ExploreSection from "@/components/Sections/Home/ExploreSection";
+import NeighbourhoodsSection from "@/components/Sections/Home/NeighbourhoodsSection";
+import ResourcesSection from "@/components/Sections/Home/ResourcesSection";
 
 export default function Home() {
   return (
@@ -18,11 +18,11 @@ export default function Home() {
       {/* Introduction Section */}
       <Introduction />
       {/* Explore Section */}
-      <Explore />
+      <ExploreSection />
       {/* Neighbourhoods Section */}
-      <Neighbourhoods />
+      <NeighbourhoodsSection />
       {/* Resources Section */}
-      <Resources />
+      <ResourcesSection />
     </>
   );
 }

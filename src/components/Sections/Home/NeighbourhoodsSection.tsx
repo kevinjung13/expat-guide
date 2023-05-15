@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Neighbourhoods() {
+export default function NeighbourhoodsSection() {
   return (
     <>
       <section className={"py-14 bg-white w-full"}>

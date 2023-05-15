@@ -8,8 +8,8 @@ const castoro = Castoro({ weight: "400", subsets: ['latin'] })
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <main className={`${castoro.className} max-w-screen`}>
-        <Component  {...pageProps} />
+      <main className={`${castoro.className} w-screen`}>
+        <Component {...pageProps} />
         <Footer />
       </main>
     </>
