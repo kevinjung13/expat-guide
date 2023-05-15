@@ -9,7 +9,7 @@ export default function Historical() {
         bgColor={"white"}
         cards={<HistoricalCards />}
         title={"History"}
-        description={`Discover the history of Bangkok by visiting the following locations.`} />
+        description={`Discover the rich historical heritage of Bangkok by visiting the following locations.`} />
     </>
   )
 }

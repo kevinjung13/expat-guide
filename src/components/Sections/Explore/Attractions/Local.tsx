@@ -6,10 +6,10 @@ export default function Local() {
     <>
       {/* Cultural */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<LocalCards />}
         title={"Local"}
-        description={`Local Neighbourhoods to get a sense of how people live.`} />
+        description={`Local neighbourhoods and areas that will help you to get a sense of how the locals live.`} />
     </>
   )
 }

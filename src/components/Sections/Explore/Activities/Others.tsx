@@ -6,10 +6,10 @@ export default function Entertainment() {
     <>
       {/* Others */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<OthersCards />}
         title={"Others"}
-        description={`Cooking Class, Bowling, Book Stores, Paintball, Archery, Shooting `} />
+        description={`Tried all of the above and want something new? Discover the following activities for something different.`} />
     </>
   )
 }
