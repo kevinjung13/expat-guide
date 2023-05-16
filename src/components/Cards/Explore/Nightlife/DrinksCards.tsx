@@ -47,7 +47,7 @@ export default function DrinksCards() {
           Regularly hosts art exhibitions and cultural events.
           Ideal for post-dinner drinks and socializing.`}
           href={"https://goo.gl/maps/8c2rJBpLQtGuyfXB8"} />
-          { /* Thaipioka */}
+        { /* Thaipioka */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/thaipioka.jpg"}
           name={"Thaipioka"}
@@ -58,7 +58,7 @@ export default function DrinksCards() {
           Cozy and relaxed ambiance that is perfect for a night out with friends.
           A must-visit spot for unique cocktails with Thai flavors.`}
           href={"https://goo.gl/maps/wrxmm5Gm6KhFqbYC8"} />
-         { /* Teens of Thailand */}
+        { /* Teens of Thailand */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/tot.jpg"}
           name={"Teens of Thailand"}
@@ -69,7 +69,7 @@ export default function DrinksCards() {
           Cozy atmosphere, and they make the best gin tonics in town.
           A must-visit for gin lovers.`}
           href={"https://goo.gl/maps/nMJhhhxXy1xdBAbg7"} />
-         { /* Asia Today */}
+        { /* Asia Today */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/asiatoday.jpg"}
           name={"Asia Today"}
@@ -80,7 +80,7 @@ export default function DrinksCards() {
           Has colorful murals and a creative decor, making it a perfect spot for a fun night out with friends or dates.
           A must-visit for another set of drinks after Teens of Thailand (same owners).`}
           href={"https://goo.gl/maps/ijjpWwitVEMJxKJVA"} />
-           { /* Cactus */}
+        { /* Cactus */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/cactus.jpg"}
           name={"Cactus"}
