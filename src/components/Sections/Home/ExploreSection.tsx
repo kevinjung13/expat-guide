@@ -1,10 +1,11 @@
-import Link from "next/link";
 import ExploreCards from "@/components/Cards/Home/ExploreCards";
 
 export default function ExploreSection() {
   return (
     <>
-      <section className={"bg-stone-200 pt-16 pb-8 w-full md:px-8"}>
+      <section
+        className={"bg-stone-200 pt-16 pb-8 w-full md:px-8"}
+        id={"explore"}>
         <div className={"text-center"}>
           {/* Title */}
           <h3 className={"text-5xl font-semibold"}>

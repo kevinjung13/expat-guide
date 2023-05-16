@@ -9,7 +9,7 @@ export default function DrinksCards() {
           picture={"/img/explore/nightlife/bars/icons/baryard.jpg"}
           name={"Bar Yard"}
           title={"Rooftop Bar"}
-          buttonText={"Bar Yard"}
+          buttonText={"Discover"}
           description={`Located on the 40th floor of the Kimpton Hotel, Bar Yard is rooftop bar, providing panoramic views of the city.
           They have both indoor and outdoor seating and offer an extensive selection of food, as well as alcoholic and non-alcoholic beverages. 
           Great location to catch up with friends or for dates.`}
@@ -19,7 +19,7 @@ export default function DrinksCards() {
           picture={"/img/explore/nightlife/bars/icons/brewski.jpg"}
           name={"Brewski"}
           title={"Rooftop Bar"}
-          buttonText={"Brewski"}
+          buttonText={"Discover"}
           description={`Located on the 30th floor of the Radisson Blu Plaza Hotel, Brewski is a craft beer rooftop bar.
           As the name says, they focuse on craft beer, offering an extensive selection from around the world. 
           An ideal place to unwind after work, socialize, and just relax.
@@ -30,7 +30,7 @@ export default function DrinksCards() {
           picture={"/img/explore/nightlife/bars/icons/rabbithole.jpg"}
           name={"Rabbit Hole"}
           title={"Speakeasy Bar"}
-          buttonText={"Rabbit Hole"}
+          buttonText={"Discover"}
           description={`A renowned speakeasy bar designed to be a hidden location, reminiscent of the Prohibition era. 
           Known for its crafted cocktails.
           Sophisticated  with dim lighting making it perfect for dates.

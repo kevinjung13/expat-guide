@@ -9,25 +9,25 @@ export default function NationalParkCards() {
           picture={"/img/explore/nearby-destinations/national-parks/icons/khaoyai.jpg"}
           name={"Khao Yai National Park"}
           title={"3 hours from Bangkok"}
-          buttonText={"Khao Yai"}
+          buttonText={"Location"}
           description={``}
-          href={""} />
+          href={"https://goo.gl/maps/Ypm1SYAwdwmynpRQA"} />
         { /* Khao Sam Roi Yot National Park */}
         <ExploreCard
           picture={"/img/explore/nearby-destinations/national-parks/icons/khaosamroi.jpg"}
           name={"Khao Sam Roi Yot National Park"}
           title={"1-2 hours from Bangkok"}
-          buttonText={"Khao Sam Roi Yot National Park"}
+          buttonText={"Location"}
           description={``}
-          href={""} />
+          href={"https://goo.gl/maps/Pry7ZtoKWZTkWACu9"} />
         { /* Erawan National Park */}
         <ExploreCard
           picture={"/img/explore/nearby-destinations/national-parks/icons/erawan.jpg"}
           name={"Erawan National Park"}
           title={"2-3 hours from Bangkok"}
-          buttonText={"Erawan National Park"}
+          buttonText={"Location"}
           description={`Erawan National Park`}
-          href={""} />
+          href={"https://goo.gl/maps/TgKkb2F2cPD1WoVX6"} />
       </ul>
     </>
   )

@@ -55,7 +55,7 @@ export default function Footer() {
       {/* Explore */}
       <FooterLinks
        name={"Explore"}
-       href={"/explore"} />
+       href={"/#explore"} />
       {/* Neighbourhoods */}
       <FooterLinks
        name={"Neighbourhoods"}
