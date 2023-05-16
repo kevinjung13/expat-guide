@@ -1,6 +1,6 @@
 import HeroLayout from "@/components/Layout/HeroLayout";
-import Bars from "@/components/Sections/Explore/Nightlife/Bars";
-import Nightclubs from "@/components/Sections/Explore/Nightlife/Dance";
+import Drinks from "@/components/Sections/Explore/Nightlife/Drinks";
+import Dance from "@/components/Sections/Explore/Nightlife/Dance";
 
 export default function Nightlife() {
   return (
@@ -13,10 +13,10 @@ export default function Nightlife() {
         titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"Sin City"}
         subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"} />
-      {/* Bars Section */}
-      <Bars />
-      {/* Nightclubs Section */}
-      <Nightclubs />
+      {/* Drinks Section */}
+      <Drinks />
+      {/* Dance Section */}
+      <Dance />
     </>
   );
 }

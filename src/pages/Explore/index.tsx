@@ -14,9 +14,7 @@ export default function Explore() {
         subtitle={"Your New Home"}
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Options */}
-      <section
-        className={"w-full"}
-        id={"options"}>
+      <section className={"w-full"}>
         <SectionCards />
       </section>
     </>

@@ -1,13 +1,13 @@
 import ExploreLayout from "@/components/Layout/ExploreLayout";
-import BarsCards from "@/components/Cards/Explore/Nightlife/BarsCards";
+import DrinksCards from "@/components/Cards/Explore/Nightlife/DrinksCards";
 
-export default function Bars() {
+export default function Drinks() {
   return (
     <>
-      {/* Bars */}
+      {/* Drinks */}
       <ExploreLayout
         bgColor={"white"}
-        cards={<BarsCards />}
+        cards={<DrinksCards />}
         title={"Drinks"}
         description={`From rooftops and  ocktail bars to speakeasy and casual venues, here are my favorite places for drinks.`} />
     </>
