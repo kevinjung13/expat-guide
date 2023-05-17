@@ -9,7 +9,7 @@ export default function Beach() {
         bgColor={"white"}
         cards={<BeachCards />}
         title={"Beach"}
-        description={`Beach Destinations`} />
+        description={`In need of some vitamin-sea? Here are my recommended beach destinations near the city.`} />
     </>
   )
 }

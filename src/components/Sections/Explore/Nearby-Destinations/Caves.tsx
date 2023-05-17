@@ -9,7 +9,8 @@ export default function Caves() {
         bgColor={"white"}
         cards={<CavesCards />}
         title={"Caves"}
-        description={`Caves`} />
+        description={`Thailand is usually known for its beaches but did you know that it is also full of caves? 
+        Here are my favorite ones, just a short drive away from Bangkok.`} />
     </>
   )
 }

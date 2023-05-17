@@ -9,7 +9,8 @@ export default function History() {
         bgColor={"white"}
         cards={<HistoryCards />}
         title={"History"}
-        description={`Historical Destinations`} />
+        description={`Want to expand your knowledge on Thai history beyond Bangkok? 
+        Here are some historical locations outside the city that I recommend you visit.`} />
     </>
   )
 }

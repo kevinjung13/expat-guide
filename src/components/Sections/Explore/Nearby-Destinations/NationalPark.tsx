@@ -9,7 +9,7 @@ export default function NationalPark() {
         bgColor={"white"}
         cards={<NationalParkCards />}
         title={"National Parks"}
-        description={`National Parks for hiking and being in nature.`} />
+        description={`Here is my list of national parks near the city that are just perfect to immerse yourself in nature.`} />
     </>
   )
 }

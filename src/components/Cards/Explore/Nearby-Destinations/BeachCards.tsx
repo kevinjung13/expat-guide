@@ -43,9 +43,13 @@ export default function BeachCards() {
         <ExploreCard
           picture={"/img/explore/nearby-destinations/beach/icons/kohchang.jpg"}
           name={"Koh Chang, Koh Mak & Koh Kood"}
-          title={"4-5 hours from Bangkok"}
+          title={"4-6 hours from Bangkok"}
           buttonText={"Location"}
-          description={`Koh Chang, Koh Mak, Koh Kood`}
+          description={`3 beautiful islands near the border with Cambodia.
+          My next preferred set of beach destination on the list due its long distance from Bangkok but other than that,
+          these islands have the cleanest and clearest waters out of all.
+          Best places to enjoy snorkeling, diving, hiking and exploring waterfalls.
+          Ideal to rent a car and drive to Trat and then take the ferry in.`}
           href={"https://goo.gl/maps/McddVtcwZrAjay897"} />
           { /* Pattaya */}
         <ExploreCard
@@ -53,15 +57,18 @@ export default function BeachCards() {
           name={"Pattaya"}
           title={"1-2 hours from Bangkok"}
           buttonText={"Location"}
-          description={`Not the best beaches but great place to rent a boat for the day with friends to venture out to sea and also visit Koh Larn.`}
+          description={`Pattaya does not have the best beaches but it is the closest destination from Bangkok, making it a good destination for a quick getaway or to enjoy some watersports.
+          Easy to access with both private and public transportation.
+          It can be a fantastic place to rent a boat for the day with friends to venture out to sea and also visit Koh Larn.`}
           href={"https://goo.gl/maps/zXxufmUfuszyTgvN7"} />
         { /* Koh Larn */}
         <ExploreCard
           picture={"/img/explore/nearby-destinations/beach/icons/kohlarn.jpg"}
           name={"Koh Larn"}
-          title={"1-2 hours from Bangkok"}
+          title={"2-3 hours from Bangkok"}
           buttonText={"Location"}
-          description={``}
+          description={`Even though it is just off the coast of Pattaya, Koh Larn surpringsly has a few nice beaches, with Ta Yai and Nual beach being my favorites. 
+          Also has some decent snorkeling spots and plenty of water sport options. Mostly popular among locals and recommended to visit during your time in Pattaya or if you rent a boat.`}
           href={"https://goo.gl/maps/RetS4rMWzHGH9s5m8"} />
       </ul>
     </>

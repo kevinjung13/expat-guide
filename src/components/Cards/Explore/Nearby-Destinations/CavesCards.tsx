@@ -8,9 +8,11 @@ export default function CaveCards() {
         <ExploreCard
           picture={"/img/explore/nearby-destinations/caves/icons/phrayanakhon.jpg"}
           name={"Phraya Nakhon Cave"}
-          title={"3 hours from Bangkok"}
+          title={"2-3 hours from Bangkok"}
           buttonText={"Location"}
-          description={`Part of Khao Sam Roi Yot National Park`}
+          description={`Part of the Khao Sam Roi Yot National Park, where the hightlight is the Kuha Karuhas Pavilion. 
+          The pavilion stands in the central chamber of the cave, bathed in natural light that filters through a hole in the ceiling. 
+          To reach Phraya Nakhon Cave, you will need to do some moderate hiking through the national park. Highly recommended.`}
           href={"https://goo.gl/maps/aoNfDNjycDnxnrWDA"} />
         { /* Kaeo Cave */}
         <ExploreCard
@@ -18,7 +20,11 @@ export default function CaveCards() {
           name={"Kaeo Cave"}
           title={"2-3 hours from Bangkok"}
           buttonText={"Location"}
-          description={`Part of Khao Sam Roi Yot National Park`}
+          description={`A little more for those that are adventurous.
+          The cave has impressive formations, but the cave is completely pitch black. 
+          Headlights are required and can be rented at the entrance.
+          Less crowded compared to other destinations, and can be claustrophobic for some.
+          You are also able to observe various species of bats.`}
           href={"https://goo.gl/maps/8juVVXfVKHTfubgj8"} />
         { /* Khao Bin Cave */}
         <ExploreCard
@@ -26,7 +32,10 @@ export default function CaveCards() {
           name={"Khao Bin Cave"}
           title={"1-2 hours from Bangkok"}
           buttonText={"Location"}
-          description={`in Ratchaburi`}
+          description={`A vast complex consisting of several interconnected caverns and features magnificent formations that have been shaped over centuries, creating an otherworldly atmosphere. 
+          Also holds religious significance as a Buddhist sanctuary and houses numerous shrines and statues.
+          Popular pilgrimage site for locals seeking spiritual blessings.
+          `}
           href={"https://goo.gl/maps/48Az6AMSnHFi7N1u8"} />
       </ul>
     </>
