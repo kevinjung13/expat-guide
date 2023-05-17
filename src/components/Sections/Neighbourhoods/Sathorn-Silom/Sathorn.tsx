@@ -34,7 +34,7 @@ export default function Sathorn() {
             bgColor={"bg-white"}
             borderColor={"border-stone-200"}
             title={"Riverside"}
-            description={"Resorts, Condominiums and Restaurants"}
+            description={"Resorts, Condos and Restaurants"}
             href={"https://goo.gl/maps/Mcc1p7z3oCmfKkTT9"}
             buttonText={"Location"}
             featureTextOne={`Close to the River`}

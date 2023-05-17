@@ -1,21 +1,16 @@
 import NewsCards from "@/components/Cards/Resources/NewsCards";
+import ResourcesLayout from "@/components/Layout/ResourcesLayout";
 
 export default function News() {
   return (
     <>
-      <section className="py-28" id={"news"}>
-        <div className="max-w-screen-lg mx-auto px-4 md:px-8">
-          <div className="max-w-md">
-            <h1 className="text-gray-800 text-2xl font-extrabold sm:text-3xl">
-              News
-            </h1>
-            <p className="text-gray-600 mt-2">
-              Stay up to date on what is happening in Thailand and around the region.
-            </p>
-          </div>
-          <NewsCards />
-        </div>
-      </section>
+      <ResourcesLayout
+        bgColor={"bg-white"}
+        title={"News"}
+        description={"Stay up to date on what is happening in Thailand and around the region."}
+        descColor={"text-cyan-700"}
+        id={"news"}
+        cards={<NewsCards />} />
     </>
   )
 }

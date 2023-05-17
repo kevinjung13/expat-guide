@@ -1,22 +1,17 @@
 import FacebookGroupCards from "@/components/Cards/Resources/FacebookGroupsCards";
+import ResourcesLayout from "@/components/Layout/ResourcesLayout";
 
 export default function FacebookGroups() {
   return (
+    
     <>
-      <section className={"py-28 bg-stone-200"} id={"facebook-groups"}>
-        <div className="max-w-screen-lg mx-auto px-4 md:px-8">
-          <div className="max-w-md">
-            <h1 className="text-gray-800 text-2xl font-extrabold sm:text-3xl">
-              Facebook Groups
-            </h1>
-            <p className="text-gray-600 mt-2">
-              We're currently looking talent software engineers, and designers
-              to help us in our missions and to grow up.
-            </p>
-          </div>
-          <FacebookGroupCards />
-        </div>
-      </section>
+      <ResourcesLayout
+        bgColor={"bg-stone-200"}
+        title={"Facebook Groups"}
+        description={"Stay up to date on what is happening in Thailand and around the region."}
+        descColor={"text-cyan-700"}
+        id={"facebook-groups"}
+        cards={<FacebookGroupCards />} />
     </>
   )
 }
