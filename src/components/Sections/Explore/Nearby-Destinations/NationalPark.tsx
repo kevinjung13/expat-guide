@@ -4,9 +4,9 @@ import NationalParkCards from "@/components/Cards/Explore/Nearby-Destinations/Na
 export default function NationalPark() {
   return (
     <>
-      {/* Hiking & Nature */}
+      {/* National Parks */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<NationalParkCards />}
         title={"National Parks"}
         description={`Here is my list of national parks near the city that are just perfect to immerse yourself in nature.`} />

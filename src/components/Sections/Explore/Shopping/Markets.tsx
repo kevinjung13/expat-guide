@@ -6,7 +6,7 @@ export default function Markets() {
     <>
       {/* Markets */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<MarketsCards />}
         title={"Markets"}
         description={`Shopping from Local Markets`} />

@@ -11,7 +11,7 @@ export default function Rama9Ratchada() {
         headTitle={"Rama 9-Ratchada | Neighbourhoods"}
         title={"RAMA 9-RATCHADA"}
         titleCSS={"text-6xl text-center md:text-8xl pb-3"}
-        subtitle={"A hybrid of Business and Residence"}
+        subtitle={"The New CBD"}
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Main Areas Section */}
       <MainAreas />

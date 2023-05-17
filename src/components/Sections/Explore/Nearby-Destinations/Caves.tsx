@@ -6,7 +6,7 @@ export default function Caves() {
     <>
       {/* Caves */}
       <ExploreLayout
-        bgColor={"white"}
+        bgColor={"stone-200"}
         cards={<CavesCards />}
         title={"Caves"}
         description={`Thailand is usually known for its beaches but did you know that it is also full of caves? 

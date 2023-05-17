@@ -13,7 +13,7 @@ export default function FeaturesList(props: FeaturesListProps) {
         <li className='flex items-center gap-5'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-5 w-5 text-indigo-600'
+            className='h-5 w-5 text-cyan-700'
             viewBox='0 0 20 20'
             fill='currentColor'>
             <path

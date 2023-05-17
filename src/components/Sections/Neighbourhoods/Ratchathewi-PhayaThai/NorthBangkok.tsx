@@ -9,6 +9,8 @@ export default function NorthBangkok() {
         bgColor={"white"}
         cardsOne={
           <NeighbourhoodsCards
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
             title={"Ratchathewi"}
             description={""}
             href={""}
@@ -19,23 +21,27 @@ export default function NorthBangkok() {
         }
         cardsTwo={
           <NeighbourhoodsCards
-          title={"Ari"}
-          description={""}
-          href={""}
-          buttonText={`Discover`}
-          featureTextOne={``}
-          featureTextTwo={``}
-          featureTextThree={``} />
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
+            title={"Ari"}
+            description={""}
+            href={""}
+            buttonText={`Discover`}
+            featureTextOne={``}
+            featureTextTwo={``}
+            featureTextThree={``} />
         }
         cardsThree={
           <NeighbourhoodsCards
-          title={"Chatuchak"}
-          description={""}
-          href={""}
-          buttonText={`Discover`}
-          featureTextOne={``}
-          featureTextTwo={``}
-          featureTextThree={``} />
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
+            title={"Chatuchak"}
+            description={""}
+            href={""}
+            buttonText={`Discover`}
+            featureTextOne={``}
+            featureTextTwo={``}
+            featureTextThree={``} />
         }
         title={"North Bangkok"}
         description={`Quiet`} />

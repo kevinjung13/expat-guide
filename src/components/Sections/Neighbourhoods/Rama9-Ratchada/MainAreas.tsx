@@ -9,34 +9,37 @@ export default function MainAreas() {
         bgColor={"white"}
         cardsOne={
           <NeighbourhoodsCards
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
             title={"Bang Kapi"}
             description={""}
             href={""}
             buttonText={`Discover`}
             featureTextOne={``}
             featureTextTwo={``}
-            featureTextThree={``} />
-        }
+            featureTextThree={``} />}
         cardsTwo={
           <NeighbourhoodsCards
-          title={"Huai Khwang"}
-          description={""}
-          href={""}
-          buttonText={`Discover`}
-          featureTextOne={`Rama 9`}
-          featureTextTwo={`Thailand Cultural Center`}
-          featureTextThree={`Jodd Fairs`} />
-        }
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
+            title={"Huai Khwang"}
+            description={""}
+            href={""}
+            buttonText={`Discover`}
+            featureTextOne={`Rama 9`}
+            featureTextTwo={`Thailand Cultural Center`}
+            featureTextThree={`Jodd Fairs`} />}
         cardsThree={
           <NeighbourhoodsCards
-          title={"Din Daeng"}
-          description={""}
-          href={""}
-          buttonText={`Discover`}
-          featureTextOne={`Fortune Town`}
-          featureTextTwo={`The Street Ratchada`}
-          featureTextThree={``} />
-        }
+            bgColor={"bg-white"}
+            borderColor={"border-stone-200"}
+            title={"Din Daeng"}
+            description={""}
+            href={""}
+            buttonText={`Discover`}
+            featureTextOne={`Fortune Town`}
+            featureTextTwo={`The Street Ratchada`}
+            featureTextThree={``} />}
         title={"Main Areas"}
         description={`Discover Bangkok's newest and upcoming residential districts`} />
     </>

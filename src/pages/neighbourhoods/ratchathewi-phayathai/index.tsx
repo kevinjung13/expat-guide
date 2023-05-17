@@ -10,7 +10,7 @@ export default function RatchathewiPhayathai() {
         headTitle={"Ratchathewi-Phaya Thai | Neighbourhoods"}
         title={"RATCHATHEWI-PHAYA THAI"}
         titleCSS={"text-6xl text-center md:text-8xl pb-3"}
-        subtitle={"TBA"}
+        subtitle={"A Hidden Gem"}
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"} />
       {/* North Bangkok Section */}
       <NorthBangkok />

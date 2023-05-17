@@ -9,7 +9,7 @@ export default function Malls() {
         bgColor={"white"}
         cards={<MallsCards />}
         title={"Malls"}
-        description={`Shopping`} />
+        description={`Discover my favorite malls to get everything you need.`} />
     </>
   )
 }

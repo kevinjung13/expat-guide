@@ -15,13 +15,13 @@ export default function NeighbourhoodsLayout(props: NeighbourhoodsLayoutProps) {
 
   return (
     <>
-      <section className={`py-14 bg-${bgColor}`}>
+      <section className={`w-full py-14 bg-${bgColor}`}>
         <div className={"max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8"}>
           <div className={"relative max-w-xl mx-auto sm:text-center"}>
-            <h3 className={"text-gray-800 text-3xl font-semibold sm:text-4xl"}>
+            <h3 className={"text-gray-800 font-semibold sm:text-4xl"}>
               {title}
             </h3>
-              <div className={"mt-3 max-w-xl text-cyan-700"}>
+              <div className={"mt-3 text-xl text-cyan-700"}>
                 <p>
                   {description}
                 </p>

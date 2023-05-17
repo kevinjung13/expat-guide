@@ -7,6 +7,8 @@ interface NeighbourhoodsCardsProps {
   description: string;
   href: string;
   buttonText: string;
+  borderColor: string;
+  bgColor: string;
   featureTextOne: string;
   featureTextTwo: string;
   featureTextThree: string;
@@ -15,6 +17,8 @@ interface NeighbourhoodsCardsProps {
 export default function NeighbourhoodsCards(props: NeighbourhoodsCardsProps) {
 
   const {
+    bgColor,
+    borderColor,
     buttonText,
     title,
     description,
@@ -26,12 +30,12 @@ export default function NeighbourhoodsCards(props: NeighbourhoodsCardsProps) {
 
   return (
     <>
-      <div className={"relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2"}>
+      <div className={`relative flex-1 flex items-stretch flex-col p-8 rounded-xl shadow-lg border-2 ${borderColor} ${bgColor}`}>
         <div>
-          <span className={"text-black font-medium"}>
+          <span className={"text-black text-2xl font-medium"}>
             {title}
           </span>
-          <div className={"mt-4 text-cyan-700 text-3xl font-semibold"}>
+          <div className={"mt-4 text-cyan-700 text-xl font-semibold"}>
             {description} 
           </div>
         </div>
@@ -42,7 +46,7 @@ export default function NeighbourhoodsCards(props: NeighbourhoodsCardsProps) {
         <FeaturesList
           feature={[featureTextThree]} />
         <div className={"flex-1 flex items-end"}>
-          <Link href={href}>
+          <Link href={href} target={"_blank"}>
             <button className={"px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-gray-800 hover:bg-gray-600"}>
               {buttonText}
             </button>
