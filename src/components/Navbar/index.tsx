@@ -14,6 +14,9 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   /* State for Dropdown Options */
   const [isDropdown, setIsDropdown] = useState<DropDownProps>({ idx: null, isActive: false })
+  /* State for Scrolling */
+  const [isScrolling, setIsScrolling] = useState(false)
+
 
   useEffect(() => {
     document.onclick = (e: MouseEvent) => {
@@ -23,14 +26,29 @@ export default function Navbar() {
     };
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsScrolling(scrollTop > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  /* Scrolling Settings */
+  const scroll = `${isScrolling ? 'md:bg-gray-800 md:fixed md:top-0 md:left-0 md:transition md:duration-300' : 'bg-transparent'}`
+
   return (
     <>
       {/* Navbar Main container */}
       <nav className={
-        `relative pb-2 z-20 md:static md:text-md md:border-none 
+        `w-full relative pb-2 z-20 md:static md:text-md md:border-none
       ${isOpen ? "shadow-lg rounded-xl bg-slate-500/50 mx-2 md:shadow-none md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}
-      ${!isOpen && isDropdown.isActive ? "mb-44" : ""}`}
-      >
+      ${!isOpen && isDropdown.isActive ? "mb-44" : ""}`}>
         <div className={"items-center gap-x-14 px-4 max-w-screen-xl mx-auto md:flex md:px-8"}>
           {/* Container for logo and Hamburger Icon */}
           <div className={"flex items-center justify-between py-5 md:block"}>
@@ -98,7 +116,8 @@ export default function Navbar() {
                     </button>) : (
                     <Link
                       href={item.href}
-                      className={"block text-white hover:text-gray-800 font-bold mr-3"}>
+                        className={`block text-white hover:text-gray-800 font-bold mr-3
+                      ${isScrolling ? "md:hover:text-yellow-700" : ""}`}>
                     {item.title}
                   </Link>)}    
                   {/* Rendering of Nav Dropdown Options */}
@@ -108,7 +127,9 @@ export default function Navbar() {
                         {item?.items?.map((dropdownItem, idx) => (
                           <li key={idx}>
                             <Link key={idx} href={dropdownItem.href}>
-                              <p className={`ml-3 text-white text-sm hover:text-gray-800 ${!isOpen ? "relative z-20" : ""}`}>
+                              <p className={`ml-3 text-white text-sm hover:text-gray-800 
+                              ${!isOpen ? "relative z-20" : ""}
+                              ${isScrolling ? "md:hover:text-yellow-700" : ""}`}>
                               {dropdownItem.title}  
                               </p>
                             </Link>

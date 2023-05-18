@@ -28,9 +28,9 @@ export default function HeroLayout(props: HeroLayoutProps) {
         <meta charSet="utf-8" />
         <title>{headTitle}</title>
       </Head>
-      <div className={`${bgImg} ${bgImgSettings}`}>
+      <div className={`${bgImg} ${bgImgSettings} w-full`}>
         <Navbar />
-        <section className={"relative flex flex-col min-h-screen items-center justify-between p-32"}>
+        <section className={"w-full relative flex flex-col min-h-screen items-center justify-between p-32"}>
           <div className={"flex-col justify-center align-center text-white"}>
             <h1 className={titleCSS}>{title}</h1>
             <h4 className={subtitleCSS}>
