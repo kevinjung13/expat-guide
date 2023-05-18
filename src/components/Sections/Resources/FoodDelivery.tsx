@@ -7,7 +7,7 @@ export default function FoodDelivery() {
       <ResourcesLayout
         bgColor={"bg-white"}
         title={"Food Delivery"}
-        description={"Stay up to date on what is happening in Thailand and around the region."}
+        description={"Feeling lazy to cook or go out? Explore these food delivery apps and get your meal delivered to your doorstep."}
         descColor={"text-cyan-700"}
         id={"food-delivery"}
         cards={<FoodDeliveryCards />} />

@@ -7,7 +7,7 @@ export default function Transportation() {
       <ResourcesLayout
         bgColor={"bg-white"}
         title={"Transportation"}
-        description={"Stay up to date on what is happening in Thailand and around the region."}
+        description={"Save time and discover how to get around the city efficiently."}
         descColor={"text-cyan-700"}
         id={"transportation"}
         cards={<TransportationCards />} />

@@ -9,7 +9,7 @@ export default function Markets() {
         bgColor={"stone-200"}
         cards={<MarketsCards />}
         title={"Markets"}
-        description={`Shopping from Local Markets`} />
+        description={`Discover and shop from local markets.`} />
     </>
   )
 }

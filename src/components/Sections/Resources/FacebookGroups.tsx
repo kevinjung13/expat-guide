@@ -8,7 +8,7 @@ export default function FacebookGroups() {
       <ResourcesLayout
         bgColor={"bg-stone-200"}
         title={"Facebook Groups"}
-        description={"Stay up to date on what is happening in Thailand and around the region."}
+        description={"Gain insights, find second-hand items, exchange and share information on personal experiences of being an expat in Bangkok."}
         descColor={"text-cyan-700"}
         id={"facebook-groups"}
         cards={<FacebookGroupCards />} />
