@@ -42,14 +42,14 @@ export default function Navbar() {
   }, []);
 
   {/* Scrolling Settings */}
-  const scroll = `${isScrolling ? 'md:bg-gray-800 md:fixed md:top-0 md:left-0 md:transition md:duration-300' : 'bg-transparent'}`
+  const scroll = `${isScrolling ? 'md:bg-gray-800 md:fixed top-0 left-0 transition duration-700' : ''}`
 
   return (
     <>
       {/* Navbar Main container */}
-      <nav className={`w-full relative pb-2 z-20 md:static md:text-md md:border-none
-      ${isOpen ? "shadow-lg rounded-xl bg-slate-500/50 mx-2 md:shadow-none md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}
-      ${!isOpen && isDropdown.isActive ? "mb-44" : ""}`}>
+      <nav className={`ml-0 w-full relative pb-2 z-20 md:text-md md:border-none
+      ${isOpen ? "shadow-lg rounded-xl bg-gray-700/50 mx-2 md:shadow-none md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}
+      ${scroll}`}>
         <div className={"items-center gap-x-14 px-4 max-w-screen-xl mx-auto md:flex md:px-8"}>
           {/* Container for logo and Hamburger Icon */}
           <div className={"flex items-center justify-between py-5 md:block"}>
@@ -103,7 +103,8 @@ export default function Navbar() {
                   {/* Rendering of Hamburger Icon */}
                   {item.dropDown ? (
                     <button
-                      className={"w-full flex items-center justify-between gap-1 text-white hover:text-gray-800 font-bold"}
+                      className={`w-full flex items-center justify-between gap-1 text-white hover:text-gray-800 font-bold
+                      ${isScrolling ? "md:hover:text-yellow-700" : ""}`}
                       onClick={() => setIsDropdown({ idx, isActive: !isDropdown.isActive })}>
                       {item.title}
                       {isDropdown.idx == idx && isDropdown.isActive ? (
@@ -117,13 +118,14 @@ export default function Navbar() {
                     </button>) : (
                     <Link
                       href={item.href}
-                        className={`block text-white hover:text-gray-800 font-bold mr-3
+                      className={`block text-white hover:text-gray-800 font-bold mr-3
                       ${isScrolling ? "md:hover:text-yellow-700" : ""}`}>
                     {item.title}
                   </Link>)}    
                   {/* Rendering of Nav Dropdown Options */}
                   {item.dropDown && isDropdown.idx == idx && isDropdown.isActive ? (
-                    <div className={"mt-6 top-20 w-fit md:absolute md:shadow-md md:mt-0 md:bg-slate-500/50"}>
+                    <div className={`mt-6 top-20 w-fit md:absolute md:shadow-md md:mt-0 md:z-20
+                    ${isScrolling ? "md:bg-gray-800" : "md:bg-gray-700/50"}`}>
                       <ul className={"max-w-screen-xl mx-auto grid grid-cols-1 items-center gap-6 md:px-5 md:py-6"}>
                         {item?.items?.map((dropdownItem, idx) => (
                           <li key={idx}>
