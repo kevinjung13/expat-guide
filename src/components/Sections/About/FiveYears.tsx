@@ -22,7 +22,7 @@ export default function FiveYears() {
               </p>
               <p>
                 I returned again in December 2019 and left Bangkok recently
-                (February 2023) to live with my partner in Southern Thailand.
+                to live with my partner in Southern Thailand.
                 </p>
             </div>
           </div>
