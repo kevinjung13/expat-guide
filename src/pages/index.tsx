@@ -10,6 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/home-img.jpg")]`}
+        href={"/img/sections/home-img.jpg"}
         headTitle={"Farang | Bangkok Expat Guide"}
         title={"BANGKOK"}
         titleCSS={"text-6xl text-center pb-3 md:text-8xl"}

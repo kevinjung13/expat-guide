@@ -40,6 +40,7 @@ export default function HeroLayout(props: HeroLayoutProps) {
       <div className={`w-full transition-opacity duration-500 delay-100
       ${bgImg} ${bgImgSettings}
       ${isVisible ? "opacity-100" : "opacity-0"}`}>
+        <img src={href} className={"hidden"} />
         <Navbar />
         <section className={`w-full relative flex flex-col min-h-screen items-center justify-between p-32`}>
           <div className={"w-screen flex-col justify-center align-center text-white"}>
