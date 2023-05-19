@@ -8,6 +8,7 @@ export default function SathornSilom() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/sathorn-img.jpg")]`}
+        href={"/img/sections/sathorn-img.jpg"}
         headTitle={"Sathorn-Silom | Neighbourhoods"}
         title={"SATHORN-SILOM"}
         titleCSS={"text-5xl sm:text-6xl text-center pb-3 md:text-8xl"}

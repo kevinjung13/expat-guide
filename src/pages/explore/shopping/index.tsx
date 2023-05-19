@@ -8,6 +8,7 @@ export default function Shopping() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/shopping-img.jpg")]`}
+        href={"/img/sections/shopping-img.jpg"}
         headTitle={"Shopping | Farang"}
         title={"SHOPPING"}
         titleCSS={"text-6xl text-center pb-3 md:text-8xl"}

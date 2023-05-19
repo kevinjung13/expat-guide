@@ -10,6 +10,7 @@ export default function NearbyDestinations() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/nearby-destinations-img.jpg")]`}
+        href={"/img/sections/nearby-destinations-img.jpg"}
         headTitle={"Nearby Attractions | Farang"}
         title={"NEARBY DESTINATIONS"}
         titleCSS={"text-center text-4xl sm:text-5xl md:text-6xl pb-3"}

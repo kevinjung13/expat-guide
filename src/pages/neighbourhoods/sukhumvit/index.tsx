@@ -9,6 +9,7 @@ export default function Sukhumvit() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/sukhumvit-img.jpg")]`}
+        href={"/img/sections/sukhumvit-img.jpg"}
         headTitle={"Sukhumvit | Neighbourhoods"}
         title={"SUKHUMVIT"}
         titleCSS={"text-5xl sm:text-6xl text-center pb-3 md:text-8xl"}

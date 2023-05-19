@@ -8,6 +8,7 @@ export default function Neighbourhoods() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/neighbourhoods-img.jpg")]`}
+        href={"/img/sections/neighbourhoods-img.jpg"}
         headTitle={"Neighbourhoods | Farang"}
         title={"NEIGHBOURHOODS"}
         titleCSS={"text-4xl sm:text-5xl text-center md:text-7xl pb-3"}

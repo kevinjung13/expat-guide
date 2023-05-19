@@ -12,6 +12,7 @@ export default function Dining() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/dining-img.jpg")]`}
+        href={"/img/sections/dining-img.jpg"}
         headTitle={"Dining | Farang"}
         title={"DINING"}
         titleCSS={"text-6xl text-center pb-3 md:text-8xl"}

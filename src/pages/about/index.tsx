@@ -9,6 +9,7 @@ export default function About() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/about-img.jpg")]`}
+        href={"/img/sections/about-img.jpg"}
         headTitle={"About | Farang"}
         title={"ABOUT"}
         titleCSS={"text-6xl pb-3 text-center md:text-8xl"}

@@ -8,6 +8,7 @@ export default function Attractions() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}
+        href={"/img/sections/attractions-img.jpg"}
         headTitle={"Attractions | Farang"}
         title={"ATTRACTIONS"}
         titleCSS={"text-4xl text-center pb-3 sm:text-5xl md:text-8xl"}

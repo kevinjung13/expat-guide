@@ -7,6 +7,7 @@ export default function RatchathewiPhayathai() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/ari-img.jpg")]`}
+        href={"/img/sections/ari-img.jpg"}
         headTitle={"Ratchathewi-Phaya Thai | Neighbourhoods"}
         title={"RATCHATHEWI-PHAYA THAI"}
         titleCSS={"text-4xl sm:text-6xl text-center pb-3 md:text-8xl"}

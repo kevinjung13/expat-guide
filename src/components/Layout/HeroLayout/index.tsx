@@ -11,12 +11,13 @@ interface HeroLayoutProps {
   subtitle: string;
   titleCSS: string;
   subtitleCSS: string;
+  href: string;
 }
 
 /* Layout Function */
 export default function HeroLayout(props: HeroLayoutProps) {
   /* Props */
-  const { bgImg, children, headTitle, title, titleCSS, subtitle, subtitleCSS } = props;
+  const { bgImg, children, headTitle, title, titleCSS, subtitle, subtitleCSS, href } = props;
 
   /* State for Hero Section Transition */
   const [isVisible, setIsVisible] = useState(false);
@@ -32,6 +33,7 @@ export default function HeroLayout(props: HeroLayoutProps) {
     <>
       <Head>
         <link rel={"shortcut icon"} href={"/img/logo-head.png"} />
+        <link rel={"preload"} href={href} as={"image"} />
         <meta charSet={"utf-8"} />
         <title>{headTitle}</title>
       </Head>

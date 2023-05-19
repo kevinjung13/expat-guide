@@ -8,6 +8,7 @@ export default function Rama9Ratchada() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/rama9-img.jpg")]`}
+        href={"/img/sections/rama9-img.jpg"}
         headTitle={"Rama 9-Ratchada | Neighbourhoods"}
         title={"RAMA 9-RATCHADA"}
         titleCSS={"text-5xl sm:text-6xl text-center pb-3 md:text-8xl"}

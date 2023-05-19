@@ -10,6 +10,7 @@ export default function Activities() {
       {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}
+        href={"/img/sections/activities-img.jpg"}
         headTitle={"Activities | Farang"}
         title={"ACTIVITIES"}
         titleCSS={"text-5xl text-center pb-3 sm:text-6xl md:text-8xl"}
