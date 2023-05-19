@@ -10,7 +10,7 @@ export default function SathornSilom() {
         bgImg={`bg-[url("/img/sections/sathorn-img.jpg")]`}
         headTitle={"Sathorn-Silom | Neighbourhoods"}
         title={"SATHORN-SILOM"}
-        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        titleCSS={"text-5xl sm:text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"The Business District"}
         subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"}/>
       {/* Sathorn Section */}

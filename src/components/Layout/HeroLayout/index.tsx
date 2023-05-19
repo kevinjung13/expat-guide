@@ -40,7 +40,7 @@ export default function HeroLayout(props: HeroLayoutProps) {
       ${isVisible ? "opacity-100" : "opacity-0"}`}>
         <Navbar />
         <section className={`w-full relative flex flex-col min-h-screen items-center justify-between p-32`}>
-          <div className={"flex-col justify-center align-center text-white"}>
+          <div className={"w-screen flex-col justify-center align-center text-white"}>
             <h1 className={`${titleCSS}`}>
               {title}
             </h1>

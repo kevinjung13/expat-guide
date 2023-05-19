@@ -12,7 +12,7 @@ export default function Activities() {
         bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}
         headTitle={"Activities | Farang"}
         title={"ACTIVITIES"}
-        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
+        titleCSS={"text-5xl text-center pb-3 sm:text-6xl md:text-8xl"}
         subtitle={"For Body and Soul"}
         subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
       {/* Physical Section */}
