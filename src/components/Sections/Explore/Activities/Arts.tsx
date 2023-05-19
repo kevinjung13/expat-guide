@@ -9,7 +9,8 @@ export default function Arts() {
         bgColor={"white"}
         cards={<ArtsCards />}
         title={"Arts & Craft"}
-        description={`Looking to expand your creativity and imagination? Spend an afternoon getting your hands dirty or admiring the work of some of the best artists.`} />
+        description={`Looking to expand your creativity and imagination? 
+        Spend an afternoon getting your hands dirty or admiring the work of some of the best artists.`} />
     </>
   )
 }

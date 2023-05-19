@@ -6,9 +6,11 @@ export default function FiveYears() {
       <section className={"py-14 bg-stone-200"}>
         <div className={"max-w-screen-xl mx-auto px-4 md:px-8"}>
           <div className={"relative max-w-xl mx-auto sm:text-center"}>
+            {/* Title */}
             <h1 className={"text-gray-800 pb-3 text-4xl font-semibold md:text-5xl"}>
               5+ Years
             </h1>
+            {/* Paragraphs */}
             <div className={"mt-3 max-w-xl text-gray-500"}>
               <p className={"pb-7"}>
                 I have lived in Thailand for 5 and a half years, on 2 seperate

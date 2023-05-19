@@ -6,7 +6,9 @@ export default function Current() {
       <section className={"bg-white max-w-screen-lg pt-16 mx-auto md:px-32"}>
         <div className={"flex place-content-center"}>
           {/* Title */}
-          <h1 className={"text-5xl font-semibold"}>Current</h1>
+          <h1 className={"text-5xl font-semibold"}>
+            Current
+          </h1>
         </div>
         {/* Paragraphs */}
         <div className={"flex-col place-content-center p-6 text-lg mb-3 mt-3"}>
@@ -31,7 +33,9 @@ export default function Current() {
             </Link>
             or any of the platforms below.
           </p>
-          <p className={"pb-7"}>Thanks for reading!</p>
+          <p className={"pb-7"}>
+            Thanks for reading!
+          </p>
         </div>
       </section>
     </>

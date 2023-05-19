@@ -24,7 +24,7 @@ export default function MallsCards() {
           Great place to stick with if you don't feel like checking different malls and usually my go to mall if I am in the area.
           Siam Paragon is also easily accesible by foot via the sky bridge but mostly hosts luxury/high end goods and brands.`}
           href={"https://goo.gl/maps/3CWdccY4D5Litxkw5"} />
-          { /* Icon Siam */}
+        { /* Icon Siam */}
         <ExploreCard
           picture={"/img/explore/shopping/malls/icons/iconsiam.jpg"}
           name={"Icon Siam"}

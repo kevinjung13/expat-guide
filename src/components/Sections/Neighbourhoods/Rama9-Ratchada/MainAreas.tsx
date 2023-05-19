@@ -7,6 +7,8 @@ export default function MainAreas() {
       {/* Rama 9 */}
       <NeighbourhoodsLayout
         bgColor={"white"}
+        title={"Main Areas"}
+        description={`Discover Bangkok's most trending local residential districts`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function MainAreas() {
             buttonText={`Location`}
             featureTextOne={`Local charm`}
             featureTextTwo={`Easy access to MRT and Airport Link`}
-            featureTextThree={`Affordable complared to other places`} />}
-        title={"Main Areas"}
-        description={`Discover Bangkok's most trending local residential districts`} />
+            featureTextThree={`Affordable complared to other places`} />} />
     </>
   )
 }

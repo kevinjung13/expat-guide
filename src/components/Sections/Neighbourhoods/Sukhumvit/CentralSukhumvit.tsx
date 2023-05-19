@@ -7,6 +7,8 @@ export default function CentralSukhumvit() {
       {/* Central Sukhumvit */}
       <NeighbourhoodsLayout
         bgColor={"stone-200"}
+        title={"Central Sukhumvit"}
+        description={`Soi 22-65`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function CentralSukhumvit() {
             buttonText={`Location`}
             featureTextOne={`Hospital: Sukhumvit Hospital`}
             featureTextTwo={`Easy access to Ekkamai Bus Terminal`}
-            featureTextThree={`Walking distance to Thong Lor`} />}
-            title={"Central Sukhumvit"}
-            description={`Soi 22-65`} />
+            featureTextThree={`Walking distance to Thong Lor`} />} />
     </>
   )
 }

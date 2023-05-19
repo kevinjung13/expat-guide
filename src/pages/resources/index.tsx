@@ -9,13 +9,14 @@ import Others from "@/components/Sections/Resources/Others";
 export default function Resources() {
   return (
     <>
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/resources-img.jpg")]`}
         headTitle={"Resources | Farang"}
         title={"RESOURCES"}
-        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"Stay Informed"}
-        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"}/>
       {/* News Section */}
       <News />
       {/* Facebook Groups Section */}

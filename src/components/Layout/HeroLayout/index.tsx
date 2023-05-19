@@ -24,8 +24,8 @@ export default function HeroLayout(props: HeroLayoutProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/img/logo-head.png" />
-        <meta charSet="utf-8" />
+        <link rel={"shortcut icon"} href={"/img/logo-head.png"} />
+        <meta charSet={"utf-8"} />
         <title>{headTitle}</title>
       </Head>
       <div className={`${bgImg} ${bgImgSettings} w-full`}>

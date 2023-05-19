@@ -24,8 +24,7 @@ export default function NationalParkCards() {
           description={`Highly recommended to visit when you are in Pranburi. The park features towering cliffs, hidden caves, and secluded beaches, offering visitors a tranquil and unspoiled coastal experience.
           It also has several hiking and nature trails that wind through wetlands, mangrove forests, and freshwater marshes. 
           The trails provide opportunities for birdwatching & wildlife spotting. 
-          Phraya Nakhon Cave is the most popular attraction in the park.
-          `}
+          Phraya Nakhon Cave is the most popular attraction in the park.`}
           href={"https://goo.gl/maps/Pry7ZtoKWZTkWACu9"} />
         { /* Erawan National Park */}
         <ExploreCard

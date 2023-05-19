@@ -4,7 +4,7 @@ import HistoricalCards from "@/components/Cards/Explore/Attractions/HistoricalCa
 export default function Historical() {
   return (
     <>
-      {/* Cultural */}
+      {/* Historical */}
       <ExploreLayout
         bgColor={"white"}
         cards={<HistoricalCards />}

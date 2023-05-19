@@ -7,6 +7,8 @@ export default function LowerSukhumvit() {
       {/* Pathum Wan & Lower Sukhumvit */}
       <NeighbourhoodsLayout
         bgColor={"white"}
+        title={"Pathum Wan & Lower Sukhumvit"}
+        description={`Central Bangkok`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function LowerSukhumvit() {
             buttonText={`Location`}
             featureTextOne={`Easy access to both BTS and MRT`}
             featureTextTwo={`Walking distance to Benjakitti Park`}
-            featureTextThree={`Shopping Center: Terminal 21`} />}
-            title={"Pathum Wan & Lower Sukhumvit"}
-            description={`Central Bangkok`} />
+            featureTextThree={`Shopping Center: Terminal 21`} />} />
     </>
   )
 }

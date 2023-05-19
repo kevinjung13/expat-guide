@@ -7,6 +7,8 @@ export default function NorthBangkok() {
       {/* Main Areas */}
       <NeighbourhoodsLayout
         bgColor={"white"}
+        title={"Main Areas"}
+        description={`Here are the main areas for the Ratchathewi and Phaya Thai districts and further up north.`} 
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function NorthBangkok() {
             buttonText={`Location`}
             featureTextOne={`Easy access to Chatuchak Market`}
             featureTextTwo={`Close to Don Mueang Airport`}
-            featureTextThree={`Fancy condos for affordable prices`} />}
-        title={"Main Areas"}
-        description={`Here are the main areas for the Ratchathewi and Phaya Thai districts and further up north.`} />
+            featureTextThree={`Fancy condos for affordable prices`} />} />
     </>
   )
 }

@@ -4,11 +4,13 @@ import ExploreLayout from "@/components/Layout/ExploreLayout";
 export default function Brunch() {
   return (
     <>
+      {/* Brunch */}
       <ExploreLayout
         bgColor={"stone-200"}
         cards={<BrunchCards />}
         title={"Brunch"}
-        description={"Woke up late? Here are some best brunch places to catch up with friends and enjoy a meal."} />
+        description={`Woke up late? 
+        Here are some best brunch places to catch up with friends and enjoy a meal.`} />
     </>
   );
 }

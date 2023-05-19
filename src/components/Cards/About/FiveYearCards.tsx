@@ -18,9 +18,11 @@ function Card(props: FiveYearCardProps) {
   )
 }
 
+/* Actual Cards */
 export default function FiveYearCards() {
   return (
     <>
+      {/* Cards */}
       <div className={"mt-16 space-y-6 justify-center gap-6 sm:grid md:grid-cols-2 lg:grid-cols-3 sm:space-y-0"}>
         <Card
           name={"friends"}

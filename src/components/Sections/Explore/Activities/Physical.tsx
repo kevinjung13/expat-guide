@@ -9,7 +9,8 @@ export default function Physical() {
         bgColor={"white"}
         cards={<PhysicalCards />}
         title={"Physical"}
-        description={`Improve your physical fitness by challenging yourself with these activities. Here are my recommendations.`} />
+        description={`Improve your physical fitness by challenging yourself with these activities. 
+        Here are my recommendations.`} />
     </>
   )
 }

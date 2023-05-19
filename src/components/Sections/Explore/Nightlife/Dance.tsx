@@ -4,7 +4,7 @@ import DanceCards from "@/components/Cards/Explore/Nightlife/DanceCards";
 export default function Nightclubs() {
   return (
     <>
-      {/* Bars */}
+      {/* Dance */}
       <ExploreLayout
         bgColor={"stone-200"}
         cards={<DanceCards />}

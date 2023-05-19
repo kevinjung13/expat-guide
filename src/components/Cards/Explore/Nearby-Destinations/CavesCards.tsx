@@ -34,8 +34,7 @@ export default function CaveCards() {
           buttonText={"Location"}
           description={`A vast complex consisting of several interconnected caverns and features magnificent formations that have been shaped over centuries, creating an otherworldly atmosphere. 
           Also holds religious significance as a Buddhist sanctuary and houses numerous shrines and statues.
-          Popular pilgrimage site for locals seeking spiritual blessings.
-          `}
+          Popular pilgrimage site for locals seeking spiritual blessings.`}
           href={"https://goo.gl/maps/48Az6AMSnHFi7N1u8"} />
       </ul>
     </>

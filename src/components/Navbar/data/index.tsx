@@ -1,4 +1,4 @@
-/* === 1. NAVBAR === */
+/* ===  NAVBAR === */
 
 // 1.1 Explore
 

@@ -7,6 +7,8 @@ export default function Sathorn() {
       {/* Sathorn */}
       <NeighbourhoodsLayout
         bgColor={"white"}
+        title={"Sathorn"}
+        description={`Popular Areas in Sathorn`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function Sathorn() {
             buttonText={"Location"}
             featureTextOne={`Close to the River`}
             featureTextTwo={`Easy access to BTS and other areas`}
-            featureTextThree={`Expensive but has the best view`} />}
-        title={"Sathorn"}
-        description={`Popular Areas in Sathorn`} />
+            featureTextThree={`Expensive but has the best view`} />} />
     </>
   )
 }

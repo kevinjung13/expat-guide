@@ -4,7 +4,7 @@ import LocalCards from "@/components/Cards/Explore/Attractions/LocalCards";
 export default function Local() {
   return (
     <>
-      {/* Cultural */}
+      {/* Local */}
       <ExploreLayout
         bgColor={"stone-200"}
         cards={<LocalCards />}

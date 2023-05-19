@@ -4,7 +4,7 @@ export default function ArtsCards() {
   return (
     <>
       <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
-          { /* Museums */}
+        { /* Museums */}
         <ExploreCard
           picture={"/img/explore/activities/arts/icons/museum.jpg"}
           name={"Museums"}
@@ -13,7 +13,7 @@ export default function ArtsCards() {
           description={`Bangkok is home to a wide variety of museums that showcase the rich history, culture, and the art of Thailand.
           Popular museums include: Museum of Contemporary Art (MOCA), Jim Thompson House and Art in Paradise.`}
           href={"https://mocabangkok.com/"} />
-          { /* Art Galleries */}
+        { /* Art Galleries */}
         <ExploreCard
           picture={"/img/explore/activities/arts/icons/art.jpg"}
           name={"Art Galleries"}

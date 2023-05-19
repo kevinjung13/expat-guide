@@ -7,6 +7,8 @@ export default function Silom() {
       {/* Silom */}
       <NeighbourhoodsLayout
         bgColor={"stone-200"}
+        title={"Silom"}
+        description={`Popular Areas in Silom`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -28,8 +30,7 @@ export default function Silom() {
             buttonText={`Location`}
             featureTextOne={`Meeting point between Sathorn and Silom`}
             featureTextTwo={`Easy access to many offices`}
-            featureTextThree={`Fancy condos`} />
-        }
+            featureTextThree={`Fancy condos`} />}
         cardsThree={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -40,10 +41,7 @@ export default function Silom() {
             buttonText={`Location`}
             featureTextOne={`More quiet compared to the other two`}
             featureTextTwo={`Closer to the river`}
-            featureTextThree={`Easy access to BTS`} />
-        }
-        title={"Silom"}
-        description={`Popular Areas in Silom`} />
+            featureTextThree={`Easy access to BTS`} />} />
     </>
   )
 }

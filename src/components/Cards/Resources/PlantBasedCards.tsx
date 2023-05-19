@@ -3,7 +3,7 @@ import ResourcesCards from "@/components/Layout/ResourcesLayout/ResourcesCards";
 export default function PlantBasedCards() {
   return (
     <>
-      <ul className="mt-12 divide-y space-y-3">
+      <ul className={"mt-12 divide-y space-y-3"}>
          {/* Root The Future */}
         <ResourcesCards
           name={"Root The Future"}

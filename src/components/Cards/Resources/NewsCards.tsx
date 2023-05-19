@@ -3,7 +3,7 @@ import ResourcesCards from "@/components/Layout/ResourcesLayout/ResourcesCards";
 export default function NewsCards() {
   return (
     <>
-      <ul className="mt-12 divide-y space-y-3">
+      <ul className={"mt-12 divide-y space-y-3"}>
         {/* Bangkok Post */}
         <ResourcesCards
           name={"Bangkok Post"}

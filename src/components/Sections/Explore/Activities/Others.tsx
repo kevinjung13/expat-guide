@@ -9,7 +9,8 @@ export default function Entertainment() {
         bgColor={"stone-200"}
         cards={<OthersCards />}
         title={"Others"}
-        description={`Tried all of the above and want something new? Discover the following activities for something different.`} />
+        description={`Tried all of the above and want something new? 
+        Discover the following activities for something different.`} />
     </>
   )
 }

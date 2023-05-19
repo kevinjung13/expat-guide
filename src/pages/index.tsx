@@ -7,14 +7,14 @@ import ResourcesSection from "@/components/Sections/Home/ResourcesSection";
 export default function Home() {
   return (
     <>
-      {/* Image Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/home-img.jpg")]`}
         headTitle={"Farang | Bangkok Expat Guide"}
         title={"BANGKOK"}
-        titleCSS={"text-6xl text-center md:text-8xl pb-3"}
+        titleCSS={"text-6xl text-center pb-3 md:text-8xl"}
         subtitle={"Thailand"}
-        subtitleCSS={"text-2xl text-center md:text-4xl pt-3"}/>
+        subtitleCSS={"text-2xl text-center pt-3 md:text-4xl"}/>
       {/* Introduction Section */}
       <Introduction />
       {/* Explore Section */}

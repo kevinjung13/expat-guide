@@ -10,14 +10,14 @@ interface DropDownProps {
 
 export default function Navbar() {
 
-  /* State for Menu */
+  {/* State for Menu */}
   const [isOpen, setIsOpen] = useState(false)
-  /* State for Dropdown Options */
+  {/* State for Dropdown Options */}
   const [isDropdown, setIsDropdown] = useState<DropDownProps>({ idx: null, isActive: false })
-  /* State for Scrolling */
+  {/* State for Scrolling */}
   const [isScrolling, setIsScrolling] = useState(false)
 
-
+  {/* Effects for DropDown Menu */}
   useEffect(() => {
     document.onclick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
@@ -26,7 +26,9 @@ export default function Navbar() {
     };
   }, [])
 
+  {/* Effects for Scrolling */}
   useEffect(() => {
+    {/* HandleScroll Function */}
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       setIsScrolling(scrollTop > 0);
@@ -39,14 +41,13 @@ export default function Navbar() {
     };
   }, []);
 
-  /* Scrolling Settings */
+  {/* Scrolling Settings */}
   const scroll = `${isScrolling ? 'md:bg-gray-800 md:fixed md:top-0 md:left-0 md:transition md:duration-300' : 'bg-transparent'}`
 
   return (
     <>
       {/* Navbar Main container */}
-      <nav className={
-        `w-full relative pb-2 z-20 md:static md:text-md md:border-none
+      <nav className={`w-full relative pb-2 z-20 md:static md:text-md md:border-none
       ${isOpen ? "shadow-lg rounded-xl bg-slate-500/50 mx-2 md:shadow-none md:bg-transparent md:border-none md:mx-2 md:mt-0" : ""}
       ${!isOpen && isDropdown.isActive ? "mb-44" : ""}`}>
         <div className={"items-center gap-x-14 px-4 max-w-screen-xl mx-auto md:flex md:px-8"}>
@@ -157,8 +158,7 @@ export default function Navbar() {
         <div
           className={"z-10 fixed top-0 w-screen h-screen md:hidden"}
           onClick={() => setIsOpen(false)}>
-        </div>) : ""
-      }
+        </div>) : ""}
     </>
   )
 }

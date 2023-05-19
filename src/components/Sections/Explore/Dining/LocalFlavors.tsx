@@ -4,6 +4,7 @@ import LocalFlavorsCards from "@/components/Cards/Explore/Dining/LocalFlavorsCar
 export default function LocalFlavors() {
   return (
     <>
+      {/* Local Flavors */}
       <ExploreLayout
         bgColor={"white"}
         cards={<LocalFlavorsCards />}

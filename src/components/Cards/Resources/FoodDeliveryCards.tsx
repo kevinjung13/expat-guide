@@ -3,7 +3,7 @@ import ResourcesCards from "@/components/Layout/ResourcesLayout/ResourcesCards";
 export default function FoodDeliveryCards() {
   return (
     <>
-      <ul className="mt-12 divide-y space-y-3">
+      <ul className={"mt-12 divide-y space-y-3"}>
         {/* Food Panda */}
         <ResourcesCards
           name={"Food Panda"}

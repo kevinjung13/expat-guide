@@ -5,7 +5,7 @@ import Markets from "@/components/Sections/Explore/Shopping/Markets"
 export default function Shopping() {
   return (
     <>
-      {/* First Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/shopping-img.jpg")]`}
         headTitle={"Shopping | Farang"}

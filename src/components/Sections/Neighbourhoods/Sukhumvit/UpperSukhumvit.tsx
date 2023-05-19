@@ -7,6 +7,8 @@ export default function UpperSukhumvit() {
       {/* Upper Sukhumvit */}
       <NeighbourhoodsLayout
         bgColor={"white"}
+        title={"Upper Sukhumvit"}
+        description={`Soi 65 and beyond`}
         cardsOne={
           <NeighbourhoodsCards
             bgColor={"bg-white"}
@@ -39,9 +41,7 @@ export default function UpperSukhumvit() {
             buttonText={`Location`}
             featureTextOne={`Closer to IKEA and Top Golf`}
             featureTextTwo={`Affordable rent`}
-            featureTextThree={`Most quiet areas in Sukhumvit`} />}
-        title={"Upper Sukhumvit"}
-        description={`Soi 65 and beyond`} />
+            featureTextThree={`Most quiet areas in Sukhumvit`} />} />
     </>
   )
 }

@@ -7,7 +7,7 @@ import Others from "@/components/Sections/Explore/Activities/Others";
 export default function Activities() {
   return (
     <>
-      {/* First Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/activities-img.jpg")]`}
         headTitle={"Activities | Farang"}

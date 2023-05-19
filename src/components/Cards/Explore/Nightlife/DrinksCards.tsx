@@ -92,7 +92,7 @@ export default function DrinksCards() {
           Hosts regular live music performances, from classic rock to blues. 
           Great place to unwind and socialize.`}
           href={"https://goo.gl/maps/fd1ecPx3LEPqynXWA"} />
-          { /* Blue Parrot */}
+        { /* Blue Parrot */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/blueparrot.jpg"}
           name={"Blue Parrot"}
@@ -103,7 +103,7 @@ export default function DrinksCards() {
           Ocassionally hosts both public and private events, such as the World Cup match screening.
           Great place to friends and family to unwind, socialize and hang out before a night out.`}
           href={"https://www.blueparrotbangkok.com/"} />
-          { /* Le Cafe des Stagiaries */}
+        { /* Le Cafe des Stagiaries */}
         <ExploreCard
           picture={"/img/explore/nightlife/bars/icons/cafe.jpg"}
           name={"Le Cafe des Stagiaries"}

@@ -9,7 +9,7 @@ import Brunch from "@/components/Sections/Explore/Dining/Brunch";
 export default function Dining() {
   return (
     <>
-      {/* First Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/dining-img.jpg")]`}
         headTitle={"Dining | Farang"}

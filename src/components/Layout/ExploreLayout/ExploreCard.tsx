@@ -25,9 +25,15 @@ export default function ExploreCard(props: ExploreCardsProps) {
             alt={"picture"} />
         </div>
         <div className={"mt-4 "}>
-          <h4 className={"text-lg text-black font-semibold"}>{name}</h4>
-          <p className={"text-cyan-700"}>{title}</p>
-          <p className={"text-gray-500 mt-2 "}>{description}</p>
+          <h4 className={"text-lg text-black font-semibold"}>
+            {name}
+          </h4>
+          <p className={"text-cyan-700"}>
+            {title}
+          </p>
+          <p className={"text-gray-500 mt-2 "}>
+            {description}
+          </p>
           <div className={"mt-3 text-white"}>
             <Link href={href} target={"_blank"}>
               <button className={"p-2 bg-gray-800 rounded-full hover:bg-gray-500"}>

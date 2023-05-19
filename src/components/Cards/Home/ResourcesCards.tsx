@@ -25,11 +25,11 @@ function Card(props: ResourcesCardsProps) {
             {description}
           </p>
         </div>
-          {/* Learn More Link */ }
-          <Link
-            className={"max-w-fit mt-2 mb-4 outline-none flex items-center text-md text-cyan-700 hover:text-yellow-700 font-semibold"}
-            href={href}
-            target={"_blank"}>
+        {/* Learn More Link */ }
+        <Link
+          className={"max-w-fit mt-2 mb-4 outline-none flex items-center text-md text-cyan-700 hover:text-yellow-700 font-semibold"}
+          href={href}
+          target={"_blank"}>
             Learn More
             <svg
               xmlns={"http://www.w3.org/2000/svg"}
@@ -43,7 +43,7 @@ function Card(props: ResourcesCardsProps) {
                 strokeWidth={2}
                 d={"M17 8l4 4m0 0l-4 4m4-4H3"} />
             </svg>
-          </Link>
+        </Link>
       </article>
     </>
   )
@@ -84,7 +84,7 @@ export default function ResourcesCards() {
           title={"Others"}
           description={"Useful information that will help you stay connected and travel around the region."}
           href={"/resources/#others"} />
-        </div>
+      </div>
     </>
   )
 }

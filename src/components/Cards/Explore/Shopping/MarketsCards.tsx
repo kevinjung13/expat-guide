@@ -15,7 +15,7 @@ export default function MarketsCards() {
           Popular among both tourists and expats.
           The weather can get hot during the day so highly recommended to take some water and ensure to stay hydrated.`}
           href={"https://goo.gl/maps/LURagb41cug5oajh6"} />
-          { /* Srinagarindra Train Night Market */}
+        { /* Srinagarindra Train Night Market */}
         <ExploreCard
           picture={"/img/explore/shopping/markets/icons/srinagarindra.jpg"}
           name={"Srinagarindra Train Night Market"}

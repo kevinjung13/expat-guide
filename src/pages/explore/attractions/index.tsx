@@ -5,7 +5,7 @@ import Local from "@/components/Sections/Explore/Attractions/Local";
 export default function Attractions() {
   return (
     <>
-      {/* First Section */}
+      {/* Hero Section */}
       <HeroLayout
         bgImg={`bg-[url("/img/sections/attractions-img.jpg")]`}
         headTitle={"Attractions | Farang"}

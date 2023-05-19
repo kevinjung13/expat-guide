@@ -4,8 +4,8 @@ export default function LocalFlavorsCards() {
   return (
      <>
       <ul className={"grid gap-8 sm:grid-cols-2 md:grid-cols-3"}>
-       {/* Chinatown */}
-       <ExploreCard
+        {/* Chinatown */}
+        <ExploreCard
           picture={"/img/explore/dining/local/icons/chinatown.jpg"}
           name={"Chinatown"}
           title={"MRT Station: Wat Mangkon"}
