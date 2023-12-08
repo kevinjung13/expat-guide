@@ -1,7 +1,5 @@
 # Farang
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## `Introduction`
 
 Hello and Welcome! This is my Bangkok Expat Guide called Farang. I started building this guide while working on `Oasis Marketplace`. 
@@ -20,7 +18,7 @@ In case you are interested to reach out, you may reach out to me with by the fol
 
 1. Email: kevinjung13@gmail.com
 2. GitHub: https://github.com/kevinjung13
-3. Twitter: https://twitter.com/kevinhjung93 (I use this the least)
+3. X (Twitter): https://twitter.com/kevinhjung93 
 4. Linkedin: https://www.linkedin.com/in/kevin-hwisung-jung-11374a6a/
 
 ## `Closing`
